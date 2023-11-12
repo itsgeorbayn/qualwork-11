@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Інформаційна мапа</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon2.png" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nunito&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <a href="map.html" style="float: left">Мапа</a>
+        <a href="doc.html" style="float: left">Документаційний лист</a>
+        <a href="title.html" style="float: right">Повернутися на головну сторінку</a>
+        <a onclick="showInfo()" style="float: right">Як працювати з мапою</a>
+    </div>
+
+    <div class="radio-input">
+        <label>
+            <input onclick="getInfo()" value="value-1" name="value-radio" id="value-1" type="radio">
+        <span>Вологість</span>
+        </label>
+
+        <label>
+            <input onclick="getInfo()" value="value-2" name="value-radio" id="value-2" type="radio">
+        <span>PM10</span>
+        </label>
+
+        <label>
+            <input onclick="getInfo()" value="value-3" name="value-radio" id="value-3" type="radio">
+        <span>PM2.5</span>
+        </label>
+        
+        <label>
+            <input onclick="getInfo()" value="value-4" name="value-radio" id="value-4" type="radio">
+        <span>Тиск</span>
+        </label>
+
+        <label>
+            <input onclick="getInfo()" value="value-5" name="value-radio" id="value-5" type="radio">
+        <span>Температура</span>
+        </label>
+
+        <label>
+            <input onclick="getInfo()" value="value-6" name="value-radio" id="value-6" type="radio">
+        <span>Якість повітря</span>
+        </label>
+
+        <label>
+            <input onclick="getInfo()" value="value-7" name="value-radio" id="value-7" type="radio">
+        <span>Усі показники</span>
+        </label>
+        
+        <span class="selection"></span>
+    </div>
+
+
+    <div id="map">
+        <div id="legend"></div>
+    </div>
+    <div id="dateIdContainer">
+        <input type="text" name="dateName" id="dateId" placeholder="Введіть дату" required>
+    </div>
+    
+
+    <div id="custom-alert" class="custom-alert">
+        <div id="custom-alert-message" class="custom-alert-message"></div>
+        <button id="custom-alert-button" class="custom-alert-button">OK</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+    <div id="output"></div>
+</body>
+</html>

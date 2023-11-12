@@ -1,0 +1,395 @@
+* {
+    font-family: 'Nunito', 'sans-serif';
+}
+
+#dateId {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+}
+
+.custom-alert {
+    display: none;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid gray;
+    z-index: 1000;
+    animation: fadeIn 0.5s ease-in;
+}
+
+#colorwhite {
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.info-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+    font-size: 16px;
+    z-index: 1000;
+    color: black;
+}
+
+.custom-alert-message {
+    margin-bottom: 10px;
+}
+
+.custom-alert-button {
+    border: 2px solid gray;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.custom-alert-button:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.map-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.legend-settings-box-info {
+    margin: 0 10px 0 5px;
+}
+
+.legend-settings-box-index {
+    float: right;
+    margin: 0 5px 0 10px;
+}
+
+.legend-settings-bad {
+    background-color: tomato;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-danger {
+    background-color: #FFA500;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-higher {
+    background-color: #FFD700;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-normal {
+    background-color: #FFFF00;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-good {
+    background-color: #ADFF2F;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-ideal {
+    background-color: #02a302;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-unknown {
+    background-color: #808080;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+
+.legend-settings-freezing {
+    background-color: #2240ba;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-coldest {
+    background-color: #627be3;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-colder {
+    background-color: #7c92eb;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-cold {
+    background-color: #a1b0f0;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-underzero {
+    background-color: #b7c1e8;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-upperzero {
+    background-color: #aeeba9;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-cool {
+    background-color: #52f046;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-warm {
+    background-color: #d9f046;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-hot {
+    background-color: #f0a946;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+.legend-settings-boiling {
+    background-color: #f05746;
+    background-size: cover;
+    display: block;
+    font-size: 14px
+}
+
+#legend {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    color: white;
+    font-size: 16px;
+    z-index: 1000;
+    color: black;
+}
+
+.leaflet-popup-content {
+    font-size: 14px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    color: white;
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+}
+
+.navbar {
+    background-color: #555;
+    overflow: hidden;
+    transition: background-color 0.3s;
+}
+.navbar a {
+    cursor: pointer;
+    float: left;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #444;
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+body, html {
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+}
+
+body{
+    background-image: url('images/bg1.png');
+    padding: 0;
+    margin: 0;
+}
+
+.custom-icon {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.radio-input input {
+    display: none;
+}
+
+.radio-input {
+    --container_width: 1200px;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000000;
+    width: var(--container_width);
+    overflow: hidden;
+    border: 1px solid rgba(53, 52, 52, 0.226);
+}
+
+.radio-input label {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.selection {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: calc(var(--container_width) / 7);
+    z-index: 0;
+    left: 0;
+    top: 0;
+    transition: .15s ease;
+}
+
+.radio-input label:has(input:checked) {
+    color: #fff;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+.radio-input label:has(input:checked) ~ .selection {
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+    display: inline-block;
+}
+
+.radio-input label:nth-child(1):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 0/7));
+}
+
+.radio-input label:nth-child(2):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 1/7));
+}
+
+.radio-input label:nth-child(3):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 2/7));
+}
+
+.radio-input label:nth-child(4):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 3/7));
+}
+
+.radio-input label:nth-child(5):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 4/7));
+}
+
+.radio-input label:nth-child(6):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 5/7));
+}
+
+.radio-input label:nth-child(7):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 6/7));
+}
+
+#map {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+a {
+    color: #00f;
+}
+
+.wrapper {
+    padding: 50px 250px;
+    margin: 25px auto;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    box-sizing: content-box;
+    overflow: auto;
+    word-wrap: break-word;
+    border-radius: 25px;
+}
+
+.wrapper p {
+    margin-left: -100px; 
+    margin-right: -100px;
+    text-align: justify;
+}
+
+.wrapper h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-container embed {
+    max-width: 100%;
+    max-height: 100%;
+}
