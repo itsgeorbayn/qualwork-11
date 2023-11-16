@@ -1,6 +1,20 @@
 * {
     font-family: 'Nunito', 'sans-serif';
 }
+.date-id-container-label{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.date-id-container-select{
+    display: inline-block;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 
 #dateIdContainer {
     margin: 5px;
@@ -9,7 +23,7 @@
     justify-content: center;
 }
 
-.div-output {
+#dateSelect {
     margin-right: 10px;
     border-radius: 5px;
     padding: 5px;
@@ -36,11 +50,11 @@
     transform: scale(1.05);
 }
 
-#dateId::placeholder {
+#dateSelect::placeholder {
     color: #A9A9A9;
 }
 
-#dateId:focus {
+#dateSelect:focus {
     outline: none;
 }
 
@@ -244,7 +258,8 @@
 }
 
 .leaflet-popup-content {
-    font-size: 14px;
+    font-size: 14px;    
+    width: 350px !important;
 }
 
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {

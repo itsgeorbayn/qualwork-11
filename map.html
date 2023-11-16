@@ -21,57 +21,56 @@
 
     <div class="radio-input">
         <label title="Вологість - визначає, наскільки насиченим водяною парою є повітря в даний момент. ">
-            <input onclick="getInfo()" value="value-1" name="value-radio" id="value-1" type="radio">
+            <input value="value-1" onclick="getInfo()" name="value-radio" id="value-1" type="radio">
         <span>Вологість</span>
         </label>
 
         <label title="PM10 - вказує на пилові частинки з грубим діаметром менше 10 мікрометрів">
-            <input onclick="getInfo()" value="value-2" name="value-radio" id="value-2" type="radio">
+            <input value="value-2" onclick="getInfo()" name="value-radio" id="value-2" type="radio">
         <span>PM10</span>
         </label>
 
         <label title="PM2.5 - вказує на пилові частинки з грубим діаметром менше 2.5 мікрометрів">
-            <input onclick="getInfo()" value="value-3" name="value-radio" id="value-3" type="radio">
+            <input value="value-3" onclick="getInfo()" name="value-radio" id="value-3" type="radio">
         <span>PM2.5</span>
         </label>
         
         <label title="Атмосферний тиск - це сила, яку атмосфера, тобто шар повітря, навколо Землі, випрямляє на її поверхню">
-            <input onclick="getInfo()" value="value-4" name="value-radio" id="value-4" type="radio">
+            <input value="value-4" onclick="getInfo()" name="value-radio" id="value-4" type="radio">
         <span>Тиск</span>
         </label>
 
         <label title="Температура - кількість градусів Цельсія у повітрі.">
-            <input onclick="getInfo()" value="value-5" name="value-radio" id="value-5" type="radio">
+            <input value="value-5" onclick="getInfo()" name="value-radio" id="value-5" type="radio">
         <span>Температура</span>
         </label>
 
         <label title="AQI - індекс якості повітря, визначається концентрацією дрібнодисперсного пилу у повітрі.">
-            <input onclick="getInfo()" value="value-6" name="value-radio" id="value-6" type="radio">
+            <input value="value-6" onclick="getInfo()" name="value-radio" id="value-6" type="radio">
         <span>Якість повітря</span>
         </label>
 
         <label title="Відображує інформацію про усі показники.">
-            <input onclick="getInfo()" value="value-7" name="value-radio" id="value-7" type="radio">
+            <input value="value-7" onclick="getInfo()" name="value-radio" id="value-7" type="radio">
         <span>Усі показники</span>
         </label>
         
         <span class="selection"></span>
     </div>
 
-
     <div id="map">
         <div id="legend"></div>
     </div>
     <div id="dateIdContainer">
-        <input type="text" name="dateName" id="dateId" placeholder="Введіть дату" required  class="div-output">
-        <button class="button-output">1234</button>
+        <label class="date-id-container-label" for="dateSelect">Оберіть дату:</label>
+        <select onchange="getInfo()" class="date-id-container-select" id="dateSelect"></select>
     </div>
     
-
-    <div id="custom-alert" class="custom-alert">
+    <div id="custom-alert" class="custom-alert">    
         <div id="custom-alert-message" class="custom-alert-message"></div>
         <button id="custom-alert-button" class="custom-alert-button">OK</button>
     </div>
+    
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="script.js"></script>

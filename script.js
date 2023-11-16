@@ -1,3 +1,21 @@
+const startDate = new Date(2023, 10, 1);
+const currentDate = new Date();
+const dateSelect = document.getElementById('dateSelect');
+
+while (startDate <= currentDate) {
+  const formattedDate = `${startDate.getFullYear()}-${String(startDate.getMonth() + 1).padStart(2, '0')}-${String(startDate.getDate()).padStart(2, '0')}`;
+  
+  // Создаем элемент option
+  const option = document.createElement('option');
+  option.value = formattedDate;
+  option.text = formattedDate;
+
+  // Добавляем option в select
+  dateSelect.add(option);
+
+  startDate.setDate(startDate.getDate() + 1);
+}
+
 var map = L.map("map").setView([49.0, 31.0], 6);
 var tileLayer = L.tileLayer(
     "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -15,112 +33,160 @@ function today() {
     return year + '-' + month + '-' + day;
 }
 
-document.getElementById('dateId').value = today();
+document.getElementById('dateSelect').value = today();
 
 function pascalConvert(value) {
     return Math.abs(value * 0.7518 - 760 > 10 ? "red" : "green");
 }
 
-function getColorHex(value, type) {
+var image = "";
+var altimage = "";
+function getColorHex(value, type, boolean) {
     switch (type) {
         case "humidity": {
-            if ((value >= 0 && value <= 10) || (value >= 90 && value <= 100)) {
-                return "#FFA500";
-            } else if (
-                (value >= 10 && value <= 20) ||
-                (value >= 80 && value < 90)
-            ) {
-                return "#FFD700";
-            } else if (
-                (value >= 20 && value <= 30) ||
-                (value >= 70 && value < 80)
-            ) {
-                return "#FFFF00";
-            } else if (
-                (value >= 30 && value <= 40) ||
-                (value >= 60 && value < 70)
-            ) {
-                return "#ADFF2F";
-            } else if (value >= 40 && value <= 60) {
-                return "#02a302";
-            } else {
-                return "#808080";
+            if (value >= 40 && value <= 60) {
+                return boolean ? "#02a302" : "1";
+            }
+            else if ((value >= 30 && value <= 40) || (value >= 60 && value < 70)) {
+                return boolean ? "#ADFF2F" : "2";
+            } 
+            else if ((value >= 20 && value <= 30) || (value >= 70 && value < 80)) {
+                return boolean ? "#FFFF00" : "3";
+            } 
+            else if ((value >= 10 && value <= 20) || (value >= 80 && value < 90)) {
+                return boolean ? "#FFD700" : "4";
+            } 
+            else if ((value >= 0 && value <= 10) || (value >= 90 && value <= 100)) {
+                return boolean ? "#FFA500" : "5";
+            } 
+            else {
+                return boolean ? "#808080" : "0";
             }
         }
 
         case "PM10": {
-            if (value < 54) return "#02a302";
-            else if (value < 154) return "#ADFF2F";
-            else if (value < 254) return "#FFFF00";
-            else if (value < 354) return "#FFD700";
-            else if (value < 424) return "#FFA500";
-            else if (value >= 424) return "tomato";
-            else return "#808080";
+            if (value < 54) {
+                return boolean ? "#02a302" : "1";
+            }
+            else if (value < 154) {
+                return boolean ? "#ADFF2F" : "2";
+            }
+            else if (value < 254) {
+                return boolean ? "#FFFF00" : "3";
+            }
+            else if (value < 354) {
+                return boolean ? "#FFD700" : "4";
+            }
+            else if (value < 424) {
+                return boolean ? "#FFA500" : "4";
+            }
+            else if (value >= 424) {
+                return boolean ? "tomato" : "5";
+            }
+            else {
+                return boolean ? "#808080" : "0";
+            }
         }
 
         case "PM2n5": {
-            if (value < 12) return "#02a302";
-            else if (value < 35) return "#ADFF2F";
-            else if (value < 55) return "#FFFF00";
-            else if (value < 150) return "#FFD700";
-            else if (value < 250) return "#FFA500";
-            else if (value >= 250) return "tomato";
-            else return "#808080";
+            if (value < 12) {
+                return boolean ? "#02a302" : "1";
+            }
+            else if (value < 35) {
+                return boolean ? "#ADFF2F" : "2";
+            }
+            else if (value < 55) {
+                return boolean ? "#FFFF00" : "3";
+            }
+            else if (value < 150) {
+                return boolean ? "#FFD700" : "4";
+            }
+            else if (value < 250) {
+                return boolean ? "#FFA500" : "4";
+            }
+            else if (value >= 250) {
+                return boolean ? "tomato" : "5";
+            }
+            else {
+                return boolean ? "#808080" : "0";
+            }
         }
 
         case "Pressure": {
             if (typeof value == "number") {
                 var num = Math.abs(value * 0.7518 - 760);
                 if (num < 5) {
-                    return "#02a302";
+                    return boolean ? "#02a302" : "1";
                 } else if (num < 10) {
-                    return "#ADFF2F";
+                    return boolean ? "#ADFF2F" : "1";
                 } else if (num < 15) {
-                    return "#FFFF00";
+                    return boolean ? "#FFFF00" : "2";
                 } else if (num < 20) {
-                    return "#FFD700";
+                    return boolean ? "#FFD700" : "3";
                 } else if (num < 25) {
-                    return "#FFA500";
+                    return boolean ? "#FFA500" : "4";
                 } else if (num > 25) {
-                    return "tomato";
+                    return boolean ? "tomato" : "5";
                 }
-            } else return "gray";
+            } 
+            else {
+                return boolean ? "gray" : "0";
+            }
         }
 
         case "Temperature": {
             if (Math.abs(value) >= 50) {
-                return "gray";
+                return boolean ? "gray" : "0";
             } else if (value < -40) {
-                return "#3c5ad6";
+                return boolean ? "#3c5ad6" : "4";
             } else if (value < -30) {
-                return "#627be3";
+                return boolean ? "#627be3" : "3";
             } else if (value < -20) {
-                return "#7c92eb";
+                return boolean ? "#7c92eb" : "2";
             } else if (value < -10) {
-                return "#a1b0f0";
+                return boolean ? "#a1b0f0" : "1";
             } else if (value < 0) {
-                return "#b7c1e8";
+                return boolean ? "#b7c1e8" : "1";
             } else if (value < 10) {
-                return "#aeeba9";
+                return boolean ? "#aeeba9" : "1";
             } else if (value < 20) {
-                return "#52f046";
+                return boolean ? "#52f046" : "1";
             } else if (value < 30) {
-                return "#d9f046";
+                return boolean ? "#d9f046" : "2";
             } else if (value < 40) {
-                return "#f0a946";
+                return boolean ? "#f0a946" : "3";
             } else if (value < 50) {
-                return "#f05746";
+                return boolean ? "#f05746" : "4";
             }
         }
 
         case "AirQualityIndex": {
-            if (value < 54) return "#02a302";
-            else if (value < 154) return "#ADFF2F";
-            else if (value < 254) return "#FFFF00";
-            else if (value < 354) return "#FFD700";
-            else if (value < 424) return "#FFA500";
-            else return "#808080";
+            if (value < 54) {
+                image = "0";
+                return boolean ? "#02a302" : "0";
+            }
+            else if (value < 154) {
+                image = "1";
+                return boolean ? "#ADFF2F" : "1";
+            }
+            else if (value < 254) {
+                image = "2";
+                return boolean ? "#FFFF00" : "2";
+            }
+            else if (value < 354) {
+                image = "3";
+                return boolean ? "#FFD700" : "3";
+            }
+            else if (value < 424) {
+                image = "4";
+                return boolean ? "#FFA500" : "4";
+            }
+            else  {
+                image = "0";
+                return boolean ? "#808080" : "0";
+            }
         }
+
     }
 }
 
@@ -155,7 +221,7 @@ function getInfo() {
         }
     });
 
-    fetch("jsonfiles\\" + document.getElementById('dateId').value + ".json").then((response) => response.json()).then((data) => {
+    fetch("jsonfiles\\" + document.getElementById('dateSelect').value + ".json").then((response) => response.json()).then((data) => {
         data.forEach((point) => {
             if (selectedRadio.value === "value-1" && isNaN(point.humidity) || (selectedRadio.value === "value-1" && (point.humidity <= 0 || point.humidity >= 100))) return;
             if (selectedRadio.value === "value-2" && isNaN(point.PM10) || (selectedRadio.value === "value-2" && point.PM10 >= 424)) return;
@@ -167,52 +233,46 @@ function getInfo() {
             function getColor(value) {
                 switch (value) {
                     case "value-1":
-                        return getColorHex(point.humidity, "humidity");
+                        return getColorHex(point.humidity, "humidity", true);
                     case "value-2":
-                        return getColorHex(point.PM10, "PM10");
+                        return getColorHex(point.PM10, "PM10", true);
                     case "value-3":
-                        return getColorHex(point.PM2n5, "PM2n5");
+                        return getColorHex(point.PM2n5, "PM2n5", true);
                     case "value-4":
-                        return getColorHex(point.Pressure, "Pressure");
+                        return getColorHex(point.Pressure, "Pressure", true);
                     case "value-5":
-                        return getColorHex(
-                            point.Temperature,
-                            "Temperature",
-                        );
+                        return getColorHex(point.Temperature, "Temperature", true);
                     case "value-6":
-                        return getColorHex(
-                            point.AirQualityIndex,
-                            "AirQualityIndex",
-                        );
+                        return getColorHex(point.AirQualityIndex, "AirQualityIndex", true);
                     default:
                         return "blue";
                 }
             }
-            var textTemplate = `Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>Місто: ${point.cityName}<br>Вулиця: ${point.stationName}<br>Локація: (${point.latitude}; ${point.longitude})<br><hr>`;
+            var textTemplate = ``;
             switch (selectedRadio.value) {
                 case "value-1":
-                    textTemplate += `Вологість: ${point.humidity}%`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.humidity, "humidity", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>💦 Вологість: ${point.humidity}%<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
                 case "value-2":
-                    textTemplate += `PM10: ${point.PM10} мкг/м3`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.PM10, "PM10", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>PM10: ${point.PM10} мкг/м3<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
                 case "value-3":
-                    textTemplate += `PM2.5: ${point.PM2n5} мкг/м3`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.PM2n5, "PM2n5", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>PM2.5: ${point.PM2n5} мкг/м3<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
                 case "value-4":
-                    textTemplate += `Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.Pressure, "Pressure", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
                 case "value-5":
-                    textTemplate += `Температура: ${point.Temperature} °C`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.Temperature, "Temperature", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>Температура: ${point.Temperature} °C<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
                 case "value-6":
-                    textTemplate += `Індекс якості повітря: ${point.AirQualityIndex} aqi`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.AirQualityIndex, "AirQualityIndex", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>Індекс якості повітря: ${point.AirQualityIndex} aqi<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
                 case "value-7":
-                    textTemplate += `Вологість: ${point.humidity}%<br>PM10: ${point.PM10} мкг/м3<br>PM2.5: ${point.PM2n5} мкг/м3<br>Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.<br>Температура: ${point.Temperature} °C  <br>Індекс якості повітря: ${point.AirQualityIndex} aqi`;
+                    textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/0.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<br><hr>Вологість: ${point.humidity}%<br>PM10: ${point.PM10} мкг/м3<br>PM2.5: ${point.PM2n5} мкг/м3<br>Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.<br>Температура: ${point.Temperature} °C  <br>Індекс якості повітря: ${point.AirQualityIndex} aqi<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
                     break;
             }
-            textTemplate += `<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a>`
+            textTemplate += ``
 
             var customIcon = L.divIcon({
                 html: '<svg id="circle-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill=' + getColor(selectedRadio.value) + ' viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke="black" stroke-width="1  "/></svg>',
@@ -323,7 +383,7 @@ map.on('click', function(e) {
     var selectedRadio = document.querySelector(".radio-input input:checked");
     
     if (selectedRadio !== null) {    
-        fetch("jsonfiles\\" + document.getElementById('dateId').value + ".json").then((response) => response.json()).then((datan) => {
+        fetch("jsonfiles\\" + document.getElementById('dateSelect').value + ".json").then((response) => response.json()).then((datan) => {
             fetch('reaction.json').then(response => response.json()).then(data => {
                 var distance = [Infinity, Infinity, Infinity, Infinity, Infinity, Infinity], index = ["", "", "", "", "", ""], values = [0, 0, 0, 0, 0, 0], com = ["", "", "", "", "", ""], isChecker = [false, false, false, false, false, false],  dim = ["%", " мкг/м3", " мкг/м3", " мм. рт. ст.", " °C", " aqi"];
 
