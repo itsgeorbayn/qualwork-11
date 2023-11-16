@@ -2,15 +2,51 @@
     font-family: 'Nunito', 'sans-serif';
 }
 
-#dateId {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10000;
+#dateIdContainer {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.div-output {
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #4c66af;
+}
+
+.button-output {
+    background-color: #4c66af;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+}
+
+.button-output:hover {
+    background-color: #3a4d81;
+    transform: scale(1.05);
+}
+
+#dateId::placeholder {
+    color: #A9A9A9;
+}
+
+#dateId:focus {
+    outline: none;
+}
+
+
 .custom-alert {
+    display: none;
     display: none;
     top: 50%;
     left: 50%;
