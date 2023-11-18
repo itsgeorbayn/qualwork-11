@@ -6,12 +6,12 @@
     "localName": "Save Dnipro #1",
     "latitude": "48.408944",
     "longitude": "35.072505",
-    "humidity": 49.85,
-    "PM10": 32.35,
-    "PM2n5": 15.07,
-    "Pressure": 991,
-    "Temperature": 6,
-    "AirQualityIndex": 19.17
+    "humidity": 36.89,
+    "PM10": 17.81,
+    "PM2n5": 3.53,
+    "Pressure": 986,
+    "Temperature": 9,
+    "AirQualityIndex": 93.48
   },
   {
     "id": "SAVEDNIPRO_002",
@@ -20,12 +20,12 @@
     "localName": "Save Dnipro #5",
     "latitude": "48.418962",
     "longitude": "35.009254",
-    "humidity": 31.31,
-    "PM10": 45.82,
-    "PM2n5": 18.84,
-    "Pressure": 993,
+    "humidity": 38.57,
+    "PM10": 51.37,
+    "PM2n5": 3.53,
+    "Pressure": 998,
     "Temperature": 10,
-    "AirQualityIndex": 110.2
+    "AirQualityIndex": 57.55
   },
   {
     "id": "SAVEDNIPRO_003",
@@ -34,12 +34,12 @@
     "localName": "Save Dnipro #3",
     "latitude": "48.46179",
     "longitude": "35.022893",
-    "humidity": 63.45,
-    "PM10": 26.49,
-    "PM2n5": 15.87,
-    "Pressure": 1012,
-    "Temperature": 8,
-    "AirQualityIndex": 24.29
+    "humidity": 60.11,
+    "PM10": 33.9,
+    "PM2n5": 2.82,
+    "Pressure": 1000,
+    "Temperature": 11,
+    "AirQualityIndex": 141.98
   },
   {
     "id": "SAVEDNIPRO_004",
@@ -48,12 +48,12 @@
     "localName": "Save Dnipro #2",
     "latitude": "48.428476",
     "longitude": "35.010238",
-    "humidity": 41.18,
-    "PM10": 8.65,
-    "PM2n5": 10.55,
-    "Pressure": 1016,
-    "Temperature": 9,
-    "AirQualityIndex": 79.87
+    "humidity": 38.23,
+    "PM10": 77.39,
+    "PM2n5": 11.86,
+    "Pressure": 980,
+    "Temperature": 5,
+    "AirQualityIndex": 164.8
   },
   {
     "id": "SAVEDNIPRO_006",
@@ -62,12 +62,12 @@
     "localName": "Save Dnipro #4",
     "latitude": "48.405856",
     "longitude": "35.145451",
-    "humidity": 50.1,
-    "PM10": 27.47,
-    "PM2n5": 1.26,
-    "Pressure": 1001,
-    "Temperature": 6,
-    "AirQualityIndex": 102.09
+    "humidity": 71.54,
+    "PM10": 54.09,
+    "PM2n5": 1.12,
+    "Pressure": 980,
+    "Temperature": 7,
+    "AirQualityIndex": 39.62
   },
   {
     "id": "SAVEDNIPRO_007",
@@ -76,12 +76,12 @@
     "localName": "Save Dnipro #9",
     "latitude": "48.467467",
     "longitude": "35.041472",
-    "humidity": 63.41,
-    "PM10": 41.98,
-    "PM2n5": 11.68,
-    "Pressure": 1015,
-    "Temperature": 5,
-    "AirQualityIndex": 56.25
+    "humidity": 25.68,
+    "PM10": 51.26,
+    "PM2n5": 17.19,
+    "Pressure": 1010,
+    "Temperature": 8,
+    "AirQualityIndex": 96.39
   },
   {
     "id": "SAVEDNIPRO_008",
@@ -90,12 +90,12 @@
     "localName": "Save Dnipro #10",
     "latitude": "48.448030",
     "longitude": "35.058606",
-    "humidity": 56.54,
-    "PM10": 22.71,
-    "PM2n5": 5.48,
-    "Pressure": 986,
-    "Temperature": 7,
-    "AirQualityIndex": 198.14
+    "humidity": 62.05,
+    "PM10": 48.3,
+    "PM2n5": 6.69,
+    "Pressure": 1014,
+    "Temperature": 9,
+    "AirQualityIndex": 7.21
   },
   {
     "id": "SAVEDNIPRO_009",
@@ -104,12 +104,12 @@
     "localName": "Save Dnipro #11",
     "latitude": "48.513536",
     "longitude": "35.062787",
-    "humidity": 36.13,
-    "PM10": 48.9,
-    "PM2n5": 8.38,
-    "Pressure": 985,
-    "Temperature": 7,
-    "AirQualityIndex": 15.11
+    "humidity": 49.91,
+    "PM10": 73.85,
+    "PM2n5": 8.27,
+    "Pressure": 982,
+    "Temperature": 6,
+    "AirQualityIndex": 39.63
   },
   {
     "id": "SAVEDNIPRO_014",
@@ -118,12 +118,12 @@
     "localName": "Save Dnipro #19",
     "latitude": "48.475959",
     "longitude": "35.016979",
-    "humidity": 74.22,
-    "PM10": 38.74,
-    "PM2n5": 19.76,
-    "Pressure": 1012,
-    "Temperature": 9,
-    "AirQualityIndex": 5.02
+    "humidity": 54.13,
+    "PM10": 44.8,
+    "PM2n5": 3.18,
+    "Pressure": 988,
+    "Temperature": 8,
+    "AirQualityIndex": 115.33
   },
   {
     "id": "SAVEDNIPRO_015",
@@ -132,12 +132,12 @@
     "localName": "Save Dnipro #30",
     "latitude": "48.467926",
     "longitude": "35.055617",
-    "humidity": 27.21,
-    "PM10": 22.76,
-    "PM2n5": 7.42,
-    "Pressure": 995,
-    "Temperature": 5,
-    "AirQualityIndex": 180.29
+    "humidity": 57.13,
+    "PM10": 69.37,
+    "PM2n5": 2.14,
+    "Pressure": 1016,
+    "Temperature": 10,
+    "AirQualityIndex": 45.23
   },
   {
     "id": "SAVEDNIPRO_016",
@@ -146,12 +146,12 @@
     "localName": "Save Dnipro #25",
     "latitude": "48.484034",
     "longitude": "34.936086",
-    "humidity": 37,
-    "PM10": 5.7,
-    "PM2n5": 2.03,
-    "Pressure": 999,
-    "Temperature": 5,
-    "AirQualityIndex": 139.07
+    "humidity": 71.82,
+    "PM10": 71.18,
+    "PM2n5": 13.17,
+    "Pressure": 1017,
+    "Temperature": 7,
+    "AirQualityIndex": 114.03
   },
   {
     "id": "SAVEDNIPRO_018",
@@ -160,12 +160,12 @@
     "localName": "Save Dnipro #26",
     "latitude": "48.501095",
     "longitude": "34.990169",
-    "humidity": 73.01,
-    "PM10": 36.86,
-    "PM2n5": 6.14,
-    "Pressure": 996,
-    "Temperature": 11,
-    "AirQualityIndex": 94.73
+    "humidity": 70.47,
+    "PM10": 35.96,
+    "PM2n5": 3.86,
+    "Pressure": 1006,
+    "Temperature": 6,
+    "AirQualityIndex": 166.5
   },
   {
     "id": "SAVEDNIPRO_023",
@@ -174,12 +174,12 @@
     "localName": "Save Dnipro #32",
     "latitude": "48.518050",
     "longitude": "34.964451",
-    "humidity": 39.42,
-    "PM10": 24.78,
-    "PM2n5": 19.49,
-    "Pressure": 994,
-    "Temperature": 6,
-    "AirQualityIndex": 2.67
+    "humidity": 55.67,
+    "PM10": 23.05,
+    "PM2n5": 5.16,
+    "Pressure": 1007,
+    "Temperature": 10,
+    "AirQualityIndex": 79.84
   },
   {
     "id": "SAVEDNIPRO_024",
@@ -188,12 +188,12 @@
     "localName": "Save Dnipro #28",
     "latitude": "48.350994",
     "longitude": "34.946876",
-    "humidity": 51.63,
-    "PM10": 70.22,
-    "PM2n5": 3.13,
-    "Pressure": 1019,
-    "Temperature": 10,
-    "AirQualityIndex": 27.64
+    "humidity": 26.72,
+    "PM10": 27,
+    "PM2n5": 4.08,
+    "Pressure": 1008,
+    "Temperature": 5,
+    "AirQualityIndex": 120.53
   },
   {
     "id": "SAVEDNIPRO_025",
@@ -202,12 +202,12 @@
     "localName": "",
     "latitude": "48.463293",
     "longitude": "35.056401",
-    "humidity": 39.21,
-    "PM10": 21.72,
-    "PM2n5": 8.36,
-    "Pressure": 983,
-    "Temperature": 8,
-    "AirQualityIndex": 128.86
+    "humidity": 48.9,
+    "PM10": 11.87,
+    "PM2n5": 6.13,
+    "Pressure": 1013,
+    "Temperature": 7,
+    "AirQualityIndex": 12.89
   },
   {
     "id": "SAVEDNIPRO_032",
@@ -216,12 +216,12 @@
     "localName": "Save Dnipro #22",
     "latitude": "48.4119490",
     "longitude": "35.0697377",
-    "humidity": 58.65,
-    "PM10": 55.98,
-    "PM2n5": 17.47,
-    "Pressure": 985,
-    "Temperature": 5,
-    "AirQualityIndex": 123.54
+    "humidity": 73.08,
+    "PM10": 74.72,
+    "PM2n5": 1.66,
+    "Pressure": 987,
+    "Temperature": 9,
+    "AirQualityIndex": 54.66
   },
   {
     "id": "SAVEDNIPRO_035",
@@ -230,12 +230,12 @@
     "localName": "Save Dnipro #17",
     "latitude": "48.343889",
     "longitude": "35.015000",
-    "humidity": 48.25,
-    "PM10": 6.26,
-    "PM2n5": 9.28,
-    "Pressure": 986,
-    "Temperature": 11,
-    "AirQualityIndex": 188.99
+    "humidity": 45.4,
+    "PM10": 15.51,
+    "PM2n5": 18.68,
+    "Pressure": 992,
+    "Temperature": 7,
+    "AirQualityIndex": 47.42
   },
   {
     "id": "SAVEDNIPRO_075",
@@ -244,12 +244,12 @@
     "localName": "Save Dnipro #14",
     "latitude": "48.466150",
     "longitude": "35.055459",
-    "humidity": 49.71,
-    "PM10": 65.4,
-    "PM2n5": 17.26,
-    "Pressure": 1003,
-    "Temperature": 8,
-    "AirQualityIndex": 175.39
+    "humidity": 70.87,
+    "PM10": 43.14,
+    "PM2n5": 2.05,
+    "Pressure": 991,
+    "Temperature": 7,
+    "AirQualityIndex": 86.09
   },
   {
     "id": "SAVEDNIPRO_090",
@@ -258,12 +258,12 @@
     "localName": "Save Dnipro #34",
     "latitude": "48.5339822",
     "longitude": "34.7914877",
-    "humidity": 60.06,
-    "PM10": 28.42,
-    "PM2n5": 5.68,
-    "Pressure": 980,
-    "Temperature": 11,
-    "AirQualityIndex": 80.15
+    "humidity": 63.58,
+    "PM10": 55.36,
+    "PM2n5": 3.69,
+    "Pressure": 998,
+    "Temperature": 7,
+    "AirQualityIndex": 125.03
   },
   {
     "id": "SAVEDNIPRO_094",
@@ -272,12 +272,12 @@
     "localName": "Save Dnipro #34",
     "latitude": "48.607373",
     "longitude": "34.570512",
-    "humidity": 50.08,
-    "PM10": 66.37,
-    "PM2n5": 5.41,
-    "Pressure": 995,
-    "Temperature": 5,
-    "AirQualityIndex": 151.96
+    "humidity": 27.23,
+    "PM10": 21.38,
+    "PM2n5": 4.45,
+    "Pressure": 982,
+    "Temperature": 9,
+    "AirQualityIndex": 79.73
   },
   {
     "id": "SAVEDNIPRO_095",
@@ -286,12 +286,12 @@
     "localName": "Save Dnipro #53",
     "latitude": "48.480519",
     "longitude": "34.934133",
-    "humidity": 39.44,
-    "PM10": 15.45,
-    "PM2n5": 16.94,
-    "Pressure": 1008,
-    "Temperature": 11,
-    "AirQualityIndex": 78.02
+    "humidity": 56.11,
+    "PM10": 7.36,
+    "PM2n5": 14.03,
+    "Pressure": 1013,
+    "Temperature": 6,
+    "AirQualityIndex": 195.05
   },
   {
     "id": "SAVEDNIPRO_096",
@@ -300,12 +300,12 @@
     "localName": "Save Dnipro #36",
     "latitude": "48.458139",
     "longitude": "35.052214",
-    "humidity": 32.14,
-    "PM10": 8.36,
-    "PM2n5": 19,
-    "Pressure": 985,
-    "Temperature": 10,
-    "AirQualityIndex": 116.29
+    "humidity": 61.14,
+    "PM10": 17.5,
+    "PM2n5": 8.8,
+    "Pressure": 999,
+    "Temperature": 11,
+    "AirQualityIndex": 122.56
   },
   {
     "id": "SAVEDNIPRO_097",
@@ -314,12 +314,12 @@
     "localName": "Save Dnipro #39",
     "latitude": "49.125336",
     "longitude": "24.730753",
-    "humidity": 73.23,
-    "PM10": 43.5,
-    "PM2n5": 9.42,
+    "humidity": 37.98,
+    "PM10": 32.03,
+    "PM2n5": 16.3,
     "Pressure": 1000,
-    "Temperature": 6,
-    "AirQualityIndex": 116.61
+    "Temperature": 5,
+    "AirQualityIndex": 165.82
   },
   {
     "id": "SAVEDNIPRO_101",
@@ -328,12 +328,12 @@
     "localName": "Save Dnipro #40",
     "latitude": "48.4538103",
     "longitude": "35.0185786",
-    "humidity": 69.41,
-    "PM10": 63.05,
-    "PM2n5": 11.02,
-    "Pressure": 997,
-    "Temperature": 8,
-    "AirQualityIndex": 142.56
+    "humidity": 49.54,
+    "PM10": 40.32,
+    "PM2n5": 8.64,
+    "Pressure": 986,
+    "Temperature": 7,
+    "AirQualityIndex": 66.43
   },
   {
     "id": "SAVEDNIPRO_102",
@@ -342,12 +342,12 @@
     "localName": "Save Dnipro #49",
     "latitude": "48.480857",
     "longitude": "34.018492",
-    "humidity": 31.86,
-    "PM10": 79.78,
-    "PM2n5": 13.74,
-    "Pressure": 994,
-    "Temperature": 6,
-    "AirQualityIndex": 156.9
+    "humidity": 31.69,
+    "PM10": 48.71,
+    "PM2n5": 8.46,
+    "Pressure": 992,
+    "Temperature": 8,
+    "AirQualityIndex": 138.7
   },
   {
     "id": "SAVEDNIPRO_103",
@@ -356,12 +356,12 @@
     "localName": "Save Dnipro #38",
     "latitude": "48.391810",
     "longitude": "35.028813",
-    "humidity": 37.35,
-    "PM10": 69.22,
-    "PM2n5": 17.1,
-    "Pressure": 988,
-    "Temperature": 6,
-    "AirQualityIndex": 100.52
+    "humidity": 35.87,
+    "PM10": 40.91,
+    "PM2n5": 17.96,
+    "Pressure": 1012,
+    "Temperature": 8,
+    "AirQualityIndex": 139.92
   },
   {
     "id": "SAVEDNIPRO_132",
@@ -370,12 +370,12 @@
     "localName": "",
     "latitude": "48.476276",
     "longitude": "34.984768",
-    "humidity": 37.2,
-    "PM10": 46.01,
-    "PM2n5": 1.09,
-    "Pressure": 1004,
-    "Temperature": 10,
-    "AirQualityIndex": 142.43
+    "humidity": 68.34,
+    "PM10": 8.96,
+    "PM2n5": 3.42,
+    "Pressure": 1009,
+    "Temperature": 11,
+    "AirQualityIndex": 58.36
   },
   {
     "id": "SAVEDNIPRO_136",
@@ -384,12 +384,12 @@
     "localName": "Save Dnipro #42",
     "latitude": "48.540300",
     "longitude": "35.092615",
-    "humidity": 45.14,
-    "PM10": 27.28,
-    "PM2n5": 8.73,
-    "Pressure": 996,
-    "Temperature": 9,
-    "AirQualityIndex": 127.93
+    "humidity": 37.47,
+    "PM10": 17.32,
+    "PM2n5": 12.34,
+    "Pressure": 1016,
+    "Temperature": 11,
+    "AirQualityIndex": 114.73
   },
   {
     "id": "SAVEDNIPRO_897",
@@ -398,12 +398,12 @@
     "localName": "Save Dnipro #51",
     "latitude": "48.341841",
     "longitude": "35.005390",
-    "humidity": 72.38,
-    "PM10": 61.35,
-    "PM2n5": 18.92,
-    "Pressure": 988,
-    "Temperature": 10,
-    "AirQualityIndex": 181.34
+    "humidity": 52.93,
+    "PM10": 34.21,
+    "PM2n5": 18.75,
+    "Pressure": 999,
+    "Temperature": 5,
+    "AirQualityIndex": 23.42
   },
   {
     "id": "SAVEDNIPRO_949",
@@ -412,12 +412,12 @@
     "localName": "Save Dnipro #48",
     "latitude": "47.8352753",
     "longitude": "35.1446249",
-    "humidity": 73.49,
-    "PM10": 69.13,
-    "PM2n5": 10.85,
-    "Pressure": 981,
+    "humidity": 27.77,
+    "PM10": 54.78,
+    "PM2n5": 17.05,
+    "Pressure": 994,
     "Temperature": 11,
-    "AirQualityIndex": 172.3
+    "AirQualityIndex": 183.72
   },
   {
     "id": "SAVEDNIPRO_997",
@@ -426,12 +426,12 @@
     "localName": "",
     "latitude": "48.5052009",
     "longitude": "35.0718389",
-    "humidity": 60.06,
-    "PM10": 30.59,
-    "PM2n5": 19.76,
-    "Pressure": 1008,
-    "Temperature": 7,
-    "AirQualityIndex": 87.33
+    "humidity": 57.81,
+    "PM10": 72.16,
+    "PM2n5": 16.07,
+    "Pressure": 985,
+    "Temperature": 10,
+    "AirQualityIndex": 175.23
   },
   {
     "id": "SAVEDNIPRO_1000",
@@ -440,12 +440,12 @@
     "localName": "Save Dnipro #55",
     "latitude": "48.460155",
     "longitude": "35.066821",
-    "humidity": 56.99,
-    "PM10": 11.32,
-    "PM2n5": 13.61,
-    "Pressure": 991,
-    "Temperature": 7,
-    "AirQualityIndex": 197.08
+    "humidity": 32.41,
+    "PM10": 62.56,
+    "PM2n5": 7.8,
+    "Pressure": 987,
+    "Temperature": 5,
+    "AirQualityIndex": 10.02
   },
   {
     "id": "SAVEDNIPRO_1001",
@@ -454,12 +454,12 @@
     "localName": "",
     "latitude": "48.400802",
     "longitude": "35.001839",
-    "humidity": 65.6,
-    "PM10": 53.46,
-    "PM2n5": 3.04,
-    "Pressure": 1019,
-    "Temperature": 5,
-    "AirQualityIndex": 4.28
+    "humidity": 51.46,
+    "PM10": 67.48,
+    "PM2n5": 16.79,
+    "Pressure": 998,
+    "Temperature": 9,
+    "AirQualityIndex": 167.55
   },
   {
     "id": "SAVEDNIPRO_1002",
@@ -468,12 +468,12 @@
     "localName": "Save Dnipro #56",
     "latitude": "48.312916",
     "longitude": "34.880235",
-    "humidity": 56.61,
-    "PM10": 52.61,
-    "PM2n5": 7.49,
-    "Pressure": 990,
+    "humidity": 73.65,
+    "PM10": 30.65,
+    "PM2n5": 3.51,
+    "Pressure": 1009,
     "Temperature": 7,
-    "AirQualityIndex": 48.46
+    "AirQualityIndex": 140.14
   },
   {
     "id": "SAVEDNIPRO_1004",
@@ -482,12 +482,12 @@
     "localName": "Save Dnipro #58",
     "latitude": "50.458479",
     "longitude": "30.6079481",
-    "humidity": 52.62,
-    "PM10": 71.31,
-    "PM2n5": 5.88,
-    "Pressure": 999,
-    "Temperature": 5,
-    "AirQualityIndex": 145.42
+    "humidity": 41.54,
+    "PM10": 32.66,
+    "PM2n5": 10.36,
+    "Pressure": 1003,
+    "Temperature": 11,
+    "AirQualityIndex": 40.81
   },
   {
     "id": "SAVEDNIPRO_1005",
@@ -496,12 +496,12 @@
     "localName": "Save Dnipro #59",
     "latitude": "48.459042",
     "longitude": "35.058479",
-    "humidity": 44.06,
-    "PM10": 64.47,
-    "PM2n5": 19.05,
-    "Pressure": 1010,
-    "Temperature": 8,
-    "AirQualityIndex": 169.93
+    "humidity": 34.35,
+    "PM10": 77.99,
+    "PM2n5": 18.29,
+    "Pressure": 988,
+    "Temperature": 11,
+    "AirQualityIndex": 105.19
   },
   {
     "id": "SAVEDNIPRO_1006",
@@ -510,12 +510,12 @@
     "localName": "Save Dnipro #60",
     "latitude": "48.509524",
     "longitude": "34.61578",
-    "humidity": 52.45,
-    "PM10": 28.59,
-    "PM2n5": 4.53,
-    "Pressure": 1006,
-    "Temperature": 6,
-    "AirQualityIndex": 160.04
+    "humidity": 51.47,
+    "PM10": 75.05,
+    "PM2n5": 9.67,
+    "Pressure": 995,
+    "Temperature": 11,
+    "AirQualityIndex": 96.18
   },
   {
     "id": "SAVEDNIPRO_1007",
@@ -524,12 +524,12 @@
     "localName": "Save Dnipro #64",
     "latitude": "48.523936",
     "longitude": "35.0811455",
-    "humidity": 43.39,
-    "PM10": 71.65,
-    "PM2n5": 11.97,
-    "Pressure": 993,
-    "Temperature": 10,
-    "AirQualityIndex": 86.62
+    "humidity": 57.8,
+    "PM10": 50.1,
+    "PM2n5": 4.55,
+    "Pressure": 1008,
+    "Temperature": 5,
+    "AirQualityIndex": 121.23
   },
   {
     "id": "SAVEDNIPRO_1008",
@@ -538,12 +538,12 @@
     "localName": "Save Dnipro #63",
     "latitude": "49.239341",
     "longitude": "28.479885",
-    "humidity": 44.57,
-    "PM10": 51.24,
-    "PM2n5": 13.41,
-    "Pressure": 994,
+    "humidity": 66.5,
+    "PM10": 17.51,
+    "PM2n5": 5.64,
+    "Pressure": 989,
     "Temperature": 11,
-    "AirQualityIndex": 172.48
+    "AirQualityIndex": 65.35
   },
   {
     "id": "SAVEDNIPRO_1009",
@@ -552,12 +552,12 @@
     "localName": "Save Dnipro #62",
     "latitude": "48.523444",
     "longitude": "35.023331",
-    "humidity": 66.17,
-    "PM10": 48.69,
-    "PM2n5": 19.43,
-    "Pressure": 997,
-    "Temperature": 7,
-    "AirQualityIndex": 113.12
+    "humidity": 38.44,
+    "PM10": 42.89,
+    "PM2n5": 13.32,
+    "Pressure": 989,
+    "Temperature": 10,
+    "AirQualityIndex": 114.78
   },
   {
     "id": "SAVEDNIPRO_1021",
@@ -566,12 +566,12 @@
     "localName": "Save Dnipro #61",
     "latitude": "48.489936",
     "longitude": "35.1337483",
-    "humidity": 59.73,
-    "PM10": 37.18,
-    "PM2n5": 3.84,
-    "Pressure": 989,
-    "Temperature": 11,
-    "AirQualityIndex": 44.28
+    "humidity": 59.81,
+    "PM10": 50.05,
+    "PM2n5": 2.74,
+    "Pressure": 1019,
+    "Temperature": 5,
+    "AirQualityIndex": 65.88
   },
   {
     "id": "SAVEDNIPRO_1053",
@@ -580,12 +580,12 @@
     "localName": "Save Dnipro #24",
     "latitude": "48.433796",
     "longitude": "35.030484",
-    "humidity": 52.21,
-    "PM10": 57.86,
-    "PM2n5": 12.71,
-    "Pressure": 983,
-    "Temperature": 9,
-    "AirQualityIndex": 175.48
+    "humidity": 67.15,
+    "PM10": 72.33,
+    "PM2n5": 15.57,
+    "Pressure": 990,
+    "Temperature": 6,
+    "AirQualityIndex": 46.24
   },
   {
     "id": "SAVEDNIPRO_1102",
@@ -594,12 +594,12 @@
     "localName": "Save Dnipro #73",
     "latitude": "50.896400",
     "longitude": "34.830288",
-    "humidity": 60.3,
-    "PM10": 41.42,
-    "PM2n5": 3.3,
-    "Pressure": 1016,
-    "Temperature": 5,
-    "AirQualityIndex": 35.2
+    "humidity": 26.25,
+    "PM10": 70,
+    "PM2n5": 19.52,
+    "Pressure": 1006,
+    "Temperature": 6,
+    "AirQualityIndex": 78.27
   },
   {
     "id": "SAVEDNIPRO_1131",
@@ -608,12 +608,12 @@
     "localName": "",
     "latitude": "47.83602089075",
     "longitude": "35.10648322033",
-    "humidity": 40.16,
-    "PM10": 19.73,
-    "PM2n5": 2.92,
-    "Pressure": 1014,
-    "Temperature": 9,
-    "AirQualityIndex": 102.07
+    "humidity": 61.93,
+    "PM10": 68.43,
+    "PM2n5": 9.84,
+    "Pressure": 983,
+    "Temperature": 10,
+    "AirQualityIndex": 107.36
   },
   {
     "id": "SAVEDNIPRO_1143",
@@ -622,12 +622,12 @@
     "localName": "Save Dnipro #75",
     "latitude": "48.477333",
     "longitude": "37.092000",
-    "humidity": 35.5,
-    "PM10": 66.77,
-    "PM2n5": 12.41,
-    "Pressure": 1009,
-    "Temperature": 7,
-    "AirQualityIndex": 139.19
+    "humidity": 54.45,
+    "PM10": 57.78,
+    "PM2n5": 4,
+    "Pressure": 998,
+    "Temperature": 6,
+    "AirQualityIndex": 161.24
   },
   {
     "id": "SAVEDNIPRO_1168",
@@ -636,12 +636,12 @@
     "localName": "",
     "latitude": "47.101121",
     "longitude": "37.627157",
-    "humidity": 41.14,
-    "PM10": 42.45,
-    "PM2n5": 3.78,
-    "Pressure": 985,
-    "Temperature": 10,
-    "AirQualityIndex": 193.51
+    "humidity": 44.88,
+    "PM10": 6.66,
+    "PM2n5": 9.23,
+    "Pressure": 1020,
+    "Temperature": 7,
+    "AirQualityIndex": 121.12
   },
   {
     "id": "SAVEDNIPRO_1169",
@@ -650,12 +650,12 @@
     "localName": "",
     "latitude": "47.137890",
     "longitude": "37.565452",
-    "humidity": 67.07,
-    "PM10": 3.3,
-    "PM2n5": 13.79,
-    "Pressure": 1020,
-    "Temperature": 7,
-    "AirQualityIndex": 156.29
+    "humidity": 74.03,
+    "PM10": 1.73,
+    "PM2n5": 17.71,
+    "Pressure": 997,
+    "Temperature": 11,
+    "AirQualityIndex": 182.7
   },
   {
     "id": "SAVEDNIPRO_1174",
@@ -664,12 +664,12 @@
     "localName": "",
     "latitude": "48.516430",
     "longitude": "34.614322",
-    "humidity": 66.87,
-    "PM10": 44.02,
-    "PM2n5": 3.82,
-    "Pressure": 996,
-    "Temperature": 5,
-    "AirQualityIndex": 108.4
+    "humidity": 46.37,
+    "PM10": 48.18,
+    "PM2n5": 10.79,
+    "Pressure": 1002,
+    "Temperature": 8,
+    "AirQualityIndex": 164.05
   },
   {
     "id": "SAVEDNIPRO_1175",
@@ -678,12 +678,12 @@
     "localName": "",
     "latitude": "48.608365",
     "longitude": "34.558746",
-    "humidity": 52.57,
-    "PM10": 55.37,
-    "PM2n5": 9.76,
-    "Pressure": 1019,
-    "Temperature": 10,
-    "AirQualityIndex": 123.71
+    "humidity": 67.31,
+    "PM10": 73.35,
+    "PM2n5": 2.32,
+    "Pressure": 996,
+    "Temperature": 7,
+    "AirQualityIndex": 171.51
   },
   {
     "id": "SAVEDNIPRO_1176",
@@ -692,12 +692,12 @@
     "localName": "",
     "latitude": "48.507758",
     "longitude": "34.609865",
-    "humidity": 42.45,
-    "PM10": 23.54,
-    "PM2n5": 16.41,
-    "Pressure": 1004,
-    "Temperature": 8,
-    "AirQualityIndex": 117.98
+    "humidity": 63.2,
+    "PM10": 41.6,
+    "PM2n5": 8.87,
+    "Pressure": 990,
+    "Temperature": 11,
+    "AirQualityIndex": 152.79
   },
   {
     "id": "SAVEDNIPRO_1178",
@@ -706,12 +706,12 @@
     "localName": "",
     "latitude": "49.964888",
     "longitude": "36.122653",
-    "humidity": 64.03,
-    "PM10": 55.43,
-    "PM2n5": 7.97,
+    "humidity": 71.68,
+    "PM10": 51.31,
+    "PM2n5": 13.44,
     "Pressure": 1007,
-    "Temperature": 9,
-    "AirQualityIndex": 78.7
+    "Temperature": 6,
+    "AirQualityIndex": 29.3
   },
   {
     "id": "SAVEDNIPRO_1179",
@@ -720,12 +720,12 @@
     "localName": "",
     "latitude": "48.503785",
     "longitude": "34.614396",
-    "humidity": 50.79,
-    "PM10": 34.31,
-    "PM2n5": 10.89,
-    "Pressure": 994,
-    "Temperature": 7,
-    "AirQualityIndex": 179.47
+    "humidity": 67.52,
+    "PM10": 20.79,
+    "PM2n5": 8.49,
+    "Pressure": 1020,
+    "Temperature": 8,
+    "AirQualityIndex": 48.83
   },
   {
     "id": "SAVEDNIPRO_1180",
@@ -734,12 +734,12 @@
     "localName": "",
     "latitude": "48.509854",
     "longitude": "34.595553",
-    "humidity": 63.76,
-    "PM10": 15.1,
-    "PM2n5": 10.7,
-    "Pressure": 992,
-    "Temperature": 8,
-    "AirQualityIndex": 161.35
+    "humidity": 32.38,
+    "PM10": 2.43,
+    "PM2n5": 12.42,
+    "Pressure": 1014,
+    "Temperature": 6,
+    "AirQualityIndex": 28.72
   },
   {
     "id": "SAVEDNIPRO_1182",
@@ -748,12 +748,12 @@
     "localName": "",
     "latitude": "48.517399",
     "longitude": "34.599969",
-    "humidity": 61.3,
-    "PM10": 46.05,
-    "PM2n5": 16.73,
-    "Pressure": 998,
+    "humidity": 73.02,
+    "PM10": 4.58,
+    "PM2n5": 18.85,
+    "Pressure": 999,
     "Temperature": 10,
-    "AirQualityIndex": 22.11
+    "AirQualityIndex": 77.21
   },
   {
     "id": "SAVEDNIPRO_1183",
@@ -762,12 +762,12 @@
     "localName": "",
     "latitude": "48.489721",
     "longitude": "34.621939",
-    "humidity": 30.04,
-    "PM10": 63.27,
-    "PM2n5": 6.94,
-    "Pressure": 987,
+    "humidity": 27.03,
+    "PM10": 14.2,
+    "PM2n5": 8.34,
+    "Pressure": 980,
     "Temperature": 5,
-    "AirQualityIndex": 61.17
+    "AirQualityIndex": 167.48
   },
   {
     "id": "SAVEDNIPRO_1212",
@@ -776,12 +776,12 @@
     "localName": "",
     "latitude": "47.816804",
     "longitude": "35.169158",
-    "humidity": 51.19,
-    "PM10": 16.39,
-    "PM2n5": 5.66,
-    "Pressure": 1010,
-    "Temperature": 5,
-    "AirQualityIndex": 164
+    "humidity": 38.33,
+    "PM10": 25.1,
+    "PM2n5": 13.71,
+    "Pressure": 993,
+    "Temperature": 10,
+    "AirQualityIndex": 137.23
   },
   {
     "id": "SAVEDNIPRO_1260",
@@ -790,12 +790,12 @@
     "localName": "",
     "latitude": "47.82919027096",
     "longitude": "35.23301213980",
-    "humidity": 32.32,
-    "PM10": 77.94,
-    "PM2n5": 13.42,
-    "Pressure": 985,
+    "humidity": 38.08,
+    "PM10": 42.91,
+    "PM2n5": 9.27,
+    "Pressure": 995,
     "Temperature": 8,
-    "AirQualityIndex": 67.55
+    "AirQualityIndex": 179.92
   },
   {
     "id": "SAVEDNIPRO_1266",
@@ -804,12 +804,12 @@
     "localName": "",
     "latitude": "50.473860",
     "longitude": "30.497474",
-    "humidity": 37.07,
-    "PM10": 9.42,
-    "PM2n5": 12.18,
-    "Pressure": 1005,
-    "Temperature": 11,
-    "AirQualityIndex": 69.93
+    "humidity": 65.22,
+    "PM10": 76.1,
+    "PM2n5": 7.92,
+    "Pressure": 987,
+    "Temperature": 10,
+    "AirQualityIndex": 6.61
   },
   {
     "id": "SAVEDNIPRO_1268",
@@ -818,12 +818,12 @@
     "localName": "",
     "latitude": "50.741761",
     "longitude": "31.384359",
-    "humidity": 33.01,
-    "PM10": 59.65,
-    "PM2n5": 10.01,
-    "Pressure": 996,
+    "humidity": 30.06,
+    "PM10": 22.02,
+    "PM2n5": 18.43,
+    "Pressure": 1002,
     "Temperature": 10,
-    "AirQualityIndex": 64.03
+    "AirQualityIndex": 197.5
   },
   {
     "id": "SAVEDNIPRO_1269",
@@ -832,12 +832,12 @@
     "localName": "",
     "latitude": "49.592648",
     "longitude": "34.570985",
-    "humidity": 36.49,
-    "PM10": 44.26,
-    "PM2n5": 4.91,
-    "Pressure": 986,
-    "Temperature": 7,
-    "AirQualityIndex": 190.97
+    "humidity": 27.19,
+    "PM10": 39.81,
+    "PM2n5": 16.3,
+    "Pressure": 991,
+    "Temperature": 11,
+    "AirQualityIndex": 24.1
   },
   {
     "id": "SAVEDNIPRO_1270",
@@ -846,12 +846,12 @@
     "localName": "Save Dnipro #104",
     "latitude": "48.454988",
     "longitude": "35.036721",
-    "humidity": 57.56,
-    "PM10": 16.82,
-    "PM2n5": 14.69,
-    "Pressure": 1017,
-    "Temperature": 6,
-    "AirQualityIndex": 199.98
+    "humidity": 50.46,
+    "PM10": 27.99,
+    "PM2n5": 2.19,
+    "Pressure": 1013,
+    "Temperature": 7,
+    "AirQualityIndex": 178.13
   },
   {
     "id": "SAVEDNIPRO_1271",
@@ -860,12 +860,12 @@
     "localName": "",
     "latitude": "48.525274",
     "longitude": "35.019689",
-    "humidity": 27.75,
-    "PM10": 25.05,
-    "PM2n5": 5.7,
-    "Pressure": 1006,
-    "Temperature": 11,
-    "AirQualityIndex": 82.25
+    "humidity": 46.57,
+    "PM10": 9.61,
+    "PM2n5": 7.59,
+    "Pressure": 989,
+    "Temperature": 10,
+    "AirQualityIndex": 40.5
   },
   {
     "id": "SAVEDNIPRO_1272",
@@ -874,12 +874,12 @@
     "localName": "",
     "latitude": "48.494670",
     "longitude": "34.602290",
-    "humidity": 37.09,
-    "PM10": 8.47,
-    "PM2n5": 1.87,
-    "Pressure": 1016,
-    "Temperature": 5,
-    "AirQualityIndex": 45.02
+    "humidity": 66.53,
+    "PM10": 72.41,
+    "PM2n5": 3.54,
+    "Pressure": 1015,
+    "Temperature": 7,
+    "AirQualityIndex": 58.71
   },
   {
     "id": "SAVEDNIPRO_1274",
@@ -888,12 +888,12 @@
     "localName": "",
     "latitude": "50.494958",
     "longitude": "30.522702",
-    "humidity": 55.16,
-    "PM10": 46.23,
-    "PM2n5": 1.57,
-    "Pressure": 988,
-    "Temperature": 6,
-    "AirQualityIndex": 146.45
+    "humidity": 38.86,
+    "PM10": 64,
+    "PM2n5": 11.41,
+    "Pressure": 1008,
+    "Temperature": 7,
+    "AirQualityIndex": 82.13
   },
   {
     "id": "SAVEDNIPRO_1275",
@@ -902,12 +902,12 @@
     "localName": "",
     "latitude": "48.475955",
     "longitude": "34.667161",
-    "humidity": 45.28,
-    "PM10": 39.88,
-    "PM2n5": 7.15,
+    "humidity": 72.78,
+    "PM10": 56.83,
+    "PM2n5": 6.75,
     "Pressure": 994,
-    "Temperature": 8,
-    "AirQualityIndex": 12.39
+    "Temperature": 7,
+    "AirQualityIndex": 184.56
   },
   {
     "id": "SAVEDNIPRO_1276",
@@ -916,12 +916,12 @@
     "localName": "",
     "latitude": "49.577176",
     "longitude": "34.607160",
-    "humidity": 66.67,
-    "PM10": 76.44,
-    "PM2n5": 3.8,
-    "Pressure": 989,
-    "Temperature": 11,
-    "AirQualityIndex": 160.95
+    "humidity": 70.77,
+    "PM10": 32.52,
+    "PM2n5": 19.97,
+    "Pressure": 992,
+    "Temperature": 5,
+    "AirQualityIndex": 187.18
   },
   {
     "id": "SAVEDNIPRO_1278",
@@ -930,12 +930,12 @@
     "localName": "",
     "latitude": "50.404417",
     "longitude": "30.534111",
-    "humidity": 38.21,
-    "PM10": 67.47,
-    "PM2n5": 5.15,
-    "Pressure": 1009,
+    "humidity": 39.02,
+    "PM10": 26.3,
+    "PM2n5": 16.4,
+    "Pressure": 1008,
     "Temperature": 9,
-    "AirQualityIndex": 137.34
+    "AirQualityIndex": 110.14
   },
   {
     "id": "SAVEDNIPRO_1279",
@@ -944,12 +944,12 @@
     "localName": "",
     "latitude": "48.4934802",
     "longitude": "35.1992773",
-    "humidity": 41.13,
-    "PM10": 37.88,
-    "PM2n5": 8.35,
-    "Pressure": 996,
-    "Temperature": 7,
-    "AirQualityIndex": 133.16
+    "humidity": 56.72,
+    "PM10": 46.85,
+    "PM2n5": 8.76,
+    "Pressure": 1001,
+    "Temperature": 10,
+    "AirQualityIndex": 160.43
   },
   {
     "id": "SAVEDNIPRO_1293",
@@ -958,12 +958,12 @@
     "localName": "",
     "latitude": "47.723589",
     "longitude": "35.206665",
-    "humidity": 61.91,
-    "PM10": 3.66,
-    "PM2n5": 17.86,
-    "Pressure": 1018,
-    "Temperature": 5,
-    "AirQualityIndex": 27.16
+    "humidity": 63.16,
+    "PM10": 34.09,
+    "PM2n5": 11.27,
+    "Pressure": 1010,
+    "Temperature": 6,
+    "AirQualityIndex": 28.5
   },
   {
     "id": "SAVEDNIPRO_1294",
@@ -972,12 +972,12 @@
     "localName": "",
     "latitude": "50.4682878",
     "longitude": "30.5729412",
-    "humidity": 59.24,
-    "PM10": 39.15,
-    "PM2n5": 10.56,
-    "Pressure": 1018,
-    "Temperature": 8,
-    "AirQualityIndex": 84.13
+    "humidity": 36.18,
+    "PM10": 69.96,
+    "PM2n5": 15.76,
+    "Pressure": 1012,
+    "Temperature": 6,
+    "AirQualityIndex": 51.95
   },
   {
     "id": "SAVEDNIPRO_1295",
@@ -986,12 +986,12 @@
     "localName": "",
     "latitude": "50.514441",
     "longitude": "30.797268",
-    "humidity": 49.39,
-    "PM10": 15.66,
-    "PM2n5": 9.13,
-    "Pressure": 1005,
-    "Temperature": 8,
-    "AirQualityIndex": 107.41
+    "humidity": 61.15,
+    "PM10": 31.15,
+    "PM2n5": 13.79,
+    "Pressure": 983,
+    "Temperature": 5,
+    "AirQualityIndex": 70.57
   },
   {
     "id": "SAVEDNIPRO_1297",
@@ -1000,12 +1000,12 @@
     "localName": "",
     "latitude": "47.844147",
     "longitude": "35.230268",
-    "humidity": 54.55,
-    "PM10": 6.45,
-    "PM2n5": 7.62,
-    "Pressure": 1001,
-    "Temperature": 6,
-    "AirQualityIndex": 15.74
+    "humidity": 28.78,
+    "PM10": 54.51,
+    "PM2n5": 6.39,
+    "Pressure": 999,
+    "Temperature": 8,
+    "AirQualityIndex": 179.86
   },
   {
     "id": "SAVEDNIPRO_1298",
@@ -1014,12 +1014,12 @@
     "localName": "",
     "latitude": "47.8382123",
     "longitude": "35.1351085",
-    "humidity": 28.97,
-    "PM10": 5.58,
-    "PM2n5": 12.68,
-    "Pressure": 996,
-    "Temperature": 7,
-    "AirQualityIndex": 100.82
+    "humidity": 42.4,
+    "PM10": 11.82,
+    "PM2n5": 14.67,
+    "Pressure": 990,
+    "Temperature": 5,
+    "AirQualityIndex": 139.5
   },
   {
     "id": "SAVEDNIPRO_1300",
@@ -1028,12 +1028,12 @@
     "localName": "",
     "latitude": "48.835490",
     "longitude": "37.392544",
-    "humidity": 28.31,
-    "PM10": 34.11,
-    "PM2n5": 19.4,
-    "Pressure": 993,
-    "Temperature": 10,
-    "AirQualityIndex": 147.24
+    "humidity": 58.53,
+    "PM10": 23,
+    "PM2n5": 10.04,
+    "Pressure": 991,
+    "Temperature": 9,
+    "AirQualityIndex": 142.17
   },
   {
     "id": "SAVEDNIPRO_1301",
@@ -1042,12 +1042,12 @@
     "localName": "",
     "latitude": "47.865793",
     "longitude": "35.058838",
-    "humidity": 27.11,
-    "PM10": 11.63,
-    "PM2n5": 19.81,
-    "Pressure": 987,
-    "Temperature": 7,
-    "AirQualityIndex": 91.4
+    "humidity": 65.75,
+    "PM10": 73.86,
+    "PM2n5": 4.34,
+    "Pressure": 986,
+    "Temperature": 8,
+    "AirQualityIndex": 77.74
   },
   {
     "id": "SAVEDNIPRO_1302",
@@ -1056,12 +1056,12 @@
     "localName": "",
     "latitude": "50.317396",
     "longitude": "30.390961",
-    "humidity": 48.69,
-    "PM10": 16.55,
-    "PM2n5": 12.09,
-    "Pressure": 1008,
-    "Temperature": 11,
-    "AirQualityIndex": 134.19
+    "humidity": 57.26,
+    "PM10": 67.29,
+    "PM2n5": 10.84,
+    "Pressure": 992,
+    "Temperature": 9,
+    "AirQualityIndex": 109.2
   },
   {
     "id": "SAVEDNIPRO_1303",
@@ -1070,12 +1070,12 @@
     "localName": "",
     "latitude": "46.297067",
     "longitude": "30.639265",
-    "humidity": 74.43,
-    "PM10": 31.16,
-    "PM2n5": 14.96,
-    "Pressure": 1010,
+    "humidity": 67.24,
+    "PM10": 46.37,
+    "PM2n5": 17.11,
+    "Pressure": 1020,
     "Temperature": 6,
-    "AirQualityIndex": 51.69
+    "AirQualityIndex": 53.57
   },
   {
     "id": "SAVEDNIPRO_1306",
@@ -1084,12 +1084,12 @@
     "localName": "",
     "latitude": "50.505132",
     "longitude": "30.489238",
-    "humidity": 61.72,
-    "PM10": 24.33,
-    "PM2n5": 19.89,
-    "Pressure": 980,
-    "Temperature": 6,
-    "AirQualityIndex": 101.43
+    "humidity": 38.77,
+    "PM10": 42.48,
+    "PM2n5": 6.31,
+    "Pressure": 986,
+    "Temperature": 11,
+    "AirQualityIndex": 146.66
   },
   {
     "id": "SAVEDNIPRO_1308",
@@ -1098,12 +1098,12 @@
     "localName": "",
     "latitude": "47.8630359",
     "longitude": "35.1845460",
-    "humidity": 69.62,
-    "PM10": 58.41,
-    "PM2n5": 1.35,
-    "Pressure": 1002,
-    "Temperature": 11,
-    "AirQualityIndex": 68.78
+    "humidity": 30.78,
+    "PM10": 39.99,
+    "PM2n5": 9.18,
+    "Pressure": 1014,
+    "Temperature": 10,
+    "AirQualityIndex": 169.21
   },
   {
     "id": "SAVEDNIPRO_1309",
@@ -1112,12 +1112,12 @@
     "localName": "",
     "latitude": "47.835703",
     "longitude": "35.134718",
-    "humidity": 47.07,
-    "PM10": 33.8,
-    "PM2n5": 10.85,
-    "Pressure": 1004,
-    "Temperature": 9,
-    "AirQualityIndex": 71.97
+    "humidity": 58.38,
+    "PM10": 79.87,
+    "PM2n5": 13.1,
+    "Pressure": 980,
+    "Temperature": 10,
+    "AirQualityIndex": 32.96
   },
   {
     "id": "SAVEDNIPRO_1311",
@@ -1126,12 +1126,12 @@
     "localName": "",
     "latitude": "50.312514",
     "longitude": "30.375136",
-    "humidity": 47.36,
-    "PM10": 45.68,
-    "PM2n5": 9.85,
-    "Pressure": 988,
-    "Temperature": 7,
-    "AirQualityIndex": 107.05
+    "humidity": 57.23,
+    "PM10": 78.22,
+    "PM2n5": 13.48,
+    "Pressure": 1008,
+    "Temperature": 8,
+    "AirQualityIndex": 164.85
   },
   {
     "id": "SAVEDNIPRO_1313",
@@ -1140,12 +1140,12 @@
     "localName": "",
     "latitude": "50.326257",
     "longitude": "30.375458",
-    "humidity": 59.88,
-    "PM10": 45.12,
-    "PM2n5": 9.58,
-    "Pressure": 982,
+    "humidity": 59.43,
+    "PM10": 31.7,
+    "PM2n5": 18.35,
+    "Pressure": 1010,
     "Temperature": 8,
-    "AirQualityIndex": 173.97
+    "AirQualityIndex": 10.38
   },
   {
     "id": "SAVEDNIPRO_1315",
@@ -1154,12 +1154,12 @@
     "localName": "",
     "latitude": "47.815380",
     "longitude": "35.053843",
-    "humidity": 53.93,
-    "PM10": 7.91,
-    "PM2n5": 4.7,
-    "Pressure": 991,
+    "humidity": 44.04,
+    "PM10": 58.29,
+    "PM2n5": 15.3,
+    "Pressure": 1002,
     "Temperature": 11,
-    "AirQualityIndex": 101.04
+    "AirQualityIndex": 196.34
   },
   {
     "id": "SAVEDNIPRO_1316",
@@ -1168,12 +1168,12 @@
     "localName": "",
     "latitude": "47.8606913",
     "longitude": "35.1002317",
-    "humidity": 34,
-    "PM10": 50.02,
-    "PM2n5": 4.23,
-    "Pressure": 995,
-    "Temperature": 11,
-    "AirQualityIndex": 91.05
+    "humidity": 68.07,
+    "PM10": 25.75,
+    "PM2n5": 14.86,
+    "Pressure": 984,
+    "Temperature": 6,
+    "AirQualityIndex": 184.15
   },
   {
     "id": "SAVEDNIPRO_1354",
@@ -1182,12 +1182,12 @@
     "localName": "",
     "latitude": "48.608155",
     "longitude": "32.231918",
-    "humidity": 51.91,
-    "PM10": 42.85,
-    "PM2n5": 16.43,
+    "humidity": 37.82,
+    "PM10": 17.97,
+    "PM2n5": 7,
     "Pressure": 1003,
-    "Temperature": 11,
-    "AirQualityIndex": 170.25
+    "Temperature": 7,
+    "AirQualityIndex": 75.1
   },
   {
     "id": "SAVEDNIPRO_1372",
@@ -1196,12 +1196,12 @@
     "localName": "",
     "latitude": "50.452314",
     "longitude": "30.371420",
-    "humidity": 45.82,
-    "PM10": 53.28,
-    "PM2n5": 16.53,
-    "Pressure": 992,
-    "Temperature": 11,
-    "AirQualityIndex": 140.63
+    "humidity": 39.03,
+    "PM10": 31.95,
+    "PM2n5": 1.31,
+    "Pressure": 988,
+    "Temperature": 8,
+    "AirQualityIndex": 98.93
   },
   {
     "id": "SAVEDNIPRO_1373",
@@ -1210,12 +1210,12 @@
     "localName": "",
     "latitude": "50.502855",
     "longitude": "30.495153",
-    "humidity": 53.96,
-    "PM10": 62.45,
-    "PM2n5": 1.9,
-    "Pressure": 998,
-    "Temperature": 10,
-    "AirQualityIndex": 87.09
+    "humidity": 35.48,
+    "PM10": 47.4,
+    "PM2n5": 12.31,
+    "Pressure": 994,
+    "Temperature": 7,
+    "AirQualityIndex": 33.77
   },
   {
     "id": "SAVEDNIPRO_1376",
@@ -1224,12 +1224,12 @@
     "localName": "",
     "latitude": "50.421359",
     "longitude": "30.514859",
-    "humidity": 30.15,
-    "PM10": 63.07,
-    "PM2n5": 3.61,
-    "Pressure": 1014,
-    "Temperature": 10,
-    "AirQualityIndex": 51.79
+    "humidity": 56.91,
+    "PM10": 77.87,
+    "PM2n5": 3.03,
+    "Pressure": 996,
+    "Temperature": 8,
+    "AirQualityIndex": 57.45
   },
   {
     "id": "SAVEDNIPRO_1377",
@@ -1238,12 +1238,12 @@
     "localName": "Save Dnipro #159",
     "latitude": "46.311634",
     "longitude": "30.654892",
-    "humidity": 55.73,
-    "PM10": 19.9,
-    "PM2n5": 19.08,
-    "Pressure": 1000,
-    "Temperature": 10,
-    "AirQualityIndex": 179.68
+    "humidity": 30.1,
+    "PM10": 57.07,
+    "PM2n5": 7.7,
+    "Pressure": 985,
+    "Temperature": 5,
+    "AirQualityIndex": 78.79
   },
   {
     "id": "SAVEDNIPRO_1378",
@@ -1252,12 +1252,12 @@
     "localName": "",
     "latitude": "50.359801",
     "longitude": "30.424000",
-    "humidity": 69.48,
-    "PM10": 32.85,
-    "PM2n5": 3.18,
-    "Pressure": 1003,
-    "Temperature": 11,
-    "AirQualityIndex": 178.05
+    "humidity": 56.6,
+    "PM10": 4.97,
+    "PM2n5": 6.83,
+    "Pressure": 981,
+    "Temperature": 7,
+    "AirQualityIndex": 3.12
   },
   {
     "id": "SAVEDNIPRO_1380",
@@ -1266,12 +1266,12 @@
     "localName": "Save Dnipro #162",
     "latitude": "46.452237",
     "longitude": "30.748921",
-    "humidity": 57.02,
-    "PM10": 21.1,
-    "PM2n5": 3.42,
-    "Pressure": 1014,
-    "Temperature": 6,
-    "AirQualityIndex": 160.98
+    "humidity": 42.96,
+    "PM10": 33.28,
+    "PM2n5": 17.29,
+    "Pressure": 991,
+    "Temperature": 9,
+    "AirQualityIndex": 190.16
   },
   {
     "id": "SAVEDNIPRO_1381",
@@ -1280,12 +1280,12 @@
     "localName": "",
     "latitude": "49.562487",
     "longitude": "34.078514",
-    "humidity": 34.7,
-    "PM10": 78.26,
-    "PM2n5": 2,
-    "Pressure": 995,
-    "Temperature": 11,
-    "AirQualityIndex": 10.63
+    "humidity": 40.93,
+    "PM10": 16.64,
+    "PM2n5": 10.26,
+    "Pressure": 1012,
+    "Temperature": 6,
+    "AirQualityIndex": 35.67
   },
   {
     "id": "SAVEDNIPRO_1382",
@@ -1294,12 +1294,12 @@
     "localName": "",
     "latitude": "47.827955",
     "longitude": "35.204411",
-    "humidity": 42.37,
-    "PM10": 46.26,
-    "PM2n5": 13.45,
-    "Pressure": 1004,
-    "Temperature": 6,
-    "AirQualityIndex": 124.34
+    "humidity": 49.41,
+    "PM10": 77.58,
+    "PM2n5": 13.18,
+    "Pressure": 1018,
+    "Temperature": 8,
+    "AirQualityIndex": 180.42
   },
   {
     "id": "SAVEDNIPRO_1384",
@@ -1308,12 +1308,12 @@
     "localName": "",
     "latitude": "50.33948",
     "longitude": "30.70528",
-    "humidity": 45.49,
-    "PM10": 7.56,
-    "PM2n5": 7.06,
-    "Pressure": 1018,
-    "Temperature": 11,
-    "AirQualityIndex": 191.66
+    "humidity": 55.79,
+    "PM10": 18.91,
+    "PM2n5": 4.21,
+    "Pressure": 1004,
+    "Temperature": 5,
+    "AirQualityIndex": 81.1
   },
   {
     "id": "SAVEDNIPRO_1385",
@@ -1322,12 +1322,12 @@
     "localName": "",
     "latitude": "50.327707",
     "longitude": "30.696919",
-    "humidity": 63.07,
-    "PM10": 68.07,
-    "PM2n5": 16.94,
-    "Pressure": 1003,
-    "Temperature": 6,
-    "AirQualityIndex": 116.86
+    "humidity": 33.79,
+    "PM10": 23.44,
+    "PM2n5": 6.84,
+    "Pressure": 1013,
+    "Temperature": 9,
+    "AirQualityIndex": 162.51
   },
   {
     "id": "SAVEDNIPRO_1386",
@@ -1336,12 +1336,12 @@
     "localName": "",
     "latitude": "46.486764",
     "longitude": "30.707282",
-    "humidity": 35.96,
-    "PM10": 23.71,
-    "PM2n5": 13.75,
-    "Pressure": 1012,
+    "humidity": 28.4,
+    "PM10": 51.82,
+    "PM2n5": 6.69,
+    "Pressure": 981,
     "Temperature": 9,
-    "AirQualityIndex": 38.92
+    "AirQualityIndex": 62.12
   },
   {
     "id": "SAVEDNIPRO_1387",
@@ -1350,12 +1350,12 @@
     "localName": "",
     "latitude": "50.4515820",
     "longitude": "30.5115602",
-    "humidity": 33.71,
-    "PM10": 69.09,
-    "PM2n5": 17.61,
-    "Pressure": 984,
-    "Temperature": 11,
-    "AirQualityIndex": 63.42
+    "humidity": 66.17,
+    "PM10": 59.4,
+    "PM2n5": 10.17,
+    "Pressure": 1012,
+    "Temperature": 9,
+    "AirQualityIndex": 71.99
   },
   {
     "id": "SAVEDNIPRO_1388",
@@ -1364,12 +1364,12 @@
     "localName": "",
     "latitude": "50.5245",
     "longitude": "30.798465",
-    "humidity": 25.57,
-    "PM10": 28.61,
-    "PM2n5": 16.21,
-    "Pressure": 999,
-    "Temperature": 6,
-    "AirQualityIndex": 16.15
+    "humidity": 51.12,
+    "PM10": 27.94,
+    "PM2n5": 16.65,
+    "Pressure": 1002,
+    "Temperature": 9,
+    "AirQualityIndex": 4.91
   },
   {
     "id": "SAVEDNIPRO_1392",
@@ -1378,12 +1378,12 @@
     "localName": "",
     "latitude": "50.512282",
     "longitude": "30.796358",
-    "humidity": 69.39,
-    "PM10": 5.3,
-    "PM2n5": 1.39,
-    "Pressure": 997,
-    "Temperature": 7,
-    "AirQualityIndex": 118.38
+    "humidity": 36.54,
+    "PM10": 44.71,
+    "PM2n5": 3.6,
+    "Pressure": 985,
+    "Temperature": 10,
+    "AirQualityIndex": 135.27
   },
   {
     "id": "SAVEDNIPRO_1394",
@@ -1392,12 +1392,12 @@
     "localName": "",
     "latitude": "50.4742163",
     "longitude": "30.4942892",
-    "humidity": 72.84,
-    "PM10": 59.86,
-    "PM2n5": 3.09,
-    "Pressure": 992,
-    "Temperature": 7,
-    "AirQualityIndex": 6.94
+    "humidity": 57.54,
+    "PM10": 34,
+    "PM2n5": 16.32,
+    "Pressure": 1003,
+    "Temperature": 9,
+    "AirQualityIndex": 5.83
   },
   {
     "id": "SAVEDNIPRO_1395",
@@ -1406,12 +1406,12 @@
     "localName": "",
     "latitude": "50.6331689",
     "longitude": "26.2856835",
-    "humidity": 28.31,
-    "PM10": 29.26,
-    "PM2n5": 7.16,
-    "Pressure": 981,
-    "Temperature": 6,
-    "AirQualityIndex": 175.55
+    "humidity": 60.91,
+    "PM10": 20.79,
+    "PM2n5": 10.63,
+    "Pressure": 1005,
+    "Temperature": 7,
+    "AirQualityIndex": 182.27
   },
   {
     "id": "SAVEDNIPRO_1396",
@@ -1420,12 +1420,12 @@
     "localName": "",
     "latitude": "50.297342",
     "longitude": "33.376383",
-    "humidity": 56.5,
-    "PM10": 67.26,
-    "PM2n5": 13.31,
-    "Pressure": 986,
-    "Temperature": 10,
-    "AirQualityIndex": 52.35
+    "humidity": 30.08,
+    "PM10": 32.88,
+    "PM2n5": 19.16,
+    "Pressure": 1011,
+    "Temperature": 5,
+    "AirQualityIndex": 177.94
   },
   {
     "id": "SAVEDNIPRO_1397",
@@ -1434,12 +1434,12 @@
     "localName": "",
     "latitude": "50.293875",
     "longitude": "27.669171",
-    "humidity": 34.82,
-    "PM10": 53.25,
-    "PM2n5": 12.05,
-    "Pressure": 985,
-    "Temperature": 11,
-    "AirQualityIndex": 196.09
+    "humidity": 74.43,
+    "PM10": 76.98,
+    "PM2n5": 15.15,
+    "Pressure": 981,
+    "Temperature": 7,
+    "AirQualityIndex": 83.61
   },
   {
     "id": "SAVEDNIPRO_1411",
@@ -1448,12 +1448,12 @@
     "localName": "",
     "latitude": "46.2997433",
     "longitude": "30.6593683",
-    "humidity": 59.87,
-    "PM10": 68.13,
-    "PM2n5": 7.19,
-    "Pressure": 1006,
-    "Temperature": 5,
-    "AirQualityIndex": 93.77
+    "humidity": 29.82,
+    "PM10": 17.32,
+    "PM2n5": 9.73,
+    "Pressure": 1012,
+    "Temperature": 6,
+    "AirQualityIndex": 89.51
   },
   {
     "id": "SAVEDNIPRO_1412",
@@ -1462,12 +1462,12 @@
     "localName": "",
     "latitude": "48.633951",
     "longitude": "24.567418",
-    "humidity": 42.3,
-    "PM10": 51.53,
-    "PM2n5": 15.12,
-    "Pressure": 1014,
+    "humidity": 35.99,
+    "PM10": 55.07,
+    "PM2n5": 6.34,
+    "Pressure": 990,
     "Temperature": 7,
-    "AirQualityIndex": 191.37
+    "AirQualityIndex": 65.6
   },
   {
     "id": "SAVEDNIPRO_1424",
@@ -1476,12 +1476,12 @@
     "localName": "",
     "latitude": "50.455080",
     "longitude": "30.629557",
-    "humidity": 54.91,
-    "PM10": 37.78,
-    "PM2n5": 6.36,
-    "Pressure": 1003,
-    "Temperature": 9,
-    "AirQualityIndex": 33.59
+    "humidity": 38.35,
+    "PM10": 3.41,
+    "PM2n5": 3.77,
+    "Pressure": 988,
+    "Temperature": 6,
+    "AirQualityIndex": 162.68
   },
   {
     "id": "SAVEDNIPRO_1425",
@@ -1490,12 +1490,12 @@
     "localName": "",
     "latitude": "50.513766",
     "longitude": "30.508991",
-    "humidity": 57.46,
-    "PM10": 75.81,
-    "PM2n5": 12.06,
-    "Pressure": 993,
-    "Temperature": 5,
-    "AirQualityIndex": 82.24
+    "humidity": 31.05,
+    "PM10": 49.05,
+    "PM2n5": 14.66,
+    "Pressure": 1007,
+    "Temperature": 10,
+    "AirQualityIndex": 183.2
   },
   {
     "id": "SAVEDNIPRO_1426",
@@ -1504,12 +1504,12 @@
     "localName": "",
     "latitude": "47.817382",
     "longitude": "35.054906",
-    "humidity": 68.01,
-    "PM10": 5.99,
-    "PM2n5": 13.75,
-    "Pressure": 1015,
-    "Temperature": 7,
-    "AirQualityIndex": 85.94
+    "humidity": 54.4,
+    "PM10": 34.28,
+    "PM2n5": 9.48,
+    "Pressure": 1013,
+    "Temperature": 5,
+    "AirQualityIndex": 4.72
   },
   {
     "id": "SAVEDNIPRO_1427",
@@ -1518,12 +1518,12 @@
     "localName": "",
     "latitude": "46.302583",
     "longitude": "30.642833",
-    "humidity": 51.17,
-    "PM10": 62.24,
-    "PM2n5": 4.82,
-    "Pressure": 985,
-    "Temperature": 10,
-    "AirQualityIndex": 133.82
+    "humidity": 52.21,
+    "PM10": 13.59,
+    "PM2n5": 4.14,
+    "Pressure": 1010,
+    "Temperature": 5,
+    "AirQualityIndex": 183.35
   },
   {
     "id": "SAVEDNIPRO_1428",
@@ -1532,12 +1532,12 @@
     "localName": "",
     "latitude": "48.469470",
     "longitude": "37.079867",
-    "humidity": 61.91,
-    "PM10": 60.48,
-    "PM2n5": 5.49,
-    "Pressure": 1008,
-    "Temperature": 8,
-    "AirQualityIndex": 91.12
+    "humidity": 25.44,
+    "PM10": 62.15,
+    "PM2n5": 10.4,
+    "Pressure": 1019,
+    "Temperature": 7,
+    "AirQualityIndex": 142.71
   },
   {
     "id": "SAVEDNIPRO_1448",
@@ -1546,12 +1546,12 @@
     "localName": "",
     "latitude": "50.503785",
     "longitude": "31.149722",
-    "humidity": 63.79,
-    "PM10": 24.44,
-    "PM2n5": 8.41,
-    "Pressure": 1013,
-    "Temperature": 10,
-    "AirQualityIndex": 12.46
+    "humidity": 60.74,
+    "PM10": 55.49,
+    "PM2n5": 5.71,
+    "Pressure": 1002,
+    "Temperature": 5,
+    "AirQualityIndex": 129.8
   },
   {
     "id": "SAVEDNIPRO_1507",
@@ -1560,12 +1560,12 @@
     "localName": "",
     "latitude": "50.537636",
     "longitude": "30.266628",
-    "humidity": 63.98,
-    "PM10": 32.87,
-    "PM2n5": 2.86,
-    "Pressure": 1015,
-    "Temperature": 11,
-    "AirQualityIndex": 49.26
+    "humidity": 34.78,
+    "PM10": 53.4,
+    "PM2n5": 6.69,
+    "Pressure": 996,
+    "Temperature": 8,
+    "AirQualityIndex": 8.6
   },
   {
     "id": "SAVEDNIPRO_1510",
@@ -1574,12 +1574,12 @@
     "localName": "",
     "latitude": "50.027901",
     "longitude": "36.215151",
-    "humidity": 46.5,
-    "PM10": 11.18,
-    "PM2n5": 10.23,
-    "Pressure": 981,
+    "humidity": 48.46,
+    "PM10": 33.61,
+    "PM2n5": 7.78,
+    "Pressure": 1011,
     "Temperature": 6,
-    "AirQualityIndex": 117.25
+    "AirQualityIndex": 187.02
   },
   {
     "id": "SAVEDNIPRO_1511",
@@ -1588,12 +1588,12 @@
     "localName": "",
     "latitude": "50.785232",
     "longitude": "30.683176",
-    "humidity": 58.43,
-    "PM10": 77.98,
-    "PM2n5": 6.17,
-    "Pressure": 998,
+    "humidity": 53.27,
+    "PM10": 53.37,
+    "PM2n5": 7.9,
+    "Pressure": 1016,
     "Temperature": 8,
-    "AirQualityIndex": 121.3
+    "AirQualityIndex": 123.85
   },
   {
     "id": "SAVEDNIPRO_1513",
@@ -1602,12 +1602,12 @@
     "localName": "",
     "latitude": "50.432666",
     "longitude": "30.279492",
-    "humidity": 44.25,
-    "PM10": 35.06,
-    "PM2n5": 19.63,
-    "Pressure": 1001,
+    "humidity": 31.24,
+    "PM10": 14.99,
+    "PM2n5": 13.41,
+    "Pressure": 1016,
     "Temperature": 7,
-    "AirQualityIndex": 118.84
+    "AirQualityIndex": 172.97
   },
   {
     "id": "SAVEDNIPRO_1514",
@@ -1616,12 +1616,12 @@
     "localName": "",
     "latitude": "50.501932",
     "longitude": "29.229013",
-    "humidity": 51.73,
-    "PM10": 18.38,
-    "PM2n5": 12.53,
-    "Pressure": 1014,
+    "humidity": 39.23,
+    "PM10": 17.98,
+    "PM2n5": 19.23,
+    "Pressure": 986,
     "Temperature": 5,
-    "AirQualityIndex": 172.69
+    "AirQualityIndex": 115
   },
   {
     "id": "SAVEDNIPRO_1538",
@@ -1630,12 +1630,12 @@
     "localName": "",
     "latitude": "50.3290625",
     "longitude": "30.6978125",
-    "humidity": 65.7,
-    "PM10": 32.6,
-    "PM2n5": 11.92,
-    "Pressure": 989,
-    "Temperature": 8,
-    "AirQualityIndex": 44.78
+    "humidity": 29.2,
+    "PM10": 35.58,
+    "PM2n5": 10.09,
+    "Pressure": 988,
+    "Temperature": 9,
+    "AirQualityIndex": 28.26
   },
   {
     "id": "SAVEDNIPRO_1540",
@@ -1644,12 +1644,12 @@
     "localName": "",
     "latitude": "50.447179",
     "longitude": "30.468070",
-    "humidity": 70.56,
-    "PM10": 25.6,
-    "PM2n5": 5.59,
-    "Pressure": 1019,
-    "Temperature": 5,
-    "AirQualityIndex": 49.62
+    "humidity": 28.89,
+    "PM10": 13.1,
+    "PM2n5": 12.22,
+    "Pressure": 985,
+    "Temperature": 7,
+    "AirQualityIndex": 151.56
   },
   {
     "id": "SAVEDNIPRO_1542",
@@ -1658,12 +1658,12 @@
     "localName": "",
     "latitude": "49.924459",
     "longitude": "27.746386",
-    "humidity": 60.4,
-    "PM10": 70.14,
-    "PM2n5": 1.63,
+    "humidity": 26.54,
+    "PM10": 67.07,
+    "PM2n5": 1.49,
     "Pressure": 1007,
-    "Temperature": 9,
-    "AirQualityIndex": 72.94
+    "Temperature": 5,
+    "AirQualityIndex": 46.14
   },
   {
     "id": "SAVEDNIPRO_1543",
@@ -1672,12 +1672,12 @@
     "localName": "",
     "latitude": "49.979663",
     "longitude": "36.184030",
-    "humidity": 33.38,
-    "PM10": 55.59,
-    "PM2n5": 18.12,
-    "Pressure": 1000,
+    "humidity": 45.8,
+    "PM10": 40.6,
+    "PM2n5": 9.1,
+    "Pressure": 1014,
     "Temperature": 8,
-    "AirQualityIndex": 38.45
+    "AirQualityIndex": 15.43
   },
   {
     "id": "SAVEDNIPRO_1544",
@@ -1686,12 +1686,12 @@
     "localName": "",
     "latitude": "50.404406",
     "longitude": "30.615846",
-    "humidity": 74.05,
-    "PM10": 26.06,
-    "PM2n5": 17.23,
-    "Pressure": 989,
-    "Temperature": 7,
-    "AirQualityIndex": 19.41
+    "humidity": 65,
+    "PM10": 29.92,
+    "PM2n5": 17.34,
+    "Pressure": 1018,
+    "Temperature": 5,
+    "AirQualityIndex": 164.06
   },
   {
     "id": "SAVEDNIPRO_1555",
@@ -1700,12 +1700,12 @@
     "localName": "",
     "latitude": "48.905655",
     "longitude": "37.724880",
-    "humidity": 36.1,
-    "PM10": 53.24,
-    "PM2n5": 5.16,
+    "humidity": 38.92,
+    "PM10": 9.6,
+    "PM2n5": 19.62,
     "Pressure": 1009,
     "Temperature": 7,
-    "AirQualityIndex": 103.79
+    "AirQualityIndex": 11.62
   },
   {
     "id": "SAVEDNIPRO_1557",
@@ -1714,12 +1714,12 @@
     "localName": "",
     "latitude": "48.851999",
     "longitude": "37.606324",
-    "humidity": 39.32,
-    "PM10": 50.87,
-    "PM2n5": 11.41,
-    "Pressure": 1013,
-    "Temperature": 11,
-    "AirQualityIndex": 16.3
+    "humidity": 44.37,
+    "PM10": 47.93,
+    "PM2n5": 2.47,
+    "Pressure": 1003,
+    "Temperature": 6,
+    "AirQualityIndex": 4.55
   },
   {
     "id": "SAVEDNIPRO_1558",
@@ -1728,12 +1728,12 @@
     "localName": "",
     "latitude": "48.589113",
     "longitude": "38.000524",
-    "humidity": 41.94,
-    "PM10": 7.72,
-    "PM2n5": 5.34,
-    "Pressure": 980,
-    "Temperature": 10,
-    "AirQualityIndex": 15.44
+    "humidity": 54.49,
+    "PM10": 17.04,
+    "PM2n5": 9.79,
+    "Pressure": 1005,
+    "Temperature": 11,
+    "AirQualityIndex": 179.21
   },
   {
     "id": "SAVEDNIPRO_1560",
@@ -1742,12 +1742,12 @@
     "localName": "",
     "latitude": "48.855326",
     "longitude": "37.774202",
-    "humidity": 44.29,
-    "PM10": 49.36,
-    "PM2n5": 11.17,
-    "Pressure": 1020,
-    "Temperature": 11,
-    "AirQualityIndex": 151.23
+    "humidity": 42.59,
+    "PM10": 9.21,
+    "PM2n5": 4.87,
+    "Pressure": 1000,
+    "Temperature": 5,
+    "AirQualityIndex": 5.24
   },
   {
     "id": "SAVEDNIPRO_1561",
@@ -1756,12 +1756,12 @@
     "localName": "",
     "latitude": "45.360426",
     "longitude": "28.818493",
-    "humidity": 33.38,
-    "PM10": 28.22,
-    "PM2n5": 17.57,
-    "Pressure": 983,
-    "Temperature": 9,
-    "AirQualityIndex": 152.63
+    "humidity": 45.3,
+    "PM10": 33.97,
+    "PM2n5": 3.39,
+    "Pressure": 985,
+    "Temperature": 10,
+    "AirQualityIndex": 100.67
   },
   {
     "id": "SAVEDNIPRO_1562",
@@ -1770,12 +1770,12 @@
     "localName": "",
     "latitude": "48.397121",
     "longitude": "37.843989",
-    "humidity": 48.01,
-    "PM10": 79.71,
-    "PM2n5": 16.89,
-    "Pressure": 989,
-    "Temperature": 10,
-    "AirQualityIndex": 52.09
+    "humidity": 55.47,
+    "PM10": 50.2,
+    "PM2n5": 11.83,
+    "Pressure": 987,
+    "Temperature": 6,
+    "AirQualityIndex": 168.04
   },
   {
     "id": "SAVEDNIPRO_1563",
@@ -1784,12 +1784,12 @@
     "localName": "",
     "latitude": "48.613735",
     "longitude": "37.486107",
-    "humidity": 48.05,
-    "PM10": 39.1,
-    "PM2n5": 6.94,
-    "Pressure": 1016,
-    "Temperature": 8,
-    "AirQualityIndex": 149.51
+    "humidity": 73.01,
+    "PM10": 66.28,
+    "PM2n5": 18.27,
+    "Pressure": 1020,
+    "Temperature": 9,
+    "AirQualityIndex": 55.66
   },
   {
     "id": "SAVEDNIPRO_1564",
@@ -1798,12 +1798,12 @@
     "localName": "",
     "latitude": "46.5228989",
     "longitude": "30.3185014",
-    "humidity": 37.74,
-    "PM10": 11.97,
-    "PM2n5": 14.17,
-    "Pressure": 998,
-    "Temperature": 10,
-    "AirQualityIndex": 29.07
+    "humidity": 52.83,
+    "PM10": 69.23,
+    "PM2n5": 13.36,
+    "Pressure": 994,
+    "Temperature": 8,
+    "AirQualityIndex": 98.44
   },
   {
     "id": "SAVEDNIPRO_1565",
@@ -1812,12 +1812,12 @@
     "localName": "",
     "latitude": "46.024188",
     "longitude": "30.362985",
-    "humidity": 70.31,
-    "PM10": 63.59,
-    "PM2n5": 2.72,
-    "Pressure": 1001,
-    "Temperature": 5,
-    "AirQualityIndex": 103.44
+    "humidity": 64.89,
+    "PM10": 40.61,
+    "PM2n5": 9.86,
+    "Pressure": 984,
+    "Temperature": 10,
+    "AirQualityIndex": 78.42
   },
   {
     "id": "SAVEDNIPRO_1566",
@@ -1826,12 +1826,12 @@
     "localName": "",
     "latitude": "48.941752",
     "longitude": "34.486318",
-    "humidity": 64.78,
-    "PM10": 43.98,
-    "PM2n5": 10.2,
-    "Pressure": 1003,
-    "Temperature": 9,
-    "AirQualityIndex": 1.41
+    "humidity": 38.46,
+    "PM10": 14.14,
+    "PM2n5": 13.43,
+    "Pressure": 980,
+    "Temperature": 11,
+    "AirQualityIndex": 40.73
   },
   {
     "id": "SAVEDNIPRO_1568",
@@ -1840,12 +1840,12 @@
     "localName": "",
     "latitude": "48.735167",
     "longitude": "22.477306",
-    "humidity": 52.36,
-    "PM10": 27.23,
-    "PM2n5": 3.56,
-    "Pressure": 1018,
-    "Temperature": 9,
-    "AirQualityIndex": 108.19
+    "humidity": 60.77,
+    "PM10": 10.49,
+    "PM2n5": 20,
+    "Pressure": 1011,
+    "Temperature": 8,
+    "AirQualityIndex": 172.09
   },
   {
     "id": "SAVEDNIPRO_1569",
@@ -1854,12 +1854,12 @@
     "localName": "",
     "latitude": "49.432754",
     "longitude": "25.144195",
-    "humidity": 65.6,
-    "PM10": 57.21,
-    "PM2n5": 12.65,
-    "Pressure": 984,
-    "Temperature": 6,
-    "AirQualityIndex": 77.89
+    "humidity": 33.97,
+    "PM10": 78.65,
+    "PM2n5": 11.42,
+    "Pressure": 990,
+    "Temperature": 9,
+    "AirQualityIndex": 170.76
   },
   {
     "id": "SAVEDNIPRO_1570",
@@ -1868,12 +1868,12 @@
     "localName": "",
     "latitude": "49.537144",
     "longitude": "39.114868",
-    "humidity": 66.05,
-    "PM10": 22.22,
-    "PM2n5": 3.11,
-    "Pressure": 1015,
-    "Temperature": 7,
-    "AirQualityIndex": 148.09
+    "humidity": 26.62,
+    "PM10": 61.75,
+    "PM2n5": 2.94,
+    "Pressure": 982,
+    "Temperature": 11,
+    "AirQualityIndex": 80.94
   },
   {
     "id": "SAVEDNIPRO_1571",
@@ -1882,12 +1882,12 @@
     "localName": "",
     "latitude": "49.525283",
     "longitude": "38.731923",
-    "humidity": 65.66,
-    "PM10": 63.29,
-    "PM2n5": 3.32,
-    "Pressure": 1004,
+    "humidity": 54.45,
+    "PM10": 41.48,
+    "PM2n5": 10.79,
+    "Pressure": 985,
     "Temperature": 5,
-    "AirQualityIndex": 147.47
+    "AirQualityIndex": 78.14
   },
   {
     "id": "SAVEDNIPRO_1572",
@@ -1896,12 +1896,12 @@
     "localName": "",
     "latitude": "48.516707",
     "longitude": "24.883313",
-    "humidity": 59.17,
-    "PM10": 9.29,
-    "PM2n5": 17.86,
-    "Pressure": 983,
-    "Temperature": 6,
-    "AirQualityIndex": 11.78
+    "humidity": 32.13,
+    "PM10": 78.18,
+    "PM2n5": 14.88,
+    "Pressure": 1006,
+    "Temperature": 8,
+    "AirQualityIndex": 45.36
   },
   {
     "id": "SAVEDNIPRO_1573",
@@ -1910,12 +1910,12 @@
     "localName": "",
     "latitude": "48.014856",
     "longitude": "34.950205",
-    "humidity": 63.41,
-    "PM10": 54.66,
-    "PM2n5": 2.33,
-    "Pressure": 1005,
-    "Temperature": 6,
-    "AirQualityIndex": 84.43
+    "humidity": 29.53,
+    "PM10": 12.43,
+    "PM2n5": 10.79,
+    "Pressure": 1009,
+    "Temperature": 7,
+    "AirQualityIndex": 160.65
   },
   {
     "id": "SAVEDNIPRO_1576",
@@ -1924,12 +1924,12 @@
     "localName": "",
     "latitude": "51.197866",
     "longitude": "24.030688",
-    "humidity": 65.36,
-    "PM10": 42.48,
-    "PM2n5": 2.71,
-    "Pressure": 990,
-    "Temperature": 7,
-    "AirQualityIndex": 91.84
+    "humidity": 33.49,
+    "PM10": 47.78,
+    "PM2n5": 18.99,
+    "Pressure": 1020,
+    "Temperature": 6,
+    "AirQualityIndex": 170.07
   },
   {
     "id": "SAVEDNIPRO_1577",
@@ -1938,12 +1938,12 @@
     "localName": "",
     "latitude": "49.354152",
     "longitude": "23.540407",
-    "humidity": 71.63,
-    "PM10": 34.42,
-    "PM2n5": 14.79,
+    "humidity": 37.5,
+    "PM10": 57.93,
+    "PM2n5": 5.64,
     "Pressure": 1002,
-    "Temperature": 8,
-    "AirQualityIndex": 64.32
+    "Temperature": 11,
+    "AirQualityIndex": 146.03
   },
   {
     "id": "SAVEDNIPRO_1579",
@@ -1952,12 +1952,12 @@
     "localName": "",
     "latitude": "51.772445",
     "longitude": "32.258389",
-    "humidity": 53.76,
-    "PM10": 59,
-    "PM2n5": 1.04,
-    "Pressure": 1004,
-    "Temperature": 7,
-    "AirQualityIndex": 57.93
+    "humidity": 38.63,
+    "PM10": 28.77,
+    "PM2n5": 18.89,
+    "Pressure": 995,
+    "Temperature": 6,
+    "AirQualityIndex": 79.58
   },
   {
     "id": "SAVEDNIPRO_1580",
@@ -1966,12 +1966,12 @@
     "localName": "",
     "latitude": "52.173104",
     "longitude": "32.591975",
-    "humidity": 53.41,
-    "PM10": 57.45,
-    "PM2n5": 16.43,
-    "Pressure": 998,
+    "humidity": 27.73,
+    "PM10": 32.29,
+    "PM2n5": 15.7,
+    "Pressure": 1010,
     "Temperature": 9,
-    "AirQualityIndex": 95.74
+    "AirQualityIndex": 67.32
   },
   {
     "id": "SAVEDNIPRO_1581",
@@ -1980,12 +1980,12 @@
     "localName": "",
     "latitude": "49.558073",
     "longitude": "27.956940",
-    "humidity": 73.7,
-    "PM10": 13.05,
-    "PM2n5": 4.84,
-    "Pressure": 998,
-    "Temperature": 5,
-    "AirQualityIndex": 124.15
+    "humidity": 61.22,
+    "PM10": 4.8,
+    "PM2n5": 5.34,
+    "Pressure": 1008,
+    "Temperature": 11,
+    "AirQualityIndex": 112.5
   },
   {
     "id": "SAVEDNIPRO_1582",
@@ -1994,12 +1994,12 @@
     "localName": "",
     "latitude": "49.212406",
     "longitude": "25.923519",
-    "humidity": 28.03,
-    "PM10": 19.93,
-    "PM2n5": 14.25,
+    "humidity": 70.18,
+    "PM10": 31.49,
+    "PM2n5": 8.74,
     "Pressure": 1017,
-    "Temperature": 6,
-    "AirQualityIndex": 48.62
+    "Temperature": 9,
+    "AirQualityIndex": 111.84
   },
   {
     "id": "SAVEDNIPRO_1583",
@@ -2008,12 +2008,12 @@
     "localName": "",
     "latitude": "49.518117",
     "longitude": "23.196529",
-    "humidity": 59.29,
-    "PM10": 54.68,
-    "PM2n5": 19.13,
-    "Pressure": 994,
-    "Temperature": 7,
-    "AirQualityIndex": 58
+    "humidity": 26.42,
+    "PM10": 46.94,
+    "PM2n5": 11.93,
+    "Pressure": 1000,
+    "Temperature": 5,
+    "AirQualityIndex": 124.51
   },
   {
     "id": "SAVEDNIPRO_1585",
@@ -2022,12 +2022,12 @@
     "localName": "",
     "latitude": "47.194468",
     "longitude": "36.216471",
-    "humidity": 48.39,
-    "PM10": 25.86,
-    "PM2n5": 11.95,
-    "Pressure": 999,
-    "Temperature": 6,
-    "AirQualityIndex": 190.05
+    "humidity": 41.87,
+    "PM10": 55.64,
+    "PM2n5": 19.5,
+    "Pressure": 994,
+    "Temperature": 9,
+    "AirQualityIndex": 13.18
   },
   {
     "id": "SAVEDNIPRO_1586",
@@ -2036,12 +2036,12 @@
     "localName": "",
     "latitude": "49.371778",
     "longitude": "29.679528",
-    "humidity": 40.4,
-    "PM10": 71.36,
-    "PM2n5": 18.46,
-    "Pressure": 1020,
-    "Temperature": 5,
-    "AirQualityIndex": 182.7
+    "humidity": 39.59,
+    "PM10": 78.2,
+    "PM2n5": 7.35,
+    "Pressure": 1011,
+    "Temperature": 9,
+    "AirQualityIndex": 38.67
   },
   {
     "id": "SAVEDNIPRO_1587",
@@ -2050,12 +2050,12 @@
     "localName": "",
     "latitude": "51.819637",
     "longitude": "31.942129",
-    "humidity": 74.4,
-    "PM10": 24.17,
-    "PM2n5": 8.84,
-    "Pressure": 999,
-    "Temperature": 10,
-    "AirQualityIndex": 97.76
+    "humidity": 25.33,
+    "PM10": 48.94,
+    "PM2n5": 1.25,
+    "Pressure": 992,
+    "Temperature": 5,
+    "AirQualityIndex": 8.21
   },
   {
     "id": "SAVEDNIPRO_1588",
@@ -2064,12 +2064,12 @@
     "localName": "",
     "latitude": "51.524997",
     "longitude": "32.510375",
-    "humidity": 27.16,
-    "PM10": 34.98,
-    "PM2n5": 17.88,
-    "Pressure": 998,
-    "Temperature": 7,
-    "AirQualityIndex": 52.08
+    "humidity": 56.08,
+    "PM10": 63.69,
+    "PM2n5": 3.76,
+    "Pressure": 992,
+    "Temperature": 8,
+    "AirQualityIndex": 7.46
   },
   {
     "id": "SAVEDNIPRO_1589",
@@ -2078,12 +2078,12 @@
     "localName": "",
     "latitude": "45.452392",
     "longitude": "29.261819",
-    "humidity": 41.9,
-    "PM10": 43.02,
-    "PM2n5": 1.43,
-    "Pressure": 1017,
-    "Temperature": 6,
-    "AirQualityIndex": 49.27
+    "humidity": 61.23,
+    "PM10": 13.56,
+    "PM2n5": 4.9,
+    "Pressure": 999,
+    "Temperature": 9,
+    "AirQualityIndex": 11.35
   },
   {
     "id": "SAVEDNIPRO_1590",
@@ -2092,12 +2092,12 @@
     "localName": "",
     "latitude": "46.621765",
     "longitude": "31.101823",
-    "humidity": 46.54,
-    "PM10": 7.8,
-    "PM2n5": 9.75,
-    "Pressure": 1003,
-    "Temperature": 6,
-    "AirQualityIndex": 15.01
+    "humidity": 37.79,
+    "PM10": 18.61,
+    "PM2n5": 3.46,
+    "Pressure": 1017,
+    "Temperature": 10,
+    "AirQualityIndex": 110.91
   },
   {
     "id": "SAVEDNIPRO_1592",
@@ -2106,12 +2106,12 @@
     "localName": "",
     "latitude": "48.316617",
     "longitude": "31.523581",
-    "humidity": 62.62,
-    "PM10": 2.15,
-    "PM2n5": 10.71,
-    "Pressure": 986,
-    "Temperature": 10,
-    "AirQualityIndex": 124.14
+    "humidity": 52.5,
+    "PM10": 5.53,
+    "PM2n5": 14.7,
+    "Pressure": 998,
+    "Temperature": 7,
+    "AirQualityIndex": 173.62
   },
   {
     "id": "SAVEDNIPRO_1593",
@@ -2120,12 +2120,12 @@
     "localName": "",
     "latitude": "48.217358",
     "longitude": "36.011523",
-    "humidity": 61.6,
-    "PM10": 38.41,
-    "PM2n5": 9.74,
-    "Pressure": 1002,
-    "Temperature": 10,
-    "AirQualityIndex": 139.87
+    "humidity": 58.85,
+    "PM10": 32.72,
+    "PM2n5": 4.69,
+    "Pressure": 987,
+    "Temperature": 8,
+    "AirQualityIndex": 121.59
   },
   {
     "id": "SAVEDNIPRO_1595",
@@ -2134,12 +2134,12 @@
     "localName": "",
     "latitude": "51.373776",
     "longitude": "31.645106",
-    "humidity": 54.59,
-    "PM10": 52.08,
-    "PM2n5": 15.14,
-    "Pressure": 993,
-    "Temperature": 7,
-    "AirQualityIndex": 141.03
+    "humidity": 60.46,
+    "PM10": 40.63,
+    "PM2n5": 8.08,
+    "Pressure": 1007,
+    "Temperature": 8,
+    "AirQualityIndex": 101.7
   },
   {
     "id": "SAVEDNIPRO_1596",
@@ -2148,12 +2148,12 @@
     "localName": "",
     "latitude": "46.585535",
     "longitude": "34.562095",
-    "humidity": 73.61,
-    "PM10": 43.76,
-    "PM2n5": 15.17,
-    "Pressure": 1016,
+    "humidity": 69.22,
+    "PM10": 2.52,
+    "PM2n5": 14.1,
+    "Pressure": 1015,
     "Temperature": 11,
-    "AirQualityIndex": 143.91
+    "AirQualityIndex": 6.86
   },
   {
     "id": "SAVEDNIPRO_1597",
@@ -2162,12 +2162,12 @@
     "localName": "",
     "latitude": "50.062178",
     "longitude": "29.918784",
-    "humidity": 67.65,
-    "PM10": 70.05,
-    "PM2n5": 7.38,
-    "Pressure": 1018,
-    "Temperature": 9,
-    "AirQualityIndex": 85.55
+    "humidity": 57.02,
+    "PM10": 57.79,
+    "PM2n5": 17.97,
+    "Pressure": 1012,
+    "Temperature": 10,
+    "AirQualityIndex": 58.54
   },
   {
     "id": "SAVEDNIPRO_1601",
@@ -2176,12 +2176,12 @@
     "localName": "",
     "latitude": "46.181611",
     "longitude": "30.362611",
-    "humidity": 48.99,
-    "PM10": 10.08,
-    "PM2n5": 14.79,
-    "Pressure": 1014,
-    "Temperature": 8,
-    "AirQualityIndex": 85.64
+    "humidity": 65.59,
+    "PM10": 62.41,
+    "PM2n5": 13.93,
+    "Pressure": 1010,
+    "Temperature": 10,
+    "AirQualityIndex": 67.44
   },
   {
     "id": "SAVEDNIPRO_1602",
@@ -2190,12 +2190,12 @@
     "localName": "",
     "latitude": "46.067602",
     "longitude": "30.457430",
-    "humidity": 26.23,
-    "PM10": 2.79,
-    "PM2n5": 12.24,
-    "Pressure": 1008,
-    "Temperature": 8,
-    "AirQualityIndex": 131.61
+    "humidity": 31.97,
+    "PM10": 18.32,
+    "PM2n5": 8.34,
+    "Pressure": 1016,
+    "Temperature": 6,
+    "AirQualityIndex": 36.36
   },
   {
     "id": "SAVEDNIPRO_1603",
@@ -2204,12 +2204,12 @@
     "localName": "",
     "latitude": "48.155409",
     "longitude": "24.829758",
-    "humidity": 73.98,
-    "PM10": 70.31,
-    "PM2n5": 16.65,
-    "Pressure": 1006,
-    "Temperature": 10,
-    "AirQualityIndex": 126.74
+    "humidity": 65.8,
+    "PM10": 56.89,
+    "PM2n5": 11.54,
+    "Pressure": 1007,
+    "Temperature": 7,
+    "AirQualityIndex": 146.03
   },
   {
     "id": "SAVEDNIPRO_1604",
@@ -2218,12 +2218,12 @@
     "localName": "",
     "latitude": "48.292875",
     "longitude": "24.563048",
-    "humidity": 45.12,
-    "PM10": 39.08,
-    "PM2n5": 13.3,
-    "Pressure": 992,
-    "Temperature": 9,
-    "AirQualityIndex": 168.08
+    "humidity": 33.03,
+    "PM10": 31.17,
+    "PM2n5": 5.57,
+    "Pressure": 986,
+    "Temperature": 11,
+    "AirQualityIndex": 24.89
   },
   {
     "id": "SAVEDNIPRO_1605",
@@ -2232,12 +2232,12 @@
     "localName": "",
     "latitude": "48.271480",
     "longitude": "24.360622",
-    "humidity": 50.71,
-    "PM10": 61.49,
-    "PM2n5": 3.91,
-    "Pressure": 982,
-    "Temperature": 7,
-    "AirQualityIndex": 145.77
+    "humidity": 34.18,
+    "PM10": 75.6,
+    "PM2n5": 5.57,
+    "Pressure": 986,
+    "Temperature": 11,
+    "AirQualityIndex": 154.94
   },
   {
     "id": "SAVEDNIPRO_1606",
@@ -2246,12 +2246,12 @@
     "localName": "",
     "latitude": "48.320237",
     "longitude": "25.091142",
-    "humidity": 56.41,
-    "PM10": 78.01,
-    "PM2n5": 10.67,
-    "Pressure": 987,
-    "Temperature": 11,
-    "AirQualityIndex": 89.2
+    "humidity": 67.62,
+    "PM10": 78.02,
+    "PM2n5": 11.75,
+    "Pressure": 1020,
+    "Temperature": 5,
+    "AirQualityIndex": 43.01
   },
   {
     "id": "SAVEDNIPRO_1607",
@@ -2260,12 +2260,12 @@
     "localName": "",
     "latitude": "48.448912",
     "longitude": "24.553462",
-    "humidity": 63.03,
-    "PM10": 7.58,
-    "PM2n5": 19.77,
-    "Pressure": 992,
+    "humidity": 56.19,
+    "PM10": 11.14,
+    "PM2n5": 9.28,
+    "Pressure": 1007,
     "Temperature": 10,
-    "AirQualityIndex": 148.34
+    "AirQualityIndex": 119.87
   },
   {
     "id": "SAVEDNIPRO_1637",
@@ -2274,12 +2274,12 @@
     "localName": "",
     "latitude": "48.653396",
     "longitude": "24.374891",
-    "humidity": 27.53,
-    "PM10": 54.56,
-    "PM2n5": 18.39,
-    "Pressure": 997,
-    "Temperature": 6,
-    "AirQualityIndex": 42.69
+    "humidity": 25.96,
+    "PM10": 79.33,
+    "PM2n5": 15.07,
+    "Pressure": 991,
+    "Temperature": 5,
+    "AirQualityIndex": 17.64
   },
   {
     "id": "SAVEDNIPRO_1638",
@@ -2288,12 +2288,12 @@
     "localName": "",
     "latitude": "49.4058272",
     "longitude": "32.0392034",
-    "humidity": 50.75,
-    "PM10": 38.07,
-    "PM2n5": 13.03,
-    "Pressure": 995,
-    "Temperature": 5,
-    "AirQualityIndex": 185.83
+    "humidity": 66.66,
+    "PM10": 47.19,
+    "PM2n5": 9.63,
+    "Pressure": 988,
+    "Temperature": 11,
+    "AirQualityIndex": 80.56
   },
   {
     "id": "SAVEDNIPRO_1639",
@@ -2302,12 +2302,12 @@
     "localName": "",
     "latitude": "48.536566",
     "longitude": "28.513644",
-    "humidity": 41.1,
-    "PM10": 72.4,
-    "PM2n5": 16.01,
-    "Pressure": 997,
+    "humidity": 27.25,
+    "PM10": 55.77,
+    "PM2n5": 14.02,
+    "Pressure": 1016,
     "Temperature": 5,
-    "AirQualityIndex": 184.77
+    "AirQualityIndex": 15.19
   },
   {
     "id": "SAVEDNIPRO_1645",
@@ -2316,12 +2316,12 @@
     "localName": "",
     "latitude": "49.182508",
     "longitude": "24.743334",
-    "humidity": 29.85,
-    "PM10": 5.44,
-    "PM2n5": 14.07,
-    "Pressure": 982,
+    "humidity": 26.74,
+    "PM10": 38.42,
+    "PM2n5": 1.37,
+    "Pressure": 1013,
     "Temperature": 8,
-    "AirQualityIndex": 173.09
+    "AirQualityIndex": 182.68
   },
   {
     "id": "SAVEDNIPRO_1646",
@@ -2330,12 +2330,12 @@
     "localName": "",
     "latitude": "48.690250",
     "longitude": "29.155364",
-    "humidity": 70.26,
-    "PM10": 20.96,
-    "PM2n5": 11.37,
-    "Pressure": 985,
-    "Temperature": 9,
-    "AirQualityIndex": 22.77
+    "humidity": 41.7,
+    "PM10": 11.17,
+    "PM2n5": 18.29,
+    "Pressure": 989,
+    "Temperature": 11,
+    "AirQualityIndex": 121.06
   },
   {
     "id": "SAVEDNIPRO_2738",
@@ -2344,12 +2344,12 @@
     "localName": "",
     "latitude": "47.8159538",
     "longitude": "35.1734128",
-    "humidity": 65.55,
-    "PM10": 35.96,
-    "PM2n5": 9.94,
-    "Pressure": 981,
-    "Temperature": 10,
-    "AirQualityIndex": 58.77
+    "humidity": 38.68,
+    "PM10": 11.94,
+    "PM2n5": 12.47,
+    "Pressure": 1019,
+    "Temperature": 8,
+    "AirQualityIndex": 166.66
   },
   {
     "id": "SAVEDNIPRO_2923",
@@ -2358,12 +2358,12 @@
     "localName": "",
     "latitude": "50.433252",
     "longitude": "30.319928",
-    "humidity": 33.56,
-    "PM10": 3.52,
-    "PM2n5": 6.7,
-    "Pressure": 991,
-    "Temperature": 10,
-    "AirQualityIndex": 185.44
+    "humidity": 51.35,
+    "PM10": 38.9,
+    "PM2n5": 1.63,
+    "Pressure": 1001,
+    "Temperature": 5,
+    "AirQualityIndex": 44.9
   },
   {
     "id": "SAVEDNIPRO_2924",
@@ -2372,12 +2372,12 @@
     "localName": "",
     "latitude": "50.383883",
     "longitude": "30.496689",
-    "humidity": 54.25,
-    "PM10": 52.52,
-    "PM2n5": 16.04,
-    "Pressure": 980,
-    "Temperature": 10,
-    "AirQualityIndex": 73.44
+    "humidity": 57.32,
+    "PM10": 18.91,
+    "PM2n5": 4.32,
+    "Pressure": 1017,
+    "Temperature": 7,
+    "AirQualityIndex": 55.83
   },
   {
     "id": "SAVEDNIPRO_2925",
@@ -2386,12 +2386,12 @@
     "localName": "",
     "latitude": "50.4003378",
     "longitude": "30.4966682",
-    "humidity": 62.36,
-    "PM10": 42.93,
-    "PM2n5": 11.84,
-    "Pressure": 1009,
-    "Temperature": 11,
-    "AirQualityIndex": 167.1
+    "humidity": 61.22,
+    "PM10": 79.04,
+    "PM2n5": 15.66,
+    "Pressure": 1013,
+    "Temperature": 10,
+    "AirQualityIndex": 28.74
   },
   {
     "id": "SAVEDNIPRO_2944",
@@ -2400,12 +2400,12 @@
     "localName": "",
     "latitude": "48.613466",
     "longitude": "24.575289",
-    "humidity": 46.22,
-    "PM10": 22.76,
-    "PM2n5": 4.8,
-    "Pressure": 1014,
-    "Temperature": 8,
-    "AirQualityIndex": 101.33
+    "humidity": 58.82,
+    "PM10": 56.43,
+    "PM2n5": 14.95,
+    "Pressure": 1015,
+    "Temperature": 9,
+    "AirQualityIndex": 183.19
   },
   {
     "id": "SAVEDNIPRO_2946",
@@ -2414,12 +2414,12 @@
     "localName": "",
     "latitude": "48.147531",
     "longitude": "24.785409",
-    "humidity": 34.13,
-    "PM10": 62.23,
-    "PM2n5": 1.07,
-    "Pressure": 1004,
-    "Temperature": 9,
-    "AirQualityIndex": 10.71
+    "humidity": 71.3,
+    "PM10": 34.37,
+    "PM2n5": 5.97,
+    "Pressure": 996,
+    "Temperature": 11,
+    "AirQualityIndex": 171.27
   },
   {
     "id": "SAVEDNIPRO_2947",
@@ -2428,12 +2428,12 @@
     "localName": "",
     "latitude": "50.382794",
     "longitude": "30.457889",
-    "humidity": 55.78,
-    "PM10": 29.68,
-    "PM2n5": 12.98,
-    "Pressure": 998,
-    "Temperature": 11,
-    "AirQualityIndex": 91.6
+    "humidity": 60.32,
+    "PM10": 76.8,
+    "PM2n5": 3.07,
+    "Pressure": 991,
+    "Temperature": 6,
+    "AirQualityIndex": 95.05
   },
   {
     "id": "SAVEDNIPRO_2948",
@@ -2442,12 +2442,12 @@
     "localName": "",
     "latitude": "46.582371",
     "longitude": "30.550164",
-    "humidity": 31.2,
-    "PM10": 10.07,
-    "PM2n5": 7.03,
-    "Pressure": 1019,
-    "Temperature": 10,
-    "AirQualityIndex": 52.25
+    "humidity": 53.1,
+    "PM10": 69.83,
+    "PM2n5": 8.45,
+    "Pressure": 1015,
+    "Temperature": 6,
+    "AirQualityIndex": 130.71
   },
   {
     "id": "SAVEDNIPRO_2971",
@@ -2456,12 +2456,12 @@
     "localName": "",
     "latitude": "48.637791",
     "longitude": "24.589826",
-    "humidity": 59.26,
-    "PM10": 66.42,
-    "PM2n5": 15.52,
-    "Pressure": 997,
-    "Temperature": 8,
-    "AirQualityIndex": 137.95
+    "humidity": 42.16,
+    "PM10": 1.19,
+    "PM2n5": 11.82,
+    "Pressure": 1007,
+    "Temperature": 11,
+    "AirQualityIndex": 50.69
   },
   {
     "id": "SAVEDNIPRO_2972",
@@ -2470,12 +2470,12 @@
     "localName": "",
     "latitude": "48.334527",
     "longitude": "24.581930",
-    "humidity": 40.83,
-    "PM10": 49.7,
-    "PM2n5": 7.14,
-    "Pressure": 994,
-    "Temperature": 8,
-    "AirQualityIndex": 52.48
+    "humidity": 37.96,
+    "PM10": 42.89,
+    "PM2n5": 9.73,
+    "Pressure": 983,
+    "Temperature": 5,
+    "AirQualityIndex": 161.17
   },
   {
     "id": "SAVEDNIPRO_2973",
@@ -2484,12 +2484,12 @@
     "localName": "",
     "latitude": "50.3683248",
     "longitude": "30.6842978",
-    "humidity": 56.71,
-    "PM10": 78.52,
-    "PM2n5": 1.47,
-    "Pressure": 989,
-    "Temperature": 5,
-    "AirQualityIndex": 119.83
+    "humidity": 64.91,
+    "PM10": 33.28,
+    "PM2n5": 9.36,
+    "Pressure": 981,
+    "Temperature": 6,
+    "AirQualityIndex": 161.72
   },
   {
     "id": "SAVEDNIPRO_2974",
@@ -2498,12 +2498,12 @@
     "localName": "",
     "latitude": "48.389709",
     "longitude": "34.999168",
-    "humidity": 64.66,
-    "PM10": 12.01,
-    "PM2n5": 15.46,
-    "Pressure": 1020,
-    "Temperature": 5,
-    "AirQualityIndex": 55.18
+    "humidity": 56.05,
+    "PM10": 77.19,
+    "PM2n5": 12.63,
+    "Pressure": 982,
+    "Temperature": 10,
+    "AirQualityIndex": 175.14
   },
   {
     "id": "SAVEDNIPRO_3014",
@@ -2512,12 +2512,12 @@
     "localName": "",
     "latitude": "50.496656",
     "longitude": "30.744022",
-    "humidity": 63.69,
-    "PM10": 47.79,
-    "PM2n5": 6.28,
-    "Pressure": 1002,
-    "Temperature": 6,
-    "AirQualityIndex": 55.17
+    "humidity": 55.87,
+    "PM10": 27.5,
+    "PM2n5": 14.12,
+    "Pressure": 1015,
+    "Temperature": 5,
+    "AirQualityIndex": 59.31
   },
   {
     "id": "SAVEDNIPRO_3015",
@@ -2526,12 +2526,12 @@
     "localName": "",
     "latitude": "50.542000",
     "longitude": "30.825502",
-    "humidity": 38.84,
-    "PM10": 66.47,
-    "PM2n5": 17.41,
-    "Pressure": 998,
-    "Temperature": 6,
-    "AirQualityIndex": 53.63
+    "humidity": 32.83,
+    "PM10": 62.35,
+    "PM2n5": 16.94,
+    "Pressure": 1007,
+    "Temperature": 7,
+    "AirQualityIndex": 17.51
   },
   {
     "id": "SAVEDNIPRO_3016",
@@ -2540,12 +2540,12 @@
     "localName": "",
     "latitude": "50.402528",
     "longitude": "30.568056",
-    "humidity": 27.76,
-    "PM10": 1.72,
-    "PM2n5": 4.2,
-    "Pressure": 991,
-    "Temperature": 8,
-    "AirQualityIndex": 91.07
+    "humidity": 27.73,
+    "PM10": 33.31,
+    "PM2n5": 19.16,
+    "Pressure": 982,
+    "Temperature": 7,
+    "AirQualityIndex": 52.46
   },
   {
     "id": "SAVEDNIPRO_3017",
@@ -2554,12 +2554,12 @@
     "localName": "",
     "latitude": "48.491370",
     "longitude": "37.673650",
-    "humidity": 38.83,
-    "PM10": 68.48,
-    "PM2n5": 17.94,
-    "Pressure": 1001,
-    "Temperature": 9,
-    "AirQualityIndex": 95.27
+    "humidity": 36.03,
+    "PM10": 25.23,
+    "PM2n5": 14.27,
+    "Pressure": 984,
+    "Temperature": 6,
+    "AirQualityIndex": 57.62
   },
   {
     "id": "SAVEDNIPRO_3018",
@@ -2568,12 +2568,12 @@
     "localName": "",
     "latitude": "50.434808",
     "longitude": "30.510823",
-    "humidity": 35.57,
-    "PM10": 57.2,
-    "PM2n5": 9.85,
-    "Pressure": 1016,
-    "Temperature": 8,
-    "AirQualityIndex": 89.39
+    "humidity": 42.22,
+    "PM10": 54.37,
+    "PM2n5": 5.36,
+    "Pressure": 992,
+    "Temperature": 9,
+    "AirQualityIndex": 180.29
   },
   {
     "id": "SAVEDNIPRO_3021",
@@ -2582,12 +2582,12 @@
     "localName": "",
     "latitude": "46.868088",
     "longitude": "32.009947",
-    "humidity": 61.8,
-    "PM10": 28.74,
-    "PM2n5": 13.58,
-    "Pressure": 1006,
-    "Temperature": 7,
-    "AirQualityIndex": 198.66
+    "humidity": 57.63,
+    "PM10": 1.24,
+    "PM2n5": 6.38,
+    "Pressure": 988,
+    "Temperature": 9,
+    "AirQualityIndex": 187.55
   },
   {
     "id": "SAVEDNIPRO_3022",
@@ -2596,12 +2596,12 @@
     "localName": "",
     "latitude": "48.4464278",
     "longitude": "35.0151460",
-    "humidity": 72.03,
-    "PM10": 3.96,
-    "PM2n5": 11,
-    "Pressure": 997,
-    "Temperature": 11,
-    "AirQualityIndex": 109.84
+    "humidity": 71.33,
+    "PM10": 37.46,
+    "PM2n5": 14.72,
+    "Pressure": 987,
+    "Temperature": 5,
+    "AirQualityIndex": 51.69
   },
   {
     "id": "SAVEDNIPRO_3144",
@@ -2610,12 +2610,12 @@
     "localName": "",
     "latitude": "49.512636",
     "longitude": "31.906911",
-    "humidity": 50.99,
-    "PM10": 69.87,
-    "PM2n5": 11.94,
-    "Pressure": 1002,
-    "Temperature": 11,
-    "AirQualityIndex": 175.17
+    "humidity": 69.92,
+    "PM10": 15.2,
+    "PM2n5": 7.89,
+    "Pressure": 1004,
+    "Temperature": 6,
+    "AirQualityIndex": 47.89
   },
   {
     "id": "SAVEDNIPRO_3210",
@@ -2624,12 +2624,12 @@
     "localName": "Luftdaten #40723",
     "latitude": "50.382",
     "longitude": "30.38",
-    "humidity": 68.06,
-    "PM10": 14.22,
-    "PM2n5": 5.87,
-    "Pressure": 993,
-    "Temperature": 6,
-    "AirQualityIndex": 176.32
+    "humidity": 66.7,
+    "PM10": 77.85,
+    "PM2n5": 3.3,
+    "Pressure": 983,
+    "Temperature": 7,
+    "AirQualityIndex": 71.3
   },
   {
     "id": "SAVEDNIPRO_3260",
@@ -2638,12 +2638,12 @@
     "localName": "",
     "latitude": "49.4255539915765",
     "longitude": "32.01328954180976",
-    "humidity": 73.16,
-    "PM10": 28.81,
-    "PM2n5": 19.56,
-    "Pressure": 1011,
-    "Temperature": 10,
-    "AirQualityIndex": 103.83
+    "humidity": 43.03,
+    "PM10": 45.19,
+    "PM2n5": 12.06,
+    "Pressure": 983,
+    "Temperature": 6,
+    "AirQualityIndex": 186.4
   },
   {
     "id": "SAVEDNIPRO_3262",
@@ -2652,12 +2652,12 @@
     "localName": "",
     "latitude": "49.422005",
     "longitude": "32.096475",
-    "humidity": 54.6,
-    "PM10": 9.52,
-    "PM2n5": 1.47,
-    "Pressure": 1010,
-    "Temperature": 6,
-    "AirQualityIndex": 116.28
+    "humidity": 47.65,
+    "PM10": 4.8,
+    "PM2n5": 16.1,
+    "Pressure": 1007,
+    "Temperature": 10,
+    "AirQualityIndex": 119.18
   },
   {
     "id": "SAVEDNIPRO_3263",
@@ -2666,12 +2666,12 @@
     "localName": "",
     "latitude": "49.442538",
     "longitude": "32.056531",
-    "humidity": 30.08,
-    "PM10": 61.16,
-    "PM2n5": 2.79,
-    "Pressure": 1001,
-    "Temperature": 9,
-    "AirQualityIndex": 151.75
+    "humidity": 53.19,
+    "PM10": 42.66,
+    "PM2n5": 7.24,
+    "Pressure": 981,
+    "Temperature": 7,
+    "AirQualityIndex": 193.45
   },
   {
     "id": "SAVEDNIPRO_3264",
@@ -2680,12 +2680,12 @@
     "localName": "",
     "latitude": "49.456974",
     "longitude": "32.007218",
-    "humidity": 43.13,
-    "PM10": 42.38,
-    "PM2n5": 2.29,
-    "Pressure": 1019,
-    "Temperature": 11,
-    "AirQualityIndex": 140.45
+    "humidity": 70.04,
+    "PM10": 14.67,
+    "PM2n5": 4.82,
+    "Pressure": 989,
+    "Temperature": 10,
+    "AirQualityIndex": 1.58
   },
   {
     "id": "SAVEDNIPRO_3306",
@@ -2694,12 +2694,12 @@
     "localName": "",
     "latitude": "50.436484",
     "longitude": "30.552905",
-    "humidity": 57.54,
-    "PM10": 70.22,
-    "PM2n5": 17.45,
-    "Pressure": 1014,
-    "Temperature": 5,
-    "AirQualityIndex": 41.68
+    "humidity": 41.34,
+    "PM10": 9.81,
+    "PM2n5": 17.07,
+    "Pressure": 1008,
+    "Temperature": 11,
+    "AirQualityIndex": 139.92
   },
   {
     "id": "SAVEDNIPRO_3398",
@@ -2708,12 +2708,12 @@
     "localName": "",
     "latitude": "50.417128",
     "longitude": "30.528690",
-    "humidity": 50.34,
-    "PM10": 9.74,
-    "PM2n5": 15.08,
-    "Pressure": 1017,
-    "Temperature": 7,
-    "AirQualityIndex": 82.57
+    "humidity": 33.7,
+    "PM10": 33.81,
+    "PM2n5": 3.55,
+    "Pressure": 990,
+    "Temperature": 9,
+    "AirQualityIndex": 199.71
   },
   {
     "id": "SAVEDNIPRO_3401",
@@ -2722,12 +2722,12 @@
     "localName": "",
     "latitude": "50.3915128",
     "longitude": "30.6237862",
-    "humidity": 52.28,
-    "PM10": 41.18,
-    "PM2n5": 1.42,
-    "Pressure": 1014,
-    "Temperature": 7,
-    "AirQualityIndex": 5.44
+    "humidity": 28.33,
+    "PM10": 34.6,
+    "PM2n5": 10.85,
+    "Pressure": 992,
+    "Temperature": 9,
+    "AirQualityIndex": 57.6
   },
   {
     "id": "SAVEDNIPRO_3418",
@@ -2736,12 +2736,12 @@
     "localName": "",
     "latitude": "50.095595",
     "longitude": "25.722824",
-    "humidity": 28.13,
-    "PM10": 39.39,
-    "PM2n5": 19.16,
-    "Pressure": 1016,
-    "Temperature": 7,
-    "AirQualityIndex": 64.68
+    "humidity": 60.49,
+    "PM10": 2.42,
+    "PM2n5": 5.99,
+    "Pressure": 1003,
+    "Temperature": 10,
+    "AirQualityIndex": 40.6
   },
   {
     "id": "SAVEDNIPRO_3419",
@@ -2750,12 +2750,12 @@
     "localName": "",
     "latitude": "50.4218146",
     "longitude": "30.3273005",
-    "humidity": 73.97,
-    "PM10": 53.35,
-    "PM2n5": 9.75,
-    "Pressure": 993,
-    "Temperature": 10,
-    "AirQualityIndex": 70.2
+    "humidity": 48.22,
+    "PM10": 63.43,
+    "PM2n5": 18.96,
+    "Pressure": 985,
+    "Temperature": 9,
+    "AirQualityIndex": 159.27
   },
   {
     "id": "SAVEDNIPRO_3420",
@@ -2764,12 +2764,12 @@
     "localName": "",
     "latitude": "49.833325",
     "longitude": "24.039184",
-    "humidity": 43.43,
-    "PM10": 11.29,
-    "PM2n5": 15.25,
-    "Pressure": 988,
-    "Temperature": 11,
-    "AirQualityIndex": 51.56
+    "humidity": 40.57,
+    "PM10": 17.29,
+    "PM2n5": 17.21,
+    "Pressure": 991,
+    "Temperature": 7,
+    "AirQualityIndex": 7.07
   },
   {
     "id": "SAVEDNIPRO_3422",
@@ -2778,12 +2778,12 @@
     "localName": "",
     "latitude": "50.471205",
     "longitude": "30.598600",
-    "humidity": 68.12,
-    "PM10": 5.27,
-    "PM2n5": 14.94,
-    "Pressure": 1012,
-    "Temperature": 8,
-    "AirQualityIndex": 156.46
+    "humidity": 48.3,
+    "PM10": 53.83,
+    "PM2n5": 11.87,
+    "Pressure": 1018,
+    "Temperature": 11,
+    "AirQualityIndex": 179.22
   },
   {
     "id": "SAVEDNIPRO_3423",
@@ -2792,12 +2792,12 @@
     "localName": "",
     "latitude": "50.234897",
     "longitude": "30.663275",
-    "humidity": 72.61,
-    "PM10": 74.95,
-    "PM2n5": 4.79,
-    "Pressure": 998,
-    "Temperature": 7,
-    "AirQualityIndex": 145.7
+    "humidity": 57.68,
+    "PM10": 21.46,
+    "PM2n5": 4.42,
+    "Pressure": 1011,
+    "Temperature": 10,
+    "AirQualityIndex": 24.48
   },
   {
     "id": "SAVEDNIPRO_3424",
@@ -2806,12 +2806,12 @@
     "localName": "",
     "latitude": "50.2850885",
     "longitude": "30.6995002",
-    "humidity": 47.18,
-    "PM10": 69.84,
-    "PM2n5": 17.37,
-    "Pressure": 1001,
-    "Temperature": 5,
-    "AirQualityIndex": 52.64
+    "humidity": 54.07,
+    "PM10": 13.41,
+    "PM2n5": 13.72,
+    "Pressure": 988,
+    "Temperature": 7,
+    "AirQualityIndex": 36.17
   },
   {
     "id": "SAVEDNIPRO_3535",
@@ -2820,12 +2820,12 @@
     "localName": "",
     "latitude": "50.397128",
     "longitude": "30.455709",
-    "humidity": 63.23,
-    "PM10": 29.66,
-    "PM2n5": 18.14,
-    "Pressure": 980,
-    "Temperature": 11,
-    "AirQualityIndex": 116.69
+    "humidity": 73.07,
+    "PM10": 73.49,
+    "PM2n5": 1.91,
+    "Pressure": 1002,
+    "Temperature": 7,
+    "AirQualityIndex": 117
   },
   {
     "id": "SAVEDNIPRO_3572",
@@ -2834,12 +2834,12 @@
     "localName": "",
     "latitude": "50.409345",
     "longitude": "30.639613",
-    "humidity": 49.55,
-    "PM10": 2.44,
-    "PM2n5": 15.12,
-    "Pressure": 988,
-    "Temperature": 11,
-    "AirQualityIndex": 138.46
+    "humidity": 56.75,
+    "PM10": 10.8,
+    "PM2n5": 12.7,
+    "Pressure": 980,
+    "Temperature": 5,
+    "AirQualityIndex": 58.11
   },
   {
     "id": "SAVEDNIPRO_3594",
@@ -2848,12 +2848,12 @@
     "localName": "",
     "latitude": "50.287114",
     "longitude": "27.648709",
-    "humidity": 38.52,
-    "PM10": 41.83,
-    "PM2n5": 5.95,
-    "Pressure": 1003,
+    "humidity": 70.14,
+    "PM10": 22.21,
+    "PM2n5": 16.33,
+    "Pressure": 989,
     "Temperature": 10,
-    "AirQualityIndex": 177.54
+    "AirQualityIndex": 85.96
   },
   {
     "id": "SAVEDNIPRO_3595",
@@ -2862,12 +2862,12 @@
     "localName": "",
     "latitude": "48.423869",
     "longitude": "35.031133",
-    "humidity": 42.56,
-    "PM10": 25.19,
-    "PM2n5": 19.81,
-    "Pressure": 999,
+    "humidity": 33.33,
+    "PM10": 17.38,
+    "PM2n5": 9.51,
+    "Pressure": 1018,
     "Temperature": 5,
-    "AirQualityIndex": 139.11
+    "AirQualityIndex": 86.94
   },
   {
     "id": "SAVEDNIPRO_3596",
@@ -2876,12 +2876,12 @@
     "localName": "",
     "latitude": "49.034799",
     "longitude": "33.564750",
-    "humidity": 43.85,
-    "PM10": 17.25,
-    "PM2n5": 15.3,
-    "Pressure": 980,
-    "Temperature": 6,
-    "AirQualityIndex": 44.08
+    "humidity": 39.76,
+    "PM10": 69.17,
+    "PM2n5": 13.47,
+    "Pressure": 984,
+    "Temperature": 9,
+    "AirQualityIndex": 75.76
   },
   {
     "id": "SAVEDNIPRO_3597",
@@ -2890,12 +2890,12 @@
     "localName": "",
     "latitude": "50.3328803",
     "longitude": "30.4440768",
-    "humidity": 60.92,
-    "PM10": 10.97,
-    "PM2n5": 18.07,
-    "Pressure": 988,
-    "Temperature": 7,
-    "AirQualityIndex": 82.1
+    "humidity": 71.4,
+    "PM10": 79.18,
+    "PM2n5": 12.63,
+    "Pressure": 1017,
+    "Temperature": 5,
+    "AirQualityIndex": 122.86
   },
   {
     "id": "SAVEDNIPRO_3605",
@@ -2904,12 +2904,12 @@
     "localName": "",
     "latitude": "48.476547",
     "longitude": "35.117154",
-    "humidity": 25.13,
-    "PM10": 67.9,
-    "PM2n5": 3.63,
-    "Pressure": 997,
-    "Temperature": 9,
-    "AirQualityIndex": 158.74
+    "humidity": 42.42,
+    "PM10": 14.92,
+    "PM2n5": 4.13,
+    "Pressure": 1002,
+    "Temperature": 5,
+    "AirQualityIndex": 141.79
   },
   {
     "id": "SAVEDNIPRO_3608",
@@ -2918,12 +2918,12 @@
     "localName": "",
     "latitude": "48.416020",
     "longitude": "35.132420",
-    "humidity": 45.05,
-    "PM10": 42.29,
-    "PM2n5": 4.72,
-    "Pressure": 987,
-    "Temperature": 11,
-    "AirQualityIndex": 100.22
+    "humidity": 29.84,
+    "PM10": 29.14,
+    "PM2n5": 2.48,
+    "Pressure": 998,
+    "Temperature": 10,
+    "AirQualityIndex": 171
   },
   {
     "id": "SAVEDNIPRO_3616",
@@ -2932,12 +2932,12 @@
     "localName": "",
     "latitude": "48.391809",
     "longitude": "35.021741",
-    "humidity": 48.45,
-    "PM10": 4.97,
-    "PM2n5": 10.62,
-    "Pressure": 1020,
-    "Temperature": 10,
-    "AirQualityIndex": 117.16
+    "humidity": 51.48,
+    "PM10": 2.89,
+    "PM2n5": 7.99,
+    "Pressure": 982,
+    "Temperature": 5,
+    "AirQualityIndex": 155.66
   },
   {
     "id": "SAVEDNIPRO_3617",
@@ -2946,12 +2946,12 @@
     "localName": "",
     "latitude": "48.453418",
     "longitude": "35.053162",
-    "humidity": 74.01,
-    "PM10": 42.56,
-    "PM2n5": 15.89,
-    "Pressure": 1019,
-    "Temperature": 8,
-    "AirQualityIndex": 158.68
+    "humidity": 64.21,
+    "PM10": 52.13,
+    "PM2n5": 1.28,
+    "Pressure": 995,
+    "Temperature": 9,
+    "AirQualityIndex": 153.03
   },
   {
     "id": "SAVEDNIPRO_3683",
@@ -2960,12 +2960,12 @@
     "localName": "",
     "latitude": "50.783955",
     "longitude": "30.769977",
-    "humidity": 29.72,
-    "PM10": 1.53,
-    "PM2n5": 11.5,
-    "Pressure": 1007,
+    "humidity": 53.86,
+    "PM10": 46.97,
+    "PM2n5": 14.12,
+    "Pressure": 989,
     "Temperature": 8,
-    "AirQualityIndex": 14.42
+    "AirQualityIndex": 99.06
   },
   {
     "id": "SAVEDNIPRO_4061",
@@ -2974,12 +2974,12 @@
     "localName": "",
     "latitude": "48.5104497",
     "longitude": "34.9874743",
-    "humidity": 40.7,
-    "PM10": 12.69,
-    "PM2n5": 18.21,
-    "Pressure": 997,
-    "Temperature": 11,
-    "AirQualityIndex": 116.02
+    "humidity": 56.56,
+    "PM10": 26.11,
+    "PM2n5": 8.55,
+    "Pressure": 990,
+    "Temperature": 6,
+    "AirQualityIndex": 130.26
   },
   {
     "id": "SAVEDNIPRO_4185",
@@ -2988,12 +2988,12 @@
     "localName": "",
     "latitude": "50.600621",
     "longitude": "30.761064",
-    "humidity": 50,
-    "PM10": 7.29,
-    "PM2n5": 4.61,
-    "Pressure": 1016,
-    "Temperature": 8,
-    "AirQualityIndex": 23.71
+    "humidity": 68.8,
+    "PM10": 17.18,
+    "PM2n5": 12.31,
+    "Pressure": 995,
+    "Temperature": 5,
+    "AirQualityIndex": 60.02
   },
   {
     "id": "SAVEDNIPRO_4186",
@@ -3002,12 +3002,12 @@
     "localName": "",
     "latitude": "50.155032",
     "longitude": "30.746305",
-    "humidity": 40.19,
-    "PM10": 27.15,
-    "PM2n5": 9.13,
-    "Pressure": 1013,
-    "Temperature": 9,
-    "AirQualityIndex": 137.85
+    "humidity": 41.03,
+    "PM10": 55.08,
+    "PM2n5": 18.62,
+    "Pressure": 981,
+    "Temperature": 5,
+    "AirQualityIndex": 153.52
   },
   {
     "id": "SAVEDNIPRO_4187",
@@ -3016,12 +3016,12 @@
     "localName": "",
     "latitude": "50.519816",
     "longitude": "30.774017",
-    "humidity": 38.63,
-    "PM10": 50.63,
-    "PM2n5": 2.03,
-    "Pressure": 1003,
-    "Temperature": 10,
-    "AirQualityIndex": 79.55
+    "humidity": 48.39,
+    "PM10": 44.3,
+    "PM2n5": 9.47,
+    "Pressure": 995,
+    "Temperature": 5,
+    "AirQualityIndex": 7.04
   },
   {
     "id": "SAVEDNIPRO_4189",
@@ -3030,12 +3030,12 @@
     "localName": "",
     "latitude": "50.033602",
     "longitude": "36.220648",
-    "humidity": 67.83,
-    "PM10": 75.89,
-    "PM2n5": 16.4,
-    "Pressure": 996,
-    "Temperature": 6,
-    "AirQualityIndex": 38.22
+    "humidity": 27.06,
+    "PM10": 56.81,
+    "PM2n5": 17.84,
+    "Pressure": 1020,
+    "Temperature": 8,
+    "AirQualityIndex": 16.03
   },
   {
     "id": "SAVEDNIPRO_4190",
@@ -3044,12 +3044,12 @@
     "localName": "",
     "latitude": "50.307679",
     "longitude": "30.363271",
-    "humidity": 68.81,
-    "PM10": 52.28,
-    "PM2n5": 6.76,
-    "Pressure": 982,
-    "Temperature": 9,
-    "AirQualityIndex": 149.26
+    "humidity": 69.48,
+    "PM10": 59.21,
+    "PM2n5": 1.22,
+    "Pressure": 981,
+    "Temperature": 10,
+    "AirQualityIndex": 51.1
   },
   {
     "id": "SAVEDNIPRO_4200",
@@ -3058,12 +3058,12 @@
     "localName": "",
     "latitude": "48.478241",
     "longitude": "34.903792",
-    "humidity": 29.74,
-    "PM10": 46.68,
-    "PM2n5": 15.61,
-    "Pressure": 1017,
-    "Temperature": 9,
-    "AirQualityIndex": 185.2
+    "humidity": 27.98,
+    "PM10": 15.47,
+    "PM2n5": 2.18,
+    "Pressure": 1006,
+    "Temperature": 11,
+    "AirQualityIndex": 126.49
   },
   {
     "id": "SAVEDNIPRO_4201",
@@ -3072,12 +3072,12 @@
     "localName": "",
     "latitude": "50.3963897",
     "longitude": "30.4485849",
-    "humidity": 67.98,
-    "PM10": 70.98,
-    "PM2n5": 4.5,
-    "Pressure": 1004,
-    "Temperature": 6,
-    "AirQualityIndex": 92.02
+    "humidity": 71.7,
+    "PM10": 14.91,
+    "PM2n5": 6.62,
+    "Pressure": 1016,
+    "Temperature": 8,
+    "AirQualityIndex": 160.77
   },
   {
     "id": "SAVEDNIPRO_4202",
@@ -3086,12 +3086,12 @@
     "localName": "",
     "latitude": "46.757534",
     "longitude": "33.369862",
-    "humidity": 71.19,
-    "PM10": 34.21,
-    "PM2n5": 8.9,
-    "Pressure": 980,
-    "Temperature": 8,
-    "AirQualityIndex": 110.71
+    "humidity": 46.26,
+    "PM10": 9.41,
+    "PM2n5": 3.21,
+    "Pressure": 998,
+    "Temperature": 5,
+    "AirQualityIndex": 102.7
   },
   {
     "id": "SAVEDNIPRO_4208",
@@ -3100,12 +3100,12 @@
     "localName": "",
     "latitude": "48.487060",
     "longitude": "35.066893",
-    "humidity": 62.86,
-    "PM10": 28.63,
-    "PM2n5": 19.74,
-    "Pressure": 993,
+    "humidity": 64.63,
+    "PM10": 10.96,
+    "PM2n5": 10,
+    "Pressure": 1010,
     "Temperature": 11,
-    "AirQualityIndex": 156.93
+    "AirQualityIndex": 72.06
   },
   {
     "id": "SAVEDNIPRO_4210",
@@ -3114,12 +3114,12 @@
     "localName": "",
     "latitude": "48.373500",
     "longitude": "34.995097",
-    "humidity": 25.13,
-    "PM10": 61.04,
-    "PM2n5": 11.05,
-    "Pressure": 982,
-    "Temperature": 9,
-    "AirQualityIndex": 170.31
+    "humidity": 65.39,
+    "PM10": 57.53,
+    "PM2n5": 2.99,
+    "Pressure": 1019,
+    "Temperature": 11,
+    "AirQualityIndex": 70.27
   },
   {
     "id": "SAVEDNIPRO_4232",
@@ -3128,12 +3128,12 @@
     "localName": "",
     "latitude": "50.457508",
     "longitude": "30.519401",
-    "humidity": 46.18,
-    "PM10": 33.07,
-    "PM2n5": 6.05,
-    "Pressure": 1005,
-    "Temperature": 8,
-    "AirQualityIndex": 141.3
+    "humidity": 54.97,
+    "PM10": 9.99,
+    "PM2n5": 14.19,
+    "Pressure": 1020,
+    "Temperature": 11,
+    "AirQualityIndex": 13.16
   },
   {
     "id": "SAVEDNIPRO_13405",
@@ -3142,12 +3142,12 @@
     "localName": "",
     "latitude": "50.266944",
     "longitude": "30.443000",
-    "humidity": 66.01,
-    "PM10": 16.99,
-    "PM2n5": 3.74,
-    "Pressure": 989,
+    "humidity": 28.06,
+    "PM10": 47.68,
+    "PM2n5": 18.85,
+    "Pressure": 987,
     "Temperature": 9,
-    "AirQualityIndex": 69.01
+    "AirQualityIndex": 125.18
   },
   {
     "id": "SAVEDNIPRO_13406",
@@ -3156,12 +3156,12 @@
     "localName": "",
     "latitude": "50.371506",
     "longitude": "30.422791",
-    "humidity": 44.95,
-    "PM10": 34.43,
-    "PM2n5": 19.39,
-    "Pressure": 987,
-    "Temperature": 6,
-    "AirQualityIndex": 69.14
+    "humidity": 51.88,
+    "PM10": 44.54,
+    "PM2n5": 14.8,
+    "Pressure": 983,
+    "Temperature": 11,
+    "AirQualityIndex": 35.64
   },
   {
     "id": "SAVEDNIPRO_13407",
@@ -3170,12 +3170,12 @@
     "localName": "",
     "latitude": "50.464790",
     "longitude": "30.611383",
-    "humidity": 43.36,
-    "PM10": 52.82,
-    "PM2n5": 5.62,
-    "Pressure": 1013,
-    "Temperature": 10,
-    "AirQualityIndex": 83.77
+    "humidity": 37.24,
+    "PM10": 77.1,
+    "PM2n5": 7.21,
+    "Pressure": 1019,
+    "Temperature": 5,
+    "AirQualityIndex": 163.02
   },
   {
     "id": "SAVEDNIPRO_13409",
@@ -3184,12 +3184,12 @@
     "localName": "",
     "latitude": "50.395791",
     "longitude": "29.978961",
-    "humidity": 58.31,
-    "PM10": 78.11,
-    "PM2n5": 15.9,
-    "Pressure": 1007,
+    "humidity": 42.83,
+    "PM10": 7.46,
+    "PM2n5": 11.5,
+    "Pressure": 1000,
     "Temperature": 7,
-    "AirQualityIndex": 136.99
+    "AirQualityIndex": 73.31
   },
   {
     "id": "SAVEDNIPRO_13411",
@@ -3198,12 +3198,12 @@
     "localName": "",
     "latitude": "50.257856",
     "longitude": "30.653474",
-    "humidity": 40.92,
-    "PM10": 1.99,
-    "PM2n5": 4.74,
-    "Pressure": 994,
-    "Temperature": 11,
-    "AirQualityIndex": 65.9
+    "humidity": 45.6,
+    "PM10": 72.46,
+    "PM2n5": 14.25,
+    "Pressure": 1006,
+    "Temperature": 7,
+    "AirQualityIndex": 68.1
   },
   {
     "id": "SAVEDNIPRO_13413",
@@ -3212,12 +3212,12 @@
     "localName": "",
     "latitude": "50.472750",
     "longitude": "30.463750",
-    "humidity": 50.36,
-    "PM10": 43.08,
-    "PM2n5": 2.66,
-    "Pressure": 983,
-    "Temperature": 9,
-    "AirQualityIndex": 19.23
+    "humidity": 74.79,
+    "PM10": 79.89,
+    "PM2n5": 9.27,
+    "Pressure": 998,
+    "Temperature": 6,
+    "AirQualityIndex": 65.36
   },
   {
     "id": "SAVEDNIPRO_13414",
@@ -3226,12 +3226,12 @@
     "localName": "",
     "latitude": "49.537806",
     "longitude": "30.864059",
-    "humidity": 51.11,
-    "PM10": 78.91,
-    "PM2n5": 15.8,
-    "Pressure": 1020,
-    "Temperature": 10,
-    "AirQualityIndex": 166.75
+    "humidity": 53.65,
+    "PM10": 60.42,
+    "PM2n5": 7.69,
+    "Pressure": 987,
+    "Temperature": 7,
+    "AirQualityIndex": 21.04
   },
   {
     "id": "SAVEDNIPRO_13419",
@@ -3240,12 +3240,12 @@
     "localName": "",
     "latitude": "50.416389",
     "longitude": "30.241333",
-    "humidity": 48.98,
-    "PM10": 73.42,
-    "PM2n5": 6.83,
-    "Pressure": 1003,
-    "Temperature": 6,
-    "AirQualityIndex": 55.34
+    "humidity": 50.66,
+    "PM10": 52.52,
+    "PM2n5": 1.54,
+    "Pressure": 1009,
+    "Temperature": 8,
+    "AirQualityIndex": 95.39
   },
   {
     "id": "SAVEDNIPRO_13533",
@@ -3254,12 +3254,12 @@
     "localName": "",
     "latitude": "50.298605",
     "longitude": "30.703356",
-    "humidity": 61.97,
-    "PM10": 3.42,
-    "PM2n5": 4.8,
-    "Pressure": 996,
-    "Temperature": 5,
-    "AirQualityIndex": 36.74
+    "humidity": 46.16,
+    "PM10": 78.3,
+    "PM2n5": 10.04,
+    "Pressure": 1010,
+    "Temperature": 6,
+    "AirQualityIndex": 173.68
   },
   {
     "id": "SAVEDNIPRO_13536",
@@ -3268,12 +3268,12 @@
     "localName": "",
     "latitude": "49.812327",
     "longitude": "24.036764",
-    "humidity": 30.63,
-    "PM10": 21.22,
-    "PM2n5": 14.87,
-    "Pressure": 1007,
-    "Temperature": 11,
-    "AirQualityIndex": 89.78
+    "humidity": 74.22,
+    "PM10": 25.79,
+    "PM2n5": 16.93,
+    "Pressure": 991,
+    "Temperature": 5,
+    "AirQualityIndex": 114.99
   },
   {
     "id": "SAVEDNIPRO_13537",
@@ -3282,12 +3282,12 @@
     "localName": "",
     "latitude": "50.458610",
     "longitude": "30.410043",
-    "humidity": 67.45,
-    "PM10": 18.65,
-    "PM2n5": 5.2,
-    "Pressure": 1008,
-    "Temperature": 7,
-    "AirQualityIndex": 33.79
+    "humidity": 56.89,
+    "PM10": 16.44,
+    "PM2n5": 12.37,
+    "Pressure": 1020,
+    "Temperature": 9,
+    "AirQualityIndex": 111.41
   },
   {
     "id": "SAVEDNIPRO_13538",
@@ -3296,12 +3296,12 @@
     "localName": "",
     "latitude": "48.473475",
     "longitude": "35.195720",
-    "humidity": 41.09,
-    "PM10": 77.79,
-    "PM2n5": 16.89,
-    "Pressure": 1016,
-    "Temperature": 11,
-    "AirQualityIndex": 78.46
+    "humidity": 42.45,
+    "PM10": 51.11,
+    "PM2n5": 2.41,
+    "Pressure": 984,
+    "Temperature": 10,
+    "AirQualityIndex": 64.16
   },
   {
     "id": "SAVEDNIPRO_13539",
@@ -3310,12 +3310,12 @@
     "localName": "",
     "latitude": "50.054100",
     "longitude": "23.956800",
-    "humidity": 45.6,
-    "PM10": 71.85,
-    "PM2n5": 7.69,
-    "Pressure": 1001,
-    "Temperature": 5,
-    "AirQualityIndex": 116.34
+    "humidity": 40.31,
+    "PM10": 16.82,
+    "PM2n5": 6.83,
+    "Pressure": 994,
+    "Temperature": 10,
+    "AirQualityIndex": 102.13
   },
   {
     "id": "SAVEDNIPRO_13540",
@@ -3324,12 +3324,12 @@
     "localName": "",
     "latitude": "50.375516",
     "longitude": "30.541971",
-    "humidity": 49.59,
-    "PM10": 15.68,
-    "PM2n5": 5.68,
-    "Pressure": 982,
-    "Temperature": 11,
-    "AirQualityIndex": 126.72
+    "humidity": 37.43,
+    "PM10": 75.39,
+    "PM2n5": 7.55,
+    "Pressure": 999,
+    "Temperature": 7,
+    "AirQualityIndex": 37.21
   },
   {
     "id": "SAVEDNIPRO_13710",
@@ -3338,12 +3338,12 @@
     "localName": "",
     "latitude": "50.299113",
     "longitude": "30.703047",
-    "humidity": 35.28,
-    "PM10": 31.54,
-    "PM2n5": 6.16,
-    "Pressure": 1008,
+    "humidity": 61.39,
+    "PM10": 13.05,
+    "PM2n5": 15.54,
+    "Pressure": 985,
     "Temperature": 6,
-    "AirQualityIndex": 142.51
+    "AirQualityIndex": 81.64
   },
   {
     "id": "SAVEDNIPRO_13711",
@@ -3352,12 +3352,12 @@
     "localName": "",
     "latitude": "50.4073682",
     "longitude": "30.1595883",
-    "humidity": 49.11,
-    "PM10": 63.2,
-    "PM2n5": 2,
-    "Pressure": 990,
+    "humidity": 69.26,
+    "PM10": 17.51,
+    "PM2n5": 10.82,
+    "Pressure": 988,
     "Temperature": 5,
-    "AirQualityIndex": 25.67
+    "AirQualityIndex": 18.31
   },
   {
     "id": "SAVEDNIPRO_13715",
@@ -3366,12 +3366,12 @@
     "localName": "",
     "latitude": "49.0768671",
     "longitude": "30.9639523",
-    "humidity": 29.04,
-    "PM10": 14.13,
-    "PM2n5": 7.94,
-    "Pressure": 1008,
-    "Temperature": 8,
-    "AirQualityIndex": 155.25
+    "humidity": 31.82,
+    "PM10": 40.22,
+    "PM2n5": 8.88,
+    "Pressure": 1007,
+    "Temperature": 10,
+    "AirQualityIndex": 170.68
   },
   {
     "id": "SAVEDNIPRO_13965",
@@ -3380,12 +3380,12 @@
     "localName": "",
     "latitude": "50.3774076",
     "longitude": "30.4815071",
-    "humidity": 67.43,
-    "PM10": 15.64,
-    "PM2n5": 6.04,
-    "Pressure": 1009,
-    "Temperature": 9,
-    "AirQualityIndex": 168.28
+    "humidity": 39.84,
+    "PM10": 21.36,
+    "PM2n5": 14.96,
+    "Pressure": 1002,
+    "Temperature": 8,
+    "AirQualityIndex": 103.48
   },
   {
     "id": "SAVEDNIPRO_14712",
@@ -3394,12 +3394,12 @@
     "localName": "",
     "latitude": "48.362656",
     "longitude": "34.703311",
-    "humidity": 38.11,
-    "PM10": 55.58,
-    "PM2n5": 3.9,
-    "Pressure": 986,
-    "Temperature": 8,
-    "AirQualityIndex": 189.78
+    "humidity": 45.86,
+    "PM10": 22.47,
+    "PM2n5": 9.27,
+    "Pressure": 998,
+    "Temperature": 6,
+    "AirQualityIndex": 113.84
   },
   {
     "id": "SAVEDNIPRO_14713",
@@ -3408,12 +3408,12 @@
     "localName": "",
     "latitude": "49.428755",
     "longitude": "32.066555",
-    "humidity": 39.21,
-    "PM10": 19.18,
-    "PM2n5": 17.9,
-    "Pressure": 996,
+    "humidity": 52.15,
+    "PM10": 16.5,
+    "PM2n5": 3.32,
+    "Pressure": 1015,
     "Temperature": 10,
-    "AirQualityIndex": 115.87
+    "AirQualityIndex": 112.46
   },
   {
     "id": "SAVEDNIPRO_14714",
@@ -3422,12 +3422,12 @@
     "localName": "",
     "latitude": "48.490444",
     "longitude": "34.985071",
-    "humidity": 33.21,
-    "PM10": 8.32,
-    "PM2n5": 5.49,
-    "Pressure": 987,
-    "Temperature": 10,
-    "AirQualityIndex": 96.28
+    "humidity": 32.03,
+    "PM10": 76.78,
+    "PM2n5": 4.89,
+    "Pressure": 1015,
+    "Temperature": 6,
+    "AirQualityIndex": 196.44
   },
   {
     "id": "SAVEDNIPRO_14758",
@@ -3436,12 +3436,12 @@
     "localName": "",
     "latitude": "47.847054111908996",
     "longitude": "35.12933723683439",
-    "humidity": 62.83,
-    "PM10": 32.25,
-    "PM2n5": 18.68,
-    "Pressure": 984,
-    "Temperature": 5,
-    "AirQualityIndex": 198.64
+    "humidity": 59.83,
+    "PM10": 61.57,
+    "PM2n5": 13.81,
+    "Pressure": 1004,
+    "Temperature": 11,
+    "AirQualityIndex": 176.9
   },
   {
     "id": "SAVEDNIPRO_15702",
@@ -3450,12 +3450,12 @@
     "localName": "",
     "latitude": "48.954444",
     "longitude": "24.715858",
-    "humidity": 48.35,
-    "PM10": 20.9,
-    "PM2n5": 6.36,
-    "Pressure": 993,
+    "humidity": 26.06,
+    "PM10": 29.69,
+    "PM2n5": 15.33,
+    "Pressure": 992,
     "Temperature": 9,
-    "AirQualityIndex": 12.17
+    "AirQualityIndex": 146.2
   },
   {
     "id": "SAVEDNIPRO_15703",
@@ -3464,12 +3464,12 @@
     "localName": "",
     "latitude": "50.306289",
     "longitude": "30.420185",
-    "humidity": 39.38,
-    "PM10": 45.11,
-    "PM2n5": 8.84,
-    "Pressure": 1003,
-    "Temperature": 9,
-    "AirQualityIndex": 96.31
+    "humidity": 39.13,
+    "PM10": 42.58,
+    "PM2n5": 3.72,
+    "Pressure": 982,
+    "Temperature": 11,
+    "AirQualityIndex": 192.38
   },
   {
     "id": "SAVEDNIPRO_15705",
@@ -3478,12 +3478,12 @@
     "localName": "",
     "latitude": "50.012753",
     "longitude": "36.334998",
-    "humidity": 40.87,
-    "PM10": 3.48,
-    "PM2n5": 9.37,
-    "Pressure": 1018,
-    "Temperature": 6,
-    "AirQualityIndex": 128.98
+    "humidity": 68.35,
+    "PM10": 46.91,
+    "PM2n5": 4.38,
+    "Pressure": 982,
+    "Temperature": 10,
+    "AirQualityIndex": 148.44
   },
   {
     "id": "SAVEDNIPRO_15712",
@@ -3492,12 +3492,12 @@
     "localName": "",
     "latitude": "50.642541",
     "longitude": "30.432218",
-    "humidity": 40.34,
-    "PM10": 5.33,
-    "PM2n5": 9.58,
-    "Pressure": 1020,
+    "humidity": 48.61,
+    "PM10": 67.51,
+    "PM2n5": 16.67,
+    "Pressure": 992,
     "Temperature": 5,
-    "AirQualityIndex": 191.91
+    "AirQualityIndex": 117.47
   },
   {
     "id": "SAVEDNIPRO_16860",
@@ -3506,12 +3506,12 @@
     "localName": "",
     "latitude": "48.946746",
     "longitude": "38.524948",
-    "humidity": 72.22,
-    "PM10": 77.62,
-    "PM2n5": 2.18,
-    "Pressure": 1008,
-    "Temperature": 11,
-    "AirQualityIndex": 148.79
+    "humidity": 69.75,
+    "PM10": 22.29,
+    "PM2n5": 17.72,
+    "Pressure": 997,
+    "Temperature": 10,
+    "AirQualityIndex": 24.15
   },
   {
     "id": "SAVEDNIPRO_16862",
@@ -3520,12 +3520,12 @@
     "localName": "",
     "latitude": "50.326409",
     "longitude": "30.470360",
-    "humidity": 40.6,
-    "PM10": 28.05,
-    "PM2n5": 6.95,
-    "Pressure": 1018,
-    "Temperature": 11,
-    "AirQualityIndex": 124.8
+    "humidity": 39.33,
+    "PM10": 35.56,
+    "PM2n5": 15.63,
+    "Pressure": 1009,
+    "Temperature": 6,
+    "AirQualityIndex": 75.44
   },
   {
     "id": "SAVEDNIPRO_17448",
@@ -3534,12 +3534,12 @@
     "localName": "",
     "latitude": "48.456973",
     "longitude": "35.047031",
-    "humidity": 31.1,
-    "PM10": 51.74,
-    "PM2n5": 8.61,
+    "humidity": 32.92,
+    "PM10": 57.6,
+    "PM2n5": 12.78,
     "Pressure": 988,
-    "Temperature": 11,
-    "AirQualityIndex": 73.94
+    "Temperature": 5,
+    "AirQualityIndex": 27.32
   },
   {
     "id": "SAVEDNIPRO_17802",
@@ -3548,12 +3548,12 @@
     "localName": "",
     "latitude": "47.576907",
     "longitude": "34.459222",
-    "humidity": 57.38,
-    "PM10": 6.54,
-    "PM2n5": 11.02,
-    "Pressure": 983,
-    "Temperature": 10,
-    "AirQualityIndex": 156.67
+    "humidity": 29.12,
+    "PM10": 54.94,
+    "PM2n5": 18.42,
+    "Pressure": 991,
+    "Temperature": 5,
+    "AirQualityIndex": 152.81
   },
   {
     "id": "SAVEDNIPRO_17817",
@@ -3562,12 +3562,12 @@
     "localName": "",
     "latitude": "51.037223",
     "longitude": "31.876354",
-    "humidity": 55.43,
-    "PM10": 3.15,
-    "PM2n5": 4.37,
+    "humidity": 49.15,
+    "PM10": 26.35,
+    "PM2n5": 5.9,
     "Pressure": 1006,
-    "Temperature": 6,
-    "AirQualityIndex": 191.94
+    "Temperature": 10,
+    "AirQualityIndex": 159.53
   },
   {
     "id": "SAVEDNIPRO_17865",
@@ -3576,12 +3576,12 @@
     "localName": "",
     "latitude": "48.535159",
     "longitude": "25.034321",
-    "humidity": 42.04,
-    "PM10": 1.6,
-    "PM2n5": 17.04,
+    "humidity": 36.58,
+    "PM10": 65.3,
+    "PM2n5": 2.17,
     "Pressure": 1008,
-    "Temperature": 5,
-    "AirQualityIndex": 46.34
+    "Temperature": 9,
+    "AirQualityIndex": 159.2
   },
   {
     "id": "SAVEDNIPRO_17895",
@@ -3590,12 +3590,12 @@
     "localName": "",
     "latitude": "46.387139",
     "longitude": "30.723278",
-    "humidity": 69.45,
-    "PM10": 72.5,
-    "PM2n5": 4.26,
-    "Pressure": 1011,
-    "Temperature": 5,
-    "AirQualityIndex": 146.94
+    "humidity": 64.42,
+    "PM10": 26.08,
+    "PM2n5": 17.94,
+    "Pressure": 995,
+    "Temperature": 7,
+    "AirQualityIndex": 152.74
   },
   {
     "id": "SAVEDNIPRO_17896",
@@ -3604,12 +3604,12 @@
     "localName": "",
     "latitude": "50.597002",
     "longitude": "30.465978",
-    "humidity": 47.28,
-    "PM10": 45.57,
-    "PM2n5": 1.73,
-    "Pressure": 1015,
-    "Temperature": 5,
-    "AirQualityIndex": 16.28
+    "humidity": 45.96,
+    "PM10": 40.22,
+    "PM2n5": 13.65,
+    "Pressure": 1018,
+    "Temperature": 10,
+    "AirQualityIndex": 152.15
   },
   {
     "id": "SAVEDNIPRO_18420",
@@ -3618,12 +3618,12 @@
     "localName": "",
     "latitude": "49.445221",
     "longitude": "24.938534",
-    "humidity": 42.25,
-    "PM10": 1.36,
-    "PM2n5": 12.06,
-    "Pressure": 1007,
+    "humidity": 32.86,
+    "PM10": 3.99,
+    "PM2n5": 5.75,
+    "Pressure": 1005,
     "Temperature": 5,
-    "AirQualityIndex": 38.03
+    "AirQualityIndex": 140.44
   },
   {
     "id": "SAVEDNIPRO_18511",
@@ -3632,12 +3632,12 @@
     "localName": "",
     "latitude": "46.665987",
     "longitude": "32.635329",
-    "humidity": 34.57,
-    "PM10": 53.85,
-    "PM2n5": 16.99,
-    "Pressure": 995,
-    "Temperature": 8,
-    "AirQualityIndex": 10.11
+    "humidity": 62.04,
+    "PM10": 13.88,
+    "PM2n5": 16.66,
+    "Pressure": 982,
+    "Temperature": 10,
+    "AirQualityIndex": 111.37
   },
   {
     "id": "SAVEDNIPRO_18729",
@@ -3646,12 +3646,12 @@
     "localName": "",
     "latitude": "47.2973894",
     "longitude": "33.2816014",
-    "humidity": 47.71,
-    "PM10": 41.57,
-    "PM2n5": 17.84,
-    "Pressure": 981,
-    "Temperature": 8,
-    "AirQualityIndex": 40.32
+    "humidity": 42.07,
+    "PM10": 57.89,
+    "PM2n5": 16.36,
+    "Pressure": 1015,
+    "Temperature": 6,
+    "AirQualityIndex": 137.81
   },
   {
     "id": "SAVEDNIPRO_18736",
@@ -3660,12 +3660,12 @@
     "localName": "",
     "latitude": "50.449945",
     "longitude": "30.016305",
-    "humidity": 50.72,
-    "PM10": 69.04,
-    "PM2n5": 16.88,
-    "Pressure": 1002,
+    "humidity": 67.12,
+    "PM10": 2.52,
+    "PM2n5": 16.47,
+    "Pressure": 1016,
     "Temperature": 9,
-    "AirQualityIndex": 55.48
+    "AirQualityIndex": 162.83
   },
   {
     "id": "SAVEDNIPRO_18802",
@@ -3674,12 +3674,12 @@
     "localName": "",
     "latitude": "50.452248",
     "longitude": "30.464829",
-    "humidity": 49.02,
-    "PM10": 50.49,
-    "PM2n5": 5.57,
-    "Pressure": 1006,
-    "Temperature": 5,
-    "AirQualityIndex": 38.1
+    "humidity": 62.26,
+    "PM10": 41.61,
+    "PM2n5": 1.06,
+    "Pressure": 1003,
+    "Temperature": 7,
+    "AirQualityIndex": 164.28
   },
   {
     "id": "SAVEDNIPRO_18986",
@@ -3688,12 +3688,12 @@
     "localName": "",
     "latitude": "49.455202",
     "longitude": "23.377091",
-    "humidity": 47.57,
-    "PM10": 23.95,
-    "PM2n5": 13.3,
-    "Pressure": 1020,
+    "humidity": 58.89,
+    "PM10": 29.9,
+    "PM2n5": 2.28,
+    "Pressure": 1005,
     "Temperature": 8,
-    "AirQualityIndex": 76.99
+    "AirQualityIndex": 16.11
   },
   {
     "id": "SAVEDNIPRO_19014",
@@ -3702,12 +3702,12 @@
     "localName": "",
     "latitude": "47.385610",
     "longitude": "35.000290",
-    "humidity": 30.16,
-    "PM10": 6.62,
-    "PM2n5": 3.24,
-    "Pressure": 1010,
-    "Temperature": 9,
-    "AirQualityIndex": 38.55
+    "humidity": 26.51,
+    "PM10": 31.97,
+    "PM2n5": 2.86,
+    "Pressure": 1019,
+    "Temperature": 7,
+    "AirQualityIndex": 32.78
   },
   {
     "id": "SAVEDNIPRO_19101",
@@ -3716,12 +3716,12 @@
     "localName": "",
     "latitude": "47.6801522",
     "longitude": "32.5082539",
-    "humidity": 71.69,
-    "PM10": 17.35,
-    "PM2n5": 15.8,
-    "Pressure": 999,
-    "Temperature": 6,
-    "AirQualityIndex": 14.2
+    "humidity": 50.15,
+    "PM10": 40.29,
+    "PM2n5": 7.2,
+    "Pressure": 1012,
+    "Temperature": 5,
+    "AirQualityIndex": 18.76
   },
   {
     "id": "SAVEDNIPRO_19104",
@@ -3730,12 +3730,12 @@
     "localName": "",
     "latitude": "50.452174",
     "longitude": "30.464789",
-    "humidity": 69.93,
-    "PM10": 18.2,
-    "PM2n5": 7.75,
-    "Pressure": 1001,
-    "Temperature": 9,
-    "AirQualityIndex": 127.03
+    "humidity": 59.33,
+    "PM10": 79.9,
+    "PM2n5": 8.98,
+    "Pressure": 1017,
+    "Temperature": 10,
+    "AirQualityIndex": 126.85
   },
   {
     "id": "SAVEDNIPRO_19108",
@@ -3744,12 +3744,12 @@
     "localName": "",
     "latitude": "50.333593",
     "longitude": "30.351063",
-    "humidity": 34.02,
-    "PM10": 29.26,
-    "PM2n5": 4.86,
-    "Pressure": 996,
-    "Temperature": 7,
-    "AirQualityIndex": 168.83
+    "humidity": 38.98,
+    "PM10": 1.17,
+    "PM2n5": 10.45,
+    "Pressure": 1019,
+    "Temperature": 10,
+    "AirQualityIndex": 113.12
   },
   {
     "id": "SAVEDNIPRO_19116",
@@ -3758,12 +3758,12 @@
     "localName": "",
     "latitude": "50.411976",
     "longitude": "30.496778",
-    "humidity": 54.81,
-    "PM10": 47.8,
-    "PM2n5": 15.6,
-    "Pressure": 1007,
-    "Temperature": 8,
-    "AirQualityIndex": 120.4
+    "humidity": 64.99,
+    "PM10": 55.76,
+    "PM2n5": 2.33,
+    "Pressure": 1008,
+    "Temperature": 9,
+    "AirQualityIndex": 64.74
   },
   {
     "id": "SAVEDNIPRO_19117",
@@ -3772,12 +3772,12 @@
     "localName": "",
     "latitude": "47.8689649",
     "longitude": "35.2297073",
-    "humidity": 67.87,
-    "PM10": 30.71,
-    "PM2n5": 6.59,
-    "Pressure": 1011,
-    "Temperature": 9,
-    "AirQualityIndex": 95.27
+    "humidity": 74.23,
+    "PM10": 67.56,
+    "PM2n5": 14.45,
+    "Pressure": 1000,
+    "Temperature": 10,
+    "AirQualityIndex": 193.6
   },
   {
     "id": "SAVEDNIPRO_19179",
@@ -3786,12 +3786,12 @@
     "localName": "",
     "latitude": "47.067450",
     "longitude": "37.485584",
-    "humidity": 58.48,
-    "PM10": 4.46,
-    "PM2n5": 13.89,
-    "Pressure": 980,
-    "Temperature": 5,
-    "AirQualityIndex": 195.74
+    "humidity": 72.43,
+    "PM10": 1.11,
+    "PM2n5": 7.59,
+    "Pressure": 997,
+    "Temperature": 8,
+    "AirQualityIndex": 168.71
   },
   {
     "id": "SAVEDNIPRO_19246",
@@ -3800,12 +3800,12 @@
     "localName": "",
     "latitude": "49.51477",
     "longitude": "28.44255",
-    "humidity": 34.4,
-    "PM10": 59.56,
-    "PM2n5": 18.38,
-    "Pressure": 981,
-    "Temperature": 7,
-    "AirQualityIndex": 64.67
+    "humidity": 39.99,
+    "PM10": 46.7,
+    "PM2n5": 18.13,
+    "Pressure": 1019,
+    "Temperature": 9,
+    "AirQualityIndex": 120.19
   },
   {
     "id": "SAVEDNIPRO_19298",
@@ -3814,12 +3814,12 @@
     "localName": "",
     "latitude": "49.666631",
     "longitude": "32.325405",
-    "humidity": 44.27,
-    "PM10": 34.24,
-    "PM2n5": 10.29,
-    "Pressure": 990,
-    "Temperature": 11,
-    "AirQualityIndex": 191.26
+    "humidity": 67.57,
+    "PM10": 41.33,
+    "PM2n5": 2.23,
+    "Pressure": 994,
+    "Temperature": 5,
+    "AirQualityIndex": 161.61
   },
   {
     "id": "SAVEDNIPRO_19301",
@@ -3828,12 +3828,12 @@
     "localName": "",
     "latitude": "50.583284162702796",
     "longitude": "29.991048352270333",
-    "humidity": 49.91,
-    "PM10": 77.9,
-    "PM2n5": 3.87,
-    "Pressure": 995,
-    "Temperature": 9,
-    "AirQualityIndex": 189.65
+    "humidity": 33.88,
+    "PM10": 39.87,
+    "PM2n5": 3.39,
+    "Pressure": 1019,
+    "Temperature": 5,
+    "AirQualityIndex": 88.4
   },
   {
     "id": "SAVEDNIPRO_19306",
@@ -3842,12 +3842,12 @@
     "localName": "",
     "latitude": "47.876249",
     "longitude": "37.344970",
-    "humidity": 70.19,
-    "PM10": 29.15,
-    "PM2n5": 3.13,
-    "Pressure": 1003,
-    "Temperature": 7,
-    "AirQualityIndex": 123.61
+    "humidity": 34.35,
+    "PM10": 10.94,
+    "PM2n5": 15.03,
+    "Pressure": 1004,
+    "Temperature": 5,
+    "AirQualityIndex": 45.94
   },
   {
     "id": "SAVEDNIPRO_19320",
@@ -3856,12 +3856,12 @@
     "localName": "",
     "latitude": "48.202876",
     "longitude": "37.341606",
-    "humidity": 45.2,
-    "PM10": 2.19,
-    "PM2n5": 17.2,
-    "Pressure": 1017,
-    "Temperature": 10,
-    "AirQualityIndex": 39.19
+    "humidity": 55.91,
+    "PM10": 53.69,
+    "PM2n5": 7.52,
+    "Pressure": 1013,
+    "Temperature": 7,
+    "AirQualityIndex": 77.87
   },
   {
     "id": "SAVEDNIPRO_19387",
@@ -3870,12 +3870,12 @@
     "localName": "",
     "latitude": "47.747778",
     "longitude": "32.279167",
-    "humidity": 55.34,
-    "PM10": 66.37,
-    "PM2n5": 5.7,
-    "Pressure": 996,
-    "Temperature": 7,
-    "AirQualityIndex": 39.26
+    "humidity": 31.46,
+    "PM10": 59.05,
+    "PM2n5": 1.85,
+    "Pressure": 988,
+    "Temperature": 6,
+    "AirQualityIndex": 58.91
   },
   {
     "id": "SAVEDNIPRO_19454",
@@ -3884,12 +3884,12 @@
     "localName": "",
     "latitude": "48.536410",
     "longitude": "35.866605",
-    "humidity": 37.18,
-    "PM10": 1.03,
-    "PM2n5": 12.66,
-    "Pressure": 1006,
-    "Temperature": 5,
-    "AirQualityIndex": 123.33
+    "humidity": 72.36,
+    "PM10": 45.76,
+    "PM2n5": 11.03,
+    "Pressure": 1015,
+    "Temperature": 10,
+    "AirQualityIndex": 77.06
   },
   {
     "id": "SAVEDNIPRO_19476",
@@ -3898,12 +3898,12 @@
     "localName": "",
     "latitude": "50.799637",
     "longitude": "24.327239",
-    "humidity": 25.88,
-    "PM10": 39.63,
-    "PM2n5": 8.85,
-    "Pressure": 1009,
-    "Temperature": 11,
-    "AirQualityIndex": 196.64
+    "humidity": 73.31,
+    "PM10": 30.09,
+    "PM2n5": 10.94,
+    "Pressure": 1000,
+    "Temperature": 8,
+    "AirQualityIndex": 121.73
   },
   {
     "id": "SAVEDNIPRO_19477",
@@ -3912,12 +3912,12 @@
     "localName": "",
     "latitude": "48.057804",
     "longitude": "34.606344",
-    "humidity": 30.88,
-    "PM10": 8.74,
-    "PM2n5": 10.58,
-    "Pressure": 997,
-    "Temperature": 9,
-    "AirQualityIndex": 135.33
+    "humidity": 55.76,
+    "PM10": 63.33,
+    "PM2n5": 17.95,
+    "Pressure": 1002,
+    "Temperature": 11,
+    "AirQualityIndex": 18.1
   },
   {
     "id": "SAVEDNIPRO_19684",
@@ -3926,12 +3926,12 @@
     "localName": "",
     "latitude": "51.621694",
     "longitude": "24.921318",
-    "humidity": 28.45,
-    "PM10": 60.39,
-    "PM2n5": 3.89,
-    "Pressure": 987,
-    "Temperature": 8,
-    "AirQualityIndex": 115.56
+    "humidity": 28.87,
+    "PM10": 9.18,
+    "PM2n5": 11.05,
+    "Pressure": 1016,
+    "Temperature": 9,
+    "AirQualityIndex": 126.33
   },
   {
     "id": "SAVEDNIPRO_19708",
@@ -3940,12 +3940,12 @@
     "localName": "",
     "latitude": "50.940911",
     "longitude": "34.746837",
-    "humidity": 63.68,
-    "PM10": 14.08,
-    "PM2n5": 2.56,
-    "Pressure": 1007,
+    "humidity": 30.69,
+    "PM10": 33.61,
+    "PM2n5": 16.36,
+    "Pressure": 996,
     "Temperature": 5,
-    "AirQualityIndex": 158.36
+    "AirQualityIndex": 136.13
   },
   {
     "id": "SAVEDNIPRO_19810",
@@ -3954,12 +3954,12 @@
     "localName": "",
     "latitude": "50.9119348",
     "longitude": "34.7949552",
-    "humidity": 69.68,
-    "PM10": 28.19,
-    "PM2n5": 10.1,
-    "Pressure": 993,
-    "Temperature": 8,
-    "AirQualityIndex": 14.88
+    "humidity": 72.73,
+    "PM10": 68.77,
+    "PM2n5": 15.2,
+    "Pressure": 1003,
+    "Temperature": 9,
+    "AirQualityIndex": 23.14
   },
   {
     "id": "SAVEDNIPRO_19997",
@@ -3968,12 +3968,12 @@
     "localName": "",
     "latitude": "49.929920",
     "longitude": "25.868925",
-    "humidity": 70.62,
-    "PM10": 7.53,
-    "PM2n5": 5.08,
-    "Pressure": 1018,
-    "Temperature": 11,
-    "AirQualityIndex": 190.86
+    "humidity": 63.15,
+    "PM10": 10.7,
+    "PM2n5": 5.94,
+    "Pressure": 1012,
+    "Temperature": 6,
+    "AirQualityIndex": 120.94
   },
   {
     "id": "SAVEDNIPRO_20013",
@@ -3982,12 +3982,12 @@
     "localName": "",
     "latitude": "49.718539",
     "longitude": "23.912361",
-    "humidity": 52.09,
-    "PM10": 46.71,
-    "PM2n5": 6.66,
-    "Pressure": 999,
-    "Temperature": 11,
-    "AirQualityIndex": 118.64
+    "humidity": 63.19,
+    "PM10": 11.39,
+    "PM2n5": 15.21,
+    "Pressure": 1010,
+    "Temperature": 7,
+    "AirQualityIndex": 107.3
   },
   {
     "id": "SAVEDNIPRO_20060",
@@ -3996,12 +3996,12 @@
     "localName": "",
     "latitude": "50.949312",
     "longitude": "28.642018",
-    "humidity": 45.64,
-    "PM10": 19.12,
-    "PM2n5": 16,
-    "Pressure": 998,
-    "Temperature": 10,
-    "AirQualityIndex": 148.29
+    "humidity": 30.69,
+    "PM10": 44.03,
+    "PM2n5": 6.11,
+    "Pressure": 985,
+    "Temperature": 5,
+    "AirQualityIndex": 39.26
   },
   {
     "id": "SAVEDNIPRO_20061",
@@ -4010,12 +4010,12 @@
     "localName": "",
     "latitude": "47.831669",
     "longitude": "32.830301",
-    "humidity": 74.83,
-    "PM10": 74.36,
-    "PM2n5": 10.82,
-    "Pressure": 986,
-    "Temperature": 9,
-    "AirQualityIndex": 187.38
+    "humidity": 50.73,
+    "PM10": 1.05,
+    "PM2n5": 14.34,
+    "Pressure": 982,
+    "Temperature": 8,
+    "AirQualityIndex": 52.08
   },
   {
     "id": "SAVEDNIPRO_20081",
@@ -4024,12 +4024,12 @@
     "localName": "",
     "latitude": "47.815861",
     "longitude": "31.189776",
-    "humidity": 51.79,
-    "PM10": 20.88,
-    "PM2n5": 6.43,
-    "Pressure": 988,
+    "humidity": 37.49,
+    "PM10": 73.8,
+    "PM2n5": 16.12,
+    "Pressure": 1001,
     "Temperature": 9,
-    "AirQualityIndex": 134.72
+    "AirQualityIndex": 73.59
   },
   {
     "id": "SAVEDNIPRO_20084",
@@ -4038,12 +4038,12 @@
     "localName": "",
     "latitude": "50.518246",
     "longitude": "30.486426",
-    "humidity": 57.5,
-    "PM10": 36.23,
-    "PM2n5": 12.44,
-    "Pressure": 999,
+    "humidity": 45.89,
+    "PM10": 6.88,
+    "PM2n5": 13.69,
+    "Pressure": 983,
     "Temperature": 7,
-    "AirQualityIndex": 169.54
+    "AirQualityIndex": 109.01
   },
   {
     "id": "SAVEDNIPRO_20086",
@@ -4052,12 +4052,12 @@
     "localName": "",
     "latitude": "49.555501",
     "longitude": "27.952070",
-    "humidity": 27.34,
-    "PM10": 65.21,
-    "PM2n5": 15.15,
-    "Pressure": 1006,
-    "Temperature": 9,
-    "AirQualityIndex": 95.98
+    "humidity": 28.46,
+    "PM10": 19.09,
+    "PM2n5": 4.56,
+    "Pressure": 1016,
+    "Temperature": 11,
+    "AirQualityIndex": 171.4
   },
   {
     "id": "SAVEDNIPRO_20088",
@@ -4066,12 +4066,12 @@
     "localName": "",
     "latitude": "50.845376",
     "longitude": "24.319157",
-    "humidity": 69.39,
-    "PM10": 30.03,
-    "PM2n5": 8.61,
-    "Pressure": 998,
-    "Temperature": 6,
-    "AirQualityIndex": 139.42
+    "humidity": 66.2,
+    "PM10": 7.28,
+    "PM2n5": 13.87,
+    "Pressure": 1002,
+    "Temperature": 7,
+    "AirQualityIndex": 38.82
   },
   {
     "id": "SAVEDNIPRO_20091",
@@ -4080,12 +4080,12 @@
     "localName": "",
     "latitude": "45.444840",
     "longitude": "29.264418",
-    "humidity": 53.19,
-    "PM10": 56.2,
-    "PM2n5": 11.84,
-    "Pressure": 986,
-    "Temperature": 5,
-    "AirQualityIndex": 85.04
+    "humidity": 37.64,
+    "PM10": 71.61,
+    "PM2n5": 10.33,
+    "Pressure": 999,
+    "Temperature": 10,
+    "AirQualityIndex": 77.64
   },
   {
     "id": "SAVEDNIPRO_20095",
@@ -4094,12 +4094,12 @@
     "localName": "",
     "latitude": "48.478732",
     "longitude": "34.225964",
-    "humidity": 61.92,
-    "PM10": 56.27,
-    "PM2n5": 11.87,
-    "Pressure": 1019,
-    "Temperature": 11,
-    "AirQualityIndex": 47.32
+    "humidity": 35.28,
+    "PM10": 4.85,
+    "PM2n5": 5.45,
+    "Pressure": 985,
+    "Temperature": 7,
+    "AirQualityIndex": 112.4
   },
   {
     "id": "SAVEDNIPRO_20103",
@@ -4108,12 +4108,12 @@
     "localName": "",
     "latitude": "50.209194",
     "longitude": "34.358694",
-    "humidity": 31.71,
-    "PM10": 25.67,
-    "PM2n5": 13.28,
-    "Pressure": 1009,
-    "Temperature": 6,
-    "AirQualityIndex": 32.46
+    "humidity": 64.55,
+    "PM10": 12.34,
+    "PM2n5": 5.1,
+    "Pressure": 986,
+    "Temperature": 10,
+    "AirQualityIndex": 103.9
   },
   {
     "id": "SAVEDNIPRO_20104",
@@ -4122,12 +4122,12 @@
     "localName": "",
     "latitude": "50.315879",
     "longitude": "29.962585",
-    "humidity": 66.99,
-    "PM10": 55.35,
-    "PM2n5": 13.62,
-    "Pressure": 1004,
-    "Temperature": 5,
-    "AirQualityIndex": 84.21
+    "humidity": 47.7,
+    "PM10": 7.74,
+    "PM2n5": 9.83,
+    "Pressure": 996,
+    "Temperature": 10,
+    "AirQualityIndex": 64.45
   },
   {
     "id": "SAVEDNIPRO_20106",
@@ -4136,12 +4136,12 @@
     "localName": "",
     "latitude": "49.296660",
     "longitude": "23.551930",
-    "humidity": 47.78,
-    "PM10": 1.63,
-    "PM2n5": 6.53,
-    "Pressure": 1008,
-    "Temperature": 7,
-    "AirQualityIndex": 126.78
+    "humidity": 57.21,
+    "PM10": 26.41,
+    "PM2n5": 18.37,
+    "Pressure": 988,
+    "Temperature": 5,
+    "AirQualityIndex": 83.03
   },
   {
     "id": "SAVEDNIPRO_20107",
@@ -4150,12 +4150,12 @@
     "localName": "",
     "latitude": "46.362202",
     "longitude": "30.650345",
-    "humidity": 38.78,
-    "PM10": 32.66,
-    "PM2n5": 15.25,
-    "Pressure": 1011,
-    "Temperature": 10,
-    "AirQualityIndex": 86.03
+    "humidity": 32.06,
+    "PM10": 26.8,
+    "PM2n5": 4.33,
+    "Pressure": 999,
+    "Temperature": 11,
+    "AirQualityIndex": 189.44
   },
   {
     "id": "SAVEDNIPRO_20121",
@@ -4164,12 +4164,12 @@
     "localName": "",
     "latitude": "50.903766",
     "longitude": "34.817852",
-    "humidity": 25.39,
-    "PM10": 51.24,
-    "PM2n5": 7.91,
-    "Pressure": 987,
-    "Temperature": 11,
-    "AirQualityIndex": 191.66
+    "humidity": 65.16,
+    "PM10": 37.72,
+    "PM2n5": 17.22,
+    "Pressure": 996,
+    "Temperature": 10,
+    "AirQualityIndex": 186.35
   },
   {
     "id": "SAVEDNIPRO_20128",
@@ -4178,12 +4178,12 @@
     "localName": "",
     "latitude": "48.529049",
     "longitude": "25.039789",
-    "humidity": 38.24,
-    "PM10": 12.99,
-    "PM2n5": 13.51,
-    "Pressure": 995,
+    "humidity": 44.7,
+    "PM10": 1.2,
+    "PM2n5": 16.76,
+    "Pressure": 998,
     "Temperature": 5,
-    "AirQualityIndex": 172.81
+    "AirQualityIndex": 103.86
   },
   {
     "id": "SAVEDNIPRO_20131",
@@ -4192,12 +4192,12 @@
     "localName": "",
     "latitude": "50.741897",
     "longitude": "31.384233",
-    "humidity": 54.53,
-    "PM10": 58.51,
-    "PM2n5": 18.83,
-    "Pressure": 1010,
-    "Temperature": 9,
-    "AirQualityIndex": 2.92
+    "humidity": 42.88,
+    "PM10": 25.35,
+    "PM2n5": 8.29,
+    "Pressure": 980,
+    "Temperature": 7,
+    "AirQualityIndex": 156.71
   },
   {
     "id": "SAVEDNIPRO_20296",
@@ -4206,12 +4206,12 @@
     "localName": "",
     "latitude": "51.351281",
     "longitude": "25.850776",
-    "humidity": 70.36,
-    "PM10": 5.43,
-    "PM2n5": 5.4,
-    "Pressure": 994,
-    "Temperature": 11,
-    "AirQualityIndex": 23.42
+    "humidity": 57.63,
+    "PM10": 50.55,
+    "PM2n5": 15.5,
+    "Pressure": 983,
+    "Temperature": 5,
+    "AirQualityIndex": 102.5
   },
   {
     "id": "SAVEDNIPRO_21957",
@@ -4220,12 +4220,12 @@
     "localName": "",
     "latitude": "49.309646",
     "longitude": "28.472136",
-    "humidity": 63.47,
-    "PM10": 20.13,
-    "PM2n5": 6.97,
-    "Pressure": 1017,
-    "Temperature": 9,
-    "AirQualityIndex": 9.26
+    "humidity": 28.33,
+    "PM10": 58.98,
+    "PM2n5": 14.44,
+    "Pressure": 983,
+    "Temperature": 5,
+    "AirQualityIndex": 65.04
   },
   {
     "id": "SAVEDNIPRO_21958",
@@ -4234,12 +4234,12 @@
     "localName": "",
     "latitude": "50.412212",
     "longitude": "29.605634",
-    "humidity": 48.12,
-    "PM10": 5.62,
-    "PM2n5": 15.57,
-    "Pressure": 1005,
-    "Temperature": 11,
-    "AirQualityIndex": 128.9
+    "humidity": 41.52,
+    "PM10": 16.75,
+    "PM2n5": 8.46,
+    "Pressure": 1013,
+    "Temperature": 7,
+    "AirQualityIndex": 53.86
   },
   {
     "id": "SAVEDNIPRO_21961",
@@ -4248,12 +4248,12 @@
     "localName": "",
     "latitude": "48.574377",
     "longitude": "35.096557",
-    "humidity": 25.74,
-    "PM10": 5.15,
-    "PM2n5": 10.41,
-    "Pressure": 999,
-    "Temperature": 10,
-    "AirQualityIndex": 22.67
+    "humidity": 25.15,
+    "PM10": 2.62,
+    "PM2n5": 9.79,
+    "Pressure": 984,
+    "Temperature": 11,
+    "AirQualityIndex": 169.5
   },
   {
     "id": "SAVEDNIPRO_21966",
@@ -4262,12 +4262,12 @@
     "localName": "",
     "latitude": "50.548571",
     "longitude": "29.735743",
-    "humidity": 63.26,
-    "PM10": 6.85,
-    "PM2n5": 3.4,
-    "Pressure": 987,
-    "Temperature": 5,
-    "AirQualityIndex": 188.87
+    "humidity": 62.6,
+    "PM10": 62.34,
+    "PM2n5": 9.34,
+    "Pressure": 992,
+    "Temperature": 8,
+    "AirQualityIndex": 68.3
   },
   {
     "id": "SAVEDNIPRO_21968",
@@ -4276,12 +4276,12 @@
     "localName": "",
     "latitude": "50.382202",
     "longitude": "29.933937",
-    "humidity": 64.32,
-    "PM10": 4.27,
-    "PM2n5": 5.59,
+    "humidity": 69.77,
+    "PM10": 31.26,
+    "PM2n5": 15.84,
     "Pressure": 1019,
-    "Temperature": 7,
-    "AirQualityIndex": 114.96
+    "Temperature": 8,
+    "AirQualityIndex": 90.07
   },
   {
     "id": "SAVEDNIPRO_21969",
@@ -4290,12 +4290,12 @@
     "localName": "",
     "latitude": "49.637092",
     "longitude": "27.894747",
-    "humidity": 62.94,
-    "PM10": 25.24,
-    "PM2n5": 18.77,
+    "humidity": 72,
+    "PM10": 55.46,
+    "PM2n5": 11.41,
     "Pressure": 988,
-    "Temperature": 6,
-    "AirQualityIndex": 122.1
+    "Temperature": 11,
+    "AirQualityIndex": 35.47
   },
   {
     "id": "SAVEDNIPRO_21974",
@@ -4304,12 +4304,12 @@
     "localName": "",
     "latitude": "50.590101",
     "longitude": "29.559614",
-    "humidity": 42.31,
-    "PM10": 48.28,
-    "PM2n5": 13.67,
-    "Pressure": 1000,
-    "Temperature": 11,
-    "AirQualityIndex": 197.82
+    "humidity": 37.7,
+    "PM10": 47.62,
+    "PM2n5": 15.43,
+    "Pressure": 1013,
+    "Temperature": 10,
+    "AirQualityIndex": 186.39
   },
   {
     "id": "SAVEDNIPRO_21975",
@@ -4318,12 +4318,12 @@
     "localName": "",
     "latitude": "49.336114",
     "longitude": "34.315910",
-    "humidity": 51.12,
-    "PM10": 25.22,
-    "PM2n5": 6.86,
-    "Pressure": 1020,
-    "Temperature": 11,
-    "AirQualityIndex": 118.6
+    "humidity": 59.9,
+    "PM10": 24.74,
+    "PM2n5": 16.13,
+    "Pressure": 984,
+    "Temperature": 6,
+    "AirQualityIndex": 180.3
   },
   {
     "id": "SAVEDNIPRO_21979",
@@ -4332,12 +4332,12 @@
     "localName": "",
     "latitude": "48.628813",
     "longitude": "35.258782",
-    "humidity": 29.76,
-    "PM10": 28.62,
-    "PM2n5": 3.16,
-    "Pressure": 990,
-    "Temperature": 10,
-    "AirQualityIndex": 66.7
+    "humidity": 44.65,
+    "PM10": 65.83,
+    "PM2n5": 11.9,
+    "Pressure": 1015,
+    "Temperature": 8,
+    "AirQualityIndex": 9.04
   },
   {
     "id": "SAVEDNIPRO_21980",
@@ -4346,12 +4346,12 @@
     "localName": "",
     "latitude": "49.824665",
     "longitude": "23.932064",
-    "humidity": 56.35,
-    "PM10": 31.77,
-    "PM2n5": 19.63,
-    "Pressure": 1001,
-    "Temperature": 8,
-    "AirQualityIndex": 138.19
+    "humidity": 59.23,
+    "PM10": 23.22,
+    "PM2n5": 18.17,
+    "Pressure": 1011,
+    "Temperature": 9,
+    "AirQualityIndex": 125.22
   },
   {
     "id": "SAVEDNIPRO_21981",
@@ -4360,12 +4360,12 @@
     "localName": "",
     "latitude": "51.765502",
     "longitude": "25.512552",
-    "humidity": 36.32,
-    "PM10": 74.4,
-    "PM2n5": 13.29,
-    "Pressure": 992,
-    "Temperature": 6,
-    "AirQualityIndex": 113.84
+    "humidity": 53.03,
+    "PM10": 66.56,
+    "PM2n5": 13.8,
+    "Pressure": 1013,
+    "Temperature": 10,
+    "AirQualityIndex": 80.18
   },
   {
     "id": "SAVEDNIPRO_21982",
@@ -4374,12 +4374,12 @@
     "localName": "",
     "latitude": "50.504511",
     "longitude": "29.522453",
-    "humidity": 60.4,
-    "PM10": 57.39,
-    "PM2n5": 15.79,
-    "Pressure": 1000,
-    "Temperature": 9,
-    "AirQualityIndex": 193.32
+    "humidity": 31.74,
+    "PM10": 11.79,
+    "PM2n5": 10.64,
+    "Pressure": 1004,
+    "Temperature": 5,
+    "AirQualityIndex": 113.9
   },
   {
     "id": "SAVEDNIPRO_21985",
@@ -4388,12 +4388,12 @@
     "localName": "",
     "latitude": "48.209279",
     "longitude": "34.875987",
-    "humidity": 65.61,
-    "PM10": 55.51,
-    "PM2n5": 19.29,
-    "Pressure": 1012,
-    "Temperature": 7,
-    "AirQualityIndex": 34.49
+    "humidity": 42.77,
+    "PM10": 1.61,
+    "PM2n5": 14.76,
+    "Pressure": 1006,
+    "Temperature": 6,
+    "AirQualityIndex": 187.87
   },
   {
     "id": "SAVEDNIPRO_21994",
@@ -4402,12 +4402,12 @@
     "localName": "",
     "latitude": "46.154590",
     "longitude": "30.339985",
-    "humidity": 41.41,
-    "PM10": 53.59,
-    "PM2n5": 8.25,
-    "Pressure": 1013,
-    "Temperature": 11,
-    "AirQualityIndex": 111.85
+    "humidity": 64.72,
+    "PM10": 6.3,
+    "PM2n5": 7.28,
+    "Pressure": 982,
+    "Temperature": 9,
+    "AirQualityIndex": 28.57
   },
   {
     "id": "SAVEDNIPRO_21995",
@@ -4416,12 +4416,12 @@
     "localName": "",
     "latitude": "50.313300",
     "longitude": "29.869900",
-    "humidity": 28.34,
-    "PM10": 68.22,
-    "PM2n5": 15.03,
-    "Pressure": 1002,
-    "Temperature": 8,
-    "AirQualityIndex": 11.02
+    "humidity": 69.39,
+    "PM10": 73.63,
+    "PM2n5": 5.62,
+    "Pressure": 986,
+    "Temperature": 11,
+    "AirQualityIndex": 61.86
   },
   {
     "id": "SAVEDNIPRO_21998",
@@ -4430,12 +4430,12 @@
     "localName": "",
     "latitude": "46.299390",
     "longitude": "30.655569",
-    "humidity": 42.92,
-    "PM10": 45.11,
-    "PM2n5": 8.84,
-    "Pressure": 981,
-    "Temperature": 10,
-    "AirQualityIndex": 176.65
+    "humidity": 45.86,
+    "PM10": 26.67,
+    "PM2n5": 5.42,
+    "Pressure": 1001,
+    "Temperature": 7,
+    "AirQualityIndex": 141.35
   },
   {
     "id": "SAVEDNIPRO_22012",
@@ -4444,12 +4444,12 @@
     "localName": "",
     "latitude": "50.336971",
     "longitude": "29.720621",
-    "humidity": 71.34,
-    "PM10": 18.37,
-    "PM2n5": 12.88,
-    "Pressure": 1003,
-    "Temperature": 7,
-    "AirQualityIndex": 58.49
+    "humidity": 31.3,
+    "PM10": 15.66,
+    "PM2n5": 9.57,
+    "Pressure": 1000,
+    "Temperature": 9,
+    "AirQualityIndex": 125.53
   },
   {
     "id": "SAVEDNIPRO_22014",
@@ -4458,12 +4458,12 @@
     "localName": "",
     "latitude": "47.752565",
     "longitude": "32.856068",
-    "humidity": 25.63,
-    "PM10": 60.54,
-    "PM2n5": 18.24,
-    "Pressure": 997,
-    "Temperature": 8,
-    "AirQualityIndex": 160.2
+    "humidity": 63.79,
+    "PM10": 67.48,
+    "PM2n5": 8.55,
+    "Pressure": 990,
+    "Temperature": 6,
+    "AirQualityIndex": 2.18
   },
   {
     "id": "SAVEDNIPRO_22015",
@@ -4472,12 +4472,12 @@
     "localName": "",
     "latitude": "49.069994",
     "longitude": "27.670914",
-    "humidity": 57.41,
-    "PM10": 45.36,
-    "PM2n5": 12.73,
-    "Pressure": 1012,
+    "humidity": 60.55,
+    "PM10": 31.19,
+    "PM2n5": 17.34,
+    "Pressure": 992,
     "Temperature": 5,
-    "AirQualityIndex": 9.46
+    "AirQualityIndex": 79.95
   },
   {
     "id": "SAVEDNIPRO_22032",
@@ -4486,12 +4486,12 @@
     "localName": "",
     "latitude": "50.460545",
     "longitude": "29.812975",
-    "humidity": 61.25,
-    "PM10": 36.68,
-    "PM2n5": 6.01,
-    "Pressure": 1001,
-    "Temperature": 11,
-    "AirQualityIndex": 197.72
+    "humidity": 46.86,
+    "PM10": 38.07,
+    "PM2n5": 10.32,
+    "Pressure": 1008,
+    "Temperature": 7,
+    "AirQualityIndex": 197.29
   },
   {
     "id": "SAVEDNIPRO_22043",
@@ -4500,12 +4500,12 @@
     "localName": "",
     "latitude": "46.051044",
     "longitude": "30.291946",
-    "humidity": 38.64,
-    "PM10": 42.79,
-    "PM2n5": 2.66,
-    "Pressure": 999,
+    "humidity": 56.51,
+    "PM10": 49.33,
+    "PM2n5": 6.58,
+    "Pressure": 1009,
     "Temperature": 11,
-    "AirQualityIndex": 146.23
+    "AirQualityIndex": 109.55
   },
   {
     "id": "SAVEDNIPRO_22067",
@@ -4514,12 +4514,12 @@
     "localName": "",
     "latitude": "45.397619",
     "longitude": "28.875983",
-    "humidity": 46.63,
-    "PM10": 8.43,
-    "PM2n5": 1.83,
-    "Pressure": 1016,
-    "Temperature": 7,
-    "AirQualityIndex": 167.8
+    "humidity": 39.12,
+    "PM10": 29,
+    "PM2n5": 15.01,
+    "Pressure": 1003,
+    "Temperature": 9,
+    "AirQualityIndex": 60.77
   },
   {
     "id": "SAVEDNIPRO_22092",
@@ -4528,12 +4528,12 @@
     "localName": "",
     "latitude": "51.046448",
     "longitude": "31.881015",
-    "humidity": 68.24,
-    "PM10": 77.16,
-    "PM2n5": 2.14,
-    "Pressure": 981,
-    "Temperature": 8,
-    "AirQualityIndex": 104.52
+    "humidity": 63.97,
+    "PM10": 41.91,
+    "PM2n5": 12.14,
+    "Pressure": 1018,
+    "Temperature": 5,
+    "AirQualityIndex": 52.06
   },
   {
     "id": "SAVEDNIPRO_22158",
@@ -4542,12 +4542,12 @@
     "localName": "",
     "latitude": "49.080917",
     "longitude": "29.216874",
-    "humidity": 73.04,
-    "PM10": 3.01,
-    "PM2n5": 11.08,
-    "Pressure": 1011,
+    "humidity": 57.06,
+    "PM10": 51.01,
+    "PM2n5": 1.15,
+    "Pressure": 1016,
     "Temperature": 8,
-    "AirQualityIndex": 198.12
+    "AirQualityIndex": 144.18
   },
   {
     "id": "SAVEDNIPRO_22160",
@@ -4556,12 +4556,12 @@
     "localName": "",
     "latitude": "49.587305",
     "longitude": "34.552840",
-    "humidity": 58.92,
-    "PM10": 30.74,
-    "PM2n5": 18.04,
-    "Pressure": 991,
-    "Temperature": 9,
-    "AirQualityIndex": 172.93
+    "humidity": 29.63,
+    "PM10": 37.64,
+    "PM2n5": 15.04,
+    "Pressure": 981,
+    "Temperature": 10,
+    "AirQualityIndex": 129.96
   },
   {
     "id": "SAVEDNIPRO_22162",
@@ -4570,12 +4570,12 @@
     "localName": "",
     "latitude": "50.222550",
     "longitude": "28.740352",
-    "humidity": 59.75,
-    "PM10": 9.77,
-    "PM2n5": 14.89,
-    "Pressure": 1000,
-    "Temperature": 9,
-    "AirQualityIndex": 2.96
+    "humidity": 67.74,
+    "PM10": 15.43,
+    "PM2n5": 7.34,
+    "Pressure": 981,
+    "Temperature": 8,
+    "AirQualityIndex": 67.8
   },
   {
     "id": "SAVEDNIPRO_22174",
@@ -4584,12 +4584,12 @@
     "localName": "",
     "latitude": "45.582241",
     "longitude": "28.980782",
-    "humidity": 30.37,
-    "PM10": 54.52,
-    "PM2n5": 17.13,
-    "Pressure": 980,
-    "Temperature": 11,
-    "AirQualityIndex": 109.23
+    "humidity": 39.47,
+    "PM10": 41.98,
+    "PM2n5": 6.95,
+    "Pressure": 999,
+    "Temperature": 5,
+    "AirQualityIndex": 174.93
   },
   {
     "id": "SAVEDNIPRO_22184",
@@ -4598,12 +4598,12 @@
     "localName": "",
     "latitude": "48.509049",
     "longitude": "29.227308",
-    "humidity": 45.49,
-    "PM10": 55.59,
-    "PM2n5": 5.85,
-    "Pressure": 1019,
-    "Temperature": 7,
-    "AirQualityIndex": 70.69
+    "humidity": 33.47,
+    "PM10": 64.35,
+    "PM2n5": 18.4,
+    "Pressure": 981,
+    "Temperature": 6,
+    "AirQualityIndex": 77.88
   },
   {
     "id": "SAVEDNIPRO_22187",
@@ -4612,12 +4612,12 @@
     "localName": "",
     "latitude": "50.550847",
     "longitude": "29.832277",
-    "humidity": 54.89,
-    "PM10": 32.56,
-    "PM2n5": 14.9,
-    "Pressure": 982,
-    "Temperature": 7,
-    "AirQualityIndex": 1.65
+    "humidity": 74.67,
+    "PM10": 8.25,
+    "PM2n5": 10.11,
+    "Pressure": 988,
+    "Temperature": 9,
+    "AirQualityIndex": 58.25
   },
   {
     "id": "SAVEDNIPRO_22247",
@@ -4626,12 +4626,12 @@
     "localName": "",
     "latitude": "45.677661",
     "longitude": "28.613906",
-    "humidity": 44.39,
-    "PM10": 72.38,
-    "PM2n5": 8.33,
-    "Pressure": 993,
-    "Temperature": 7,
-    "AirQualityIndex": 180.66
+    "humidity": 28.93,
+    "PM10": 63.65,
+    "PM2n5": 16.37,
+    "Pressure": 1008,
+    "Temperature": 11,
+    "AirQualityIndex": 89.2
   },
   {
     "id": "SAVEDNIPRO_22253",
@@ -4640,12 +4640,12 @@
     "localName": "",
     "latitude": "50.442751",
     "longitude": "29.960707",
-    "humidity": 69.54,
-    "PM10": 74.04,
-    "PM2n5": 14.43,
-    "Pressure": 990,
-    "Temperature": 6,
-    "AirQualityIndex": 1.31
+    "humidity": 62.44,
+    "PM10": 7.32,
+    "PM2n5": 2.96,
+    "Pressure": 1005,
+    "Temperature": 8,
+    "AirQualityIndex": 121.11
   },
   {
     "id": "SAVEDNIPRO_22254",
@@ -4654,12 +4654,12 @@
     "localName": "",
     "latitude": "50.590718",
     "longitude": "27.617183",
-    "humidity": 56.81,
-    "PM10": 3.85,
-    "PM2n5": 5.55,
-    "Pressure": 1018,
+    "humidity": 71.27,
+    "PM10": 5.33,
+    "PM2n5": 7.48,
+    "Pressure": 994,
     "Temperature": 8,
-    "AirQualityIndex": 183.96
+    "AirQualityIndex": 147.26
   },
   {
     "id": "SAVEDNIPRO_22255",
@@ -4668,12 +4668,12 @@
     "localName": "",
     "latitude": "50.245532",
     "longitude": "28.619949",
-    "humidity": 73.33,
-    "PM10": 30.63,
-    "PM2n5": 15.46,
-    "Pressure": 1005,
-    "Temperature": 9,
-    "AirQualityIndex": 123.45
+    "humidity": 50.17,
+    "PM10": 47.78,
+    "PM2n5": 10.46,
+    "Pressure": 998,
+    "Temperature": 10,
+    "AirQualityIndex": 109.15
   },
   {
     "id": "SAVEDNIPRO_22258",
@@ -4682,12 +4682,12 @@
     "localName": "",
     "latitude": "50.449840",
     "longitude": "28.670930",
-    "humidity": 30.59,
-    "PM10": 25.86,
-    "PM2n5": 6.17,
-    "Pressure": 1020,
-    "Temperature": 11,
-    "AirQualityIndex": 107.56
+    "humidity": 69.46,
+    "PM10": 7.61,
+    "PM2n5": 14.39,
+    "Pressure": 987,
+    "Temperature": 9,
+    "AirQualityIndex": 27.37
   },
   {
     "id": "SAVEDNIPRO_22264",
@@ -4696,12 +4696,12 @@
     "localName": "",
     "latitude": "50.301940",
     "longitude": "27.677700",
-    "humidity": 68.82,
-    "PM10": 66.25,
-    "PM2n5": 8.05,
+    "humidity": 72.52,
+    "PM10": 12.1,
+    "PM2n5": 17.87,
     "Pressure": 984,
-    "Temperature": 6,
-    "AirQualityIndex": 193.22
+    "Temperature": 11,
+    "AirQualityIndex": 118.92
   },
   {
     "id": "SAVEDNIPRO_22268",
@@ -4710,12 +4710,12 @@
     "localName": "",
     "latitude": "49.185148",
     "longitude": "28.189880",
-    "humidity": 27.05,
-    "PM10": 70.63,
-    "PM2n5": 8.72,
-    "Pressure": 1018,
-    "Temperature": 6,
-    "AirQualityIndex": 49.36
+    "humidity": 43.07,
+    "PM10": 68.09,
+    "PM2n5": 16.02,
+    "Pressure": 1002,
+    "Temperature": 11,
+    "AirQualityIndex": 96.97
   },
   {
     "id": "SAVEDNIPRO_22270",
@@ -4724,12 +4724,12 @@
     "localName": "",
     "latitude": "47.571132",
     "longitude": "33.650626",
-    "humidity": 57.44,
-    "PM10": 67.81,
-    "PM2n5": 18.35,
-    "Pressure": 980,
-    "Temperature": 11,
-    "AirQualityIndex": 10.5
+    "humidity": 55.23,
+    "PM10": 70.81,
+    "PM2n5": 19.11,
+    "Pressure": 983,
+    "Temperature": 6,
+    "AirQualityIndex": 25.72
   },
   {
     "id": "SAVEDNIPRO_22275",
@@ -4738,12 +4738,12 @@
     "localName": "",
     "latitude": "51.200329",
     "longitude": "30.392301",
-    "humidity": 56.67,
-    "PM10": 25.22,
-    "PM2n5": 8.26,
-    "Pressure": 1013,
-    "Temperature": 5,
-    "AirQualityIndex": 66.54
+    "humidity": 68.6,
+    "PM10": 65.74,
+    "PM2n5": 3.42,
+    "Pressure": 1012,
+    "Temperature": 6,
+    "AirQualityIndex": 188.85
   },
   {
     "id": "SAVEDNIPRO_22276",
@@ -4752,12 +4752,12 @@
     "localName": "",
     "latitude": "51.27887126482744",
     "longitude": "30.21525171371801",
-    "humidity": 62.24,
-    "PM10": 79.49,
-    "PM2n5": 5.14,
-    "Pressure": 983,
+    "humidity": 70.12,
+    "PM10": 41.59,
+    "PM2n5": 4.45,
+    "Pressure": 1016,
     "Temperature": 8,
-    "AirQualityIndex": 18.87
+    "AirQualityIndex": 163.39
   },
   {
     "id": "SAVEDNIPRO_22964",
@@ -4766,12 +4766,12 @@
     "localName": "",
     "latitude": "47.942740",
     "longitude": "33.417040",
-    "humidity": 29.87,
-    "PM10": 9.81,
-    "PM2n5": 12.96,
-    "Pressure": 993,
-    "Temperature": 5,
-    "AirQualityIndex": 35.12
+    "humidity": 37.14,
+    "PM10": 27.72,
+    "PM2n5": 5.09,
+    "Pressure": 1018,
+    "Temperature": 8,
+    "AirQualityIndex": 92.14
   },
   {
     "id": "SAVEDNIPRO_23232",
@@ -4780,12 +4780,12 @@
     "localName": "",
     "latitude": "46.484041",
     "longitude": "30.208647",
-    "humidity": 36.98,
-    "PM10": 72.81,
-    "PM2n5": 4.38,
-    "Pressure": 991,
-    "Temperature": 5,
-    "AirQualityIndex": 27.84
+    "humidity": 69.17,
+    "PM10": 11.02,
+    "PM2n5": 13.9,
+    "Pressure": 999,
+    "Temperature": 11,
+    "AirQualityIndex": 183.93
   },
   {
     "id": "SAVEDNIPRO_23252",
@@ -4794,12 +4794,12 @@
     "localName": "",
     "latitude": "50.958405",
     "longitude": "34.923685",
-    "humidity": 56.97,
-    "PM10": 70.53,
-    "PM2n5": 8.95,
-    "Pressure": 1006,
+    "humidity": 35.81,
+    "PM10": 20.72,
+    "PM2n5": 5.68,
+    "Pressure": 1014,
     "Temperature": 8,
-    "AirQualityIndex": 15.23
+    "AirQualityIndex": 40.44
   },
   {
     "id": "SAVEDNIPRO_23493",
@@ -4808,12 +4808,12 @@
     "localName": "",
     "latitude": "48.812830",
     "longitude": "29.968380",
-    "humidity": 32.22,
-    "PM10": 36.12,
-    "PM2n5": 15.41,
-    "Pressure": 995,
-    "Temperature": 11,
-    "AirQualityIndex": 24.05
+    "humidity": 72.92,
+    "PM10": 52.68,
+    "PM2n5": 15.81,
+    "Pressure": 1003,
+    "Temperature": 5,
+    "AirQualityIndex": 71.41
   },
   {
     "id": "SAVEDNIPRO_23494",
@@ -4822,12 +4822,12 @@
     "localName": "",
     "latitude": "50.612488",
     "longitude": "27.630063",
-    "humidity": 70.94,
-    "PM10": 45.68,
-    "PM2n5": 17.29,
-    "Pressure": 987,
-    "Temperature": 9,
-    "AirQualityIndex": 67.21
+    "humidity": 42.77,
+    "PM10": 5.18,
+    "PM2n5": 8.13,
+    "Pressure": 1009,
+    "Temperature": 5,
+    "AirQualityIndex": 48.16
   },
   {
     "id": "SAVEDNIPRO_23511",
@@ -4836,12 +4836,12 @@
     "localName": "",
     "latitude": "48.492817",
     "longitude": "34.246168",
-    "humidity": 63.78,
-    "PM10": 59.86,
-    "PM2n5": 13.34,
-    "Pressure": 985,
-    "Temperature": 11,
-    "AirQualityIndex": 98.72
+    "humidity": 39.07,
+    "PM10": 62.64,
+    "PM2n5": 4.67,
+    "Pressure": 982,
+    "Temperature": 7,
+    "AirQualityIndex": 93.07
   },
   {
     "id": "SAVEDNIPRO_23549",
@@ -4850,12 +4850,12 @@
     "localName": "",
     "latitude": "50.296090",
     "longitude": "27.668130",
-    "humidity": 27.6,
-    "PM10": 43.98,
-    "PM2n5": 8.32,
-    "Pressure": 988,
-    "Temperature": 6,
-    "AirQualityIndex": 32
+    "humidity": 37.8,
+    "PM10": 55.55,
+    "PM2n5": 11.34,
+    "Pressure": 1005,
+    "Temperature": 10,
+    "AirQualityIndex": 86.85
   },
   {
     "id": "SAVEDNIPRO_23551",
@@ -4864,12 +4864,12 @@
     "localName": "",
     "latitude": "45.640166",
     "longitude": "28.702964",
-    "humidity": 38.94,
-    "PM10": 46.72,
-    "PM2n5": 3.14,
-    "Pressure": 984,
-    "Temperature": 11,
-    "AirQualityIndex": 111.33
+    "humidity": 38.79,
+    "PM10": 66.11,
+    "PM2n5": 4.52,
+    "Pressure": 1020,
+    "Temperature": 6,
+    "AirQualityIndex": 84.14
   },
   {
     "id": "SAVEDNIPRO_23553",
@@ -4878,12 +4878,12 @@
     "localName": "",
     "latitude": "51.320482",
     "longitude": "28.799621",
-    "humidity": 50.31,
-    "PM10": 65.54,
-    "PM2n5": 16.69,
-    "Pressure": 984,
-    "Temperature": 7,
-    "AirQualityIndex": 22.55
+    "humidity": 61.46,
+    "PM10": 9.97,
+    "PM2n5": 16.38,
+    "Pressure": 986,
+    "Temperature": 8,
+    "AirQualityIndex": 54.87
   },
   {
     "id": "SAVEDNIPRO_23591",
@@ -4892,12 +4892,12 @@
     "localName": "",
     "latitude": "46.174775",
     "longitude": "30.282794",
-    "humidity": 39.67,
-    "PM10": 45.24,
-    "PM2n5": 3.35,
-    "Pressure": 994,
+    "humidity": 33.86,
+    "PM10": 22.25,
+    "PM2n5": 2.19,
+    "Pressure": 984,
     "Temperature": 5,
-    "AirQualityIndex": 44.27
+    "AirQualityIndex": 126.65
   },
   {
     "id": "SAVEDNIPRO_23592",
@@ -4906,12 +4906,12 @@
     "localName": "",
     "latitude": "47.828882",
     "longitude": "31.175188",
-    "humidity": 52.25,
-    "PM10": 2.89,
-    "PM2n5": 19.24,
-    "Pressure": 990,
-    "Temperature": 5,
-    "AirQualityIndex": 104.43
+    "humidity": 28.55,
+    "PM10": 31.61,
+    "PM2n5": 15.81,
+    "Pressure": 998,
+    "Temperature": 9,
+    "AirQualityIndex": 153.73
   },
   {
     "id": "SAVEDNIPRO_23763",
@@ -4920,12 +4920,12 @@
     "localName": "",
     "latitude": "48.442050",
     "longitude": "22.718019",
-    "humidity": 67.6,
-    "PM10": 2.32,
-    "PM2n5": 19.73,
-    "Pressure": 1004,
-    "Temperature": 8,
-    "AirQualityIndex": 159.21
+    "humidity": 69.37,
+    "PM10": 28.43,
+    "PM2n5": 18.47,
+    "Pressure": 1009,
+    "Temperature": 7,
+    "AirQualityIndex": 169.44
   },
   {
     "id": "SAVEDNIPRO_23789",
@@ -4934,12 +4934,12 @@
     "localName": "",
     "latitude": "50.916656",
     "longitude": "34.798326",
-    "humidity": 45.05,
-    "PM10": 68.67,
-    "PM2n5": 19.99,
-    "Pressure": 989,
-    "Temperature": 5,
-    "AirQualityIndex": 123.09
+    "humidity": 47.59,
+    "PM10": 10.71,
+    "PM2n5": 11.94,
+    "Pressure": 1008,
+    "Temperature": 10,
+    "AirQualityIndex": 139.91
   },
   {
     "id": "SAVEDNIPRO_23838",
@@ -4948,12 +4948,12 @@
     "localName": "",
     "latitude": "48.147541",
     "longitude": "33.581193",
-    "humidity": 74.85,
-    "PM10": 55.4,
-    "PM2n5": 9.91,
+    "humidity": 62.96,
+    "PM10": 61.18,
+    "PM2n5": 15.85,
     "Pressure": 1000,
-    "Temperature": 7,
-    "AirQualityIndex": 185.2
+    "Temperature": 5,
+    "AirQualityIndex": 127.44
   },
   {
     "id": "SAVEDNIPRO_23959",
@@ -4962,12 +4962,12 @@
     "localName": "",
     "latitude": "45.641369",
     "longitude": "28.832517",
-    "humidity": 40.5,
-    "PM10": 71.14,
-    "PM2n5": 12.99,
-    "Pressure": 983,
-    "Temperature": 11,
-    "AirQualityIndex": 22.98
+    "humidity": 38.28,
+    "PM10": 1.54,
+    "PM2n5": 6.54,
+    "Pressure": 989,
+    "Temperature": 9,
+    "AirQualityIndex": 180.97
   },
   {
     "id": "SAVEDNIPRO_23976",
@@ -4976,12 +4976,12 @@
     "localName": "",
     "latitude": "50.435698",
     "longitude": "30.452481",
-    "humidity": 51.34,
-    "PM10": 24.78,
-    "PM2n5": 17.76,
-    "Pressure": 986,
-    "Temperature": 8,
-    "AirQualityIndex": 130.02
+    "humidity": 37.44,
+    "PM10": 50.91,
+    "PM2n5": 14.09,
+    "Pressure": 1019,
+    "Temperature": 5,
+    "AirQualityIndex": 167.15
   },
   {
     "id": "SAVEDNIPRO_23994",
@@ -4990,12 +4990,12 @@
     "localName": "",
     "latitude": "51.816456",
     "longitude": "31.942357",
-    "humidity": 31.88,
-    "PM10": 12.91,
-    "PM2n5": 4.55,
-    "Pressure": 997,
+    "humidity": 50.46,
+    "PM10": 77.44,
+    "PM2n5": 2.99,
+    "Pressure": 1005,
     "Temperature": 7,
-    "AirQualityIndex": 130.46
+    "AirQualityIndex": 137.53
   },
   {
     "id": "SAVEDNIPRO_24006",
@@ -5004,12 +5004,12 @@
     "localName": "",
     "latitude": "50.956066",
     "longitude": "28.629400",
-    "humidity": 37.08,
-    "PM10": 13.07,
-    "PM2n5": 11.9,
-    "Pressure": 1009,
-    "Temperature": 10,
-    "AirQualityIndex": 154.63
+    "humidity": 70.66,
+    "PM10": 52.64,
+    "PM2n5": 5.91,
+    "Pressure": 1014,
+    "Temperature": 6,
+    "AirQualityIndex": 63.56
   },
   {
     "id": "SAVEDNIPRO_24008",
@@ -5018,12 +5018,12 @@
     "localName": "",
     "latitude": "50.515193",
     "longitude": "28.601549",
-    "humidity": 41.21,
-    "PM10": 28.88,
-    "PM2n5": 19,
-    "Pressure": 994,
+    "humidity": 38.88,
+    "PM10": 74.33,
+    "PM2n5": 10.35,
+    "Pressure": 998,
     "Temperature": 10,
-    "AirQualityIndex": 131.24
+    "AirQualityIndex": 69.68
   },
   {
     "id": "SAVEDNIPRO_24010",
@@ -5032,12 +5032,12 @@
     "localName": "",
     "latitude": "49.964604",
     "longitude": "33.608477",
-    "humidity": 43.29,
-    "PM10": 33.71,
-    "PM2n5": 11.44,
-    "Pressure": 1004,
-    "Temperature": 5,
-    "AirQualityIndex": 97.13
+    "humidity": 57,
+    "PM10": 71.37,
+    "PM2n5": 6.84,
+    "Pressure": 1020,
+    "Temperature": 11,
+    "AirQualityIndex": 73.18
   },
   {
     "id": "SAVEDNIPRO_24011",
@@ -5046,11 +5046,11 @@
     "localName": "",
     "latitude": "49.558073",
     "longitude": "27.956940",
-    "humidity": 73.19,
-    "PM10": 40.34,
-    "PM2n5": 7.71,
-    "Pressure": 997,
-    "Temperature": 5,
-    "AirQualityIndex": 8.16
+    "humidity": 56.31,
+    "PM10": 23.5,
+    "PM2n5": 18.53,
+    "Pressure": 1010,
+    "Temperature": 6,
+    "AirQualityIndex": 18.28
   }
 ]
