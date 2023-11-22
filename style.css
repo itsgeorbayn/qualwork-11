@@ -445,3 +445,14 @@ a {
     max-width: 100%;
     max-height: 100%;
 }
+
+.images-index {
+    margin-left: -50px;
+    width: 900px
+}
+
+.images-index2 {
+    margin-left: 250px;
+    width: 300px
+}
+
