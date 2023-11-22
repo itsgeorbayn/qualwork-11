@@ -10,48 +10,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nunito&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" style="margin-bottom: 0;">
         <a href="map.html" style="float: left" title="Перейти на мапу">Мапа</a>
         <a href="doc.html" style="float: left" title="Перейти до документаційного листу">Документаційний лист</a>
         <a href="index.html" style="float: right" title="Перейти на головну сторінку">Повернутися на головну сторінку</a>
+        <a onclick="changeVariable()" style="float: right" title="Поради">Поради</a>
         <a onclick="showInfo()" style="float: right" title="Довідник, як працювати з мапою">Як працювати з мапою</a>
     </div>
 
     <div class="radio-input">
         <label title="Вологість - визначає, наскільки насиченим водяною парою є повітря в даний момент. ">
-            <input value="value-1" onclick="getInfo()" name="value-radio" id="value-1" type="radio">
+            <input value="humidity" onclick="getInfo()" name="value-radio" id="humidity" type="radio">
         <span>Вологість</span>
         </label>
 
         <label title="PM10 - вказує на пилові частинки з грубим діаметром менше 10 мікрометрів">
-            <input value="value-2" onclick="getInfo()" name="value-radio" id="value-2" type="radio">
+            <input value="PM10" onclick="getInfo()" name="value-radio" id="PM10" type="radio">
         <span>PM10</span>
         </label>
 
         <label title="PM2.5 - вказує на пилові частинки з грубим діаметром менше 2.5 мікрометрів">
-            <input value="value-3" onclick="getInfo()" name="value-radio" id="value-3" type="radio">
+            <input value="PM2n5" onclick="getInfo()" name="value-radio" id="PM2n5" type="radio">
         <span>PM2.5</span>
         </label>
         
         <label title="Атмосферний тиск - це сила, яку атмосфера, тобто шар повітря, навколо Землі, випрямляє на її поверхню">
-            <input value="value-4" onclick="getInfo()" name="value-radio" id="value-4" type="radio">
+            <input value="Pressure" onclick="getInfo()" name="value-radio" id="Pressure" type="radio">
         <span>Тиск</span>
         </label>
 
         <label title="Температура - кількість градусів Цельсія у повітрі.">
-            <input value="value-5" onclick="getInfo()" name="value-radio" id="value-5" type="radio">
+            <input value="Temperature" onclick="getInfo()" name="value-radio" id="Temperature" type="radio">
         <span>Температура</span>
         </label>
 
         <label title="AQI - індекс якості повітря, визначається концентрацією дрібнодисперсного пилу у повітрі.">
-            <input value="value-6" onclick="getInfo()" name="value-radio" id="value-6" type="radio">
+            <input value="AirQualityIndex" onclick="getInfo()" name="value-radio" id="AirQualityIndex" type="radio">
         <span>Якість повітря</span>
         </label>
 
         <label title="Відображує інформацію про усі показники.">
-            <input value="value-7" onclick="getInfo()" name="value-radio" id="value-7" type="radio">
+            <input value="AllValues" onclick="getInfo()" name="value-radio" id="AllValues" type="radio">
         <span>Усі показники</span>
         </label>
         
@@ -61,10 +63,13 @@
     <div id="map">
         <div id="legend"></div>
     </div>
-    <div id="dateIdContainer">
+    <div id="dateIdContainer" style="background-color: white; width: 270px; padding-left: 10px; margin: 5px auto; height: 50px; border: 2px solid #253a75; border-radius: 15px;">
         <label class="date-id-container-label" for="dateSelect">Оберіть дату:</label>
         <select onchange="getInfo()" class="date-id-container-select" id="dateSelect"></select>
     </div>
+    
+    <input onclick="unhelp()" type="button" id="myButton" style="border-radius: 5px; border: 2px solid black; position: fixed; top: 78%; left: 50%; z-index: 10001; font-size: 18px; transform: translateX(-50%); display: none;" value="Сховати графік">
+    <canvas id="myChart" style="border: 2px solid black; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10000; background-color: white; border-radius: 20px; max-width: 1000px; max-height: 500px; display: none;"></canvas>
     
     <div id="custom-alert" class="custom-alert">    
         <div id="custom-alert-message" class="custom-alert-message"></div>
