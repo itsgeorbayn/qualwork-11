@@ -60,7 +60,7 @@
         <span class="selection"></span>
     </div>
 
-    <div id="map">
+    <div id="map" style="margin-left: 50px;">
         <div id="legend"></div>
     </div>
     <div id="dateIdContainer" style="background-color: white; width: 270px; padding-left: 10px; margin: 5px auto; height: 50px; border: 2px solid #253a75; border-radius: 15px;">
@@ -76,6 +76,59 @@
         <button id="custom-alert-button" class="custom-alert-button">OK</button>
     </div>
     
+    <div style="width: 17%; height: 78%; position: absolute; top: 0; background-color: white; top: 139px; left: 1530px; border-radius: 15px; padding-top: 10px">
+<!--         
+        <div style="text-align: center; margin: 5px 0px">
+            <span>Введіть показник: </span>
+            <select id="filterSelect">
+                <option value="humidity">Вологість</option>
+                <option value="pm10">PM10</option>
+                <option value="pm2n5">PM2.5</option>
+                <option value="pressure">Атмосферний тиск</option>
+                <option value="temperature">Температура</option>
+                <option value="aqi">Якість повітря</option>
+            </select>
+        </div> 
+-->     
+        <div style="text-align: center; margin: 5px 0px 20px 0px">
+            <span style="font-size:x-large;">Меню фільтрації</span>
+        </div>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Більше за: </span>
+            <input id="moreValue">
+        </div>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Менше за: </span>
+            <input id="lessValue">
+        </div>
+        <br>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Мінімальне значення: </span>
+            <span id="min">_</span>
+        </div>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Знаходиться на станції: </span>
+            <span id="minStation">_</span>
+        </div>
+        <br>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Максимальне значення: </span>
+            <span id="max">_</span>
+        </div>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Знаходиться на станції: </span>
+            <span id="maxStation">_</span>
+        </div>
+        <br>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Середнє значення: </span>
+            <span id="average">_</span>
+        </div>
+        <div style="text-align: center; margin: 10px 0px">
+            <span>Знаходиться на станції: </span>
+            <span id="averageStation">_</span>
+        </div>
+    </div>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="script.js"></script>

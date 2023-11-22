@@ -253,14 +253,38 @@ function getInfo() {
         }
     });     
     fetch("jsonfiles\\" + document.getElementById('dateSelect').value + ".json").then((response) => response.json()).then((data) => {
+        const moreValueInput = document.getElementById('moreValue');
+        const lessValueInput = document.getElementById('lessValue');
+        const minSpan = document.getElementById('min');
+        const minStationSpan = document.getElementById('minStation');
+        const maxSpan = document.getElementById('max');
+        const maxStationSpan = document.getElementById('maxStation');
+        const averageSpan = document.getElementById('average');
+        const averageStationSpan = document.getElementById('averageStation');
+        var min = Infinity, max = 0;
+        var minStation = 0, maxStation = 0;
+
         data.forEach((point) => {
-            if (selectedRadio.value === "humidity" && isNaN(point.humidity) || (selectedRadio.value === "humidity" && (point.humidity <= 0 || point.humidity >= 100))) return;
-            if (selectedRadio.value === "PM10" && isNaN(point.PM10) || (selectedRadio.value === "PM10" && point.PM10 >= 424)) return;
-            if (selectedRadio.value === "PM2n5" && isNaN(point.PM2n5) || (selectedRadio.value === "PM2n5" && point.PM2n5 >= 250)) return;
-            if (selectedRadio.value === "Pressure" && isNaN(point.Pressure)) return;
-            if (selectedRadio.value === "Temperature" && isNaN(point.Temperature) || (selectedRadio.value === "Temperature" && Math.abs(point.Temperature) >= 50)) return;  
-            if (selectedRadio.value === "AirQualityIndex" && isNaN(point.AirQualityIndex)) return;  
+            if (selectedRadio.value === "humidity" && point.humidity < min) {min = point.humidity; minStation = point.localId}
+            if (selectedRadio.value === "humidity" && point.humidity > max) {max = point.humidity; maxStation = point.localId}
+            if (selectedRadio.value === "PM10" && point.PM10 < min) {min = point.PM10; minStation = point.localId}
+            if (selectedRadio.value === "PM10" && point.PM10 > max) {max = point.PM10; maxStation = point.localId}
+            if (selectedRadio.value === "PM2n5" && point.PM2n5 < min) {min = point.PM2n5; minStation = point.localId}
+            if (selectedRadio.value === "PM2n5" && point.PM2n5 > max) {max = point.PM2n5; maxStation = point.localId}
+            if (selectedRadio.value === "Pressure" && point.Pressure < min) {min = point.Pressure; minStation = point.localId}
+            if (selectedRadio.value === "Pressure" && point.Pressure > max) {max = point.Pressure; maxStation = point.localId}
+            if (selectedRadio.value === "Temperature" && point.Temperature < min) {min = point.Temperature; minStation = point.localId}
+            if (selectedRadio.value === "Temperature" && point.Temperature > max) {max = point.Temperature; maxStation = point.localId}
+            if (selectedRadio.value === "AirQualityIndex" && point.AirQualityIndex < min) {min = point.AirQualityIndex; minStation = point.localId}
+            if (selectedRadio.value === "AirQualityIndex" && point.AirQualityIndex > max) {max = point.AirQualityIndex; maxStation = point.localId}
             
+            if ((selectedRadio.value === "humidity" && isNaN(point.humidity)) || (selectedRadio.value === "humidity" && (point.humidity <= 0 || point.humidity >= 100)) || (selectedRadio.value === "humidity" && (point.humidity > lessValueInput.value || point.humidity < moreValueInput.value ))) return;
+            if ((selectedRadio.value === "PM10" && isNaN(point.PM10)) || (selectedRadio.value === "PM10" && point.PM10 >= 424) || (selectedRadio.value === "PM10" && (point.PM10 > lessValueInput.value || point.PM10 < moreValueInput.value ))) return;
+            if ((selectedRadio.value === "PM2n5" && isNaN(point.PM2n5)) || (selectedRadio.value === "PM2n5" && point.PM2n5 >= 250) || (selectedRadio.value === "PM2n5" && (point.PM2n5 > lessValueInput.value || point.PM2n5 < moreValueInput.value ))) return;
+            if ((selectedRadio.value === "Pressure" && isNaN(point.Pressure)) || (selectedRadio.value === "Pressure" && (point.Pressure > lessValueInput.value || point.Pressure < moreValueInput.value ))) return;
+            if ((selectedRadio.value === "Temperature" && isNaN(point.Temperature)) || (selectedRadio.value === "Temperature" && Math.abs(point.Temperature) >= 50) || (selectedRadio.value === "Temperature" && (point.Temperature > lessValueInput.value || point.Temperature < moreValueInput.value ))) return;  
+            if ((selectedRadio.value === "AirQualityIndex" && isNaN(point.AirQualityIndex)) || (selectedRadio.value === "AirQualityIndex" && (point.AirQualityIndex > lessValueInput.value || point.AirQualityIndex < moreValueInput.value ))) return;  
+
             function getColor(value) {
                 switch (value) {
                     case "humidity":
@@ -416,7 +440,20 @@ function getInfo() {
             marker.addTo(map);
 
         });
+        if(selectedRadio.value !== "AllValues"){
+            minSpan.innerHTML = min;
+            maxSpan.innerHTML = max;
+            minStationSpan.innerHTML = minStation;
+            maxStationSpan.innerHTML = maxStation;
+        }
+        else{
+            minSpan.innerHTML = "Не знайдено";
+            maxSpan.innerHTML = "Не знайдено";
+            minStationSpan.innerHTML = "Не знайдено";
+            maxStationSpan.innerHTML = "Не знайдено";
+        }
     }).catch((error) => console.error("Помилка завантаження JSON: ", error));
+    
     map.invalidateSize();
     var legendElement = document.getElementById("legend"), legendContent = "";
     switch (selectedRadio.value) {
