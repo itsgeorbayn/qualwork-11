@@ -23,37 +23,37 @@
 
     <div class="radio-input">
         <label title="Вологість - визначає, наскільки насиченим водяною парою є повітря в даний момент. ">
-            <input value="humidity" onclick="getInfo()" name="value-radio" id="humidity" type="radio">
+            <input value="humidity" onclick="callTwoFunctions()" name="value-radio" id="humidity" type="radio">
         <span>Вологість</span>
         </label>
 
         <label title="PM10 - вказує на пилові частинки з грубим діаметром менше 10 мікрометрів">
-            <input value="PM10" onclick="getInfo()" name="value-radio" id="PM10" type="radio">
+            <input value="PM10" onclick="callTwoFunctions()" name="value-radio" id="PM10" type="radio">
         <span>PM10</span>
         </label>
 
         <label title="PM2.5 - вказує на пилові частинки з грубим діаметром менше 2.5 мікрометрів">
-            <input value="PM2n5" onclick="getInfo()" name="value-radio" id="PM2n5" type="radio">
+            <input value="PM2n5" onclick="callTwoFunctions()" name="value-radio" id="PM2n5" type="radio">
         <span>PM2.5</span>
         </label>
         
         <label title="Атмосферний тиск - це сила, яку атмосфера, тобто шар повітря, навколо Землі, випрямляє на її поверхню">
-            <input value="Pressure" onclick="getInfo()" name="value-radio" id="Pressure" type="radio">
+            <input value="Pressure" onclick="callTwoFunctions()" name="value-radio" id="Pressure" type="radio">
         <span>Тиск</span>
         </label>
 
         <label title="Температура - кількість градусів Цельсія у повітрі.">
-            <input value="Temperature" onclick="getInfo()" name="value-radio" id="Temperature" type="radio">
+            <input value="Temperature" onclick="callTwoFunctions()" name="value-radio" id="Temperature" type="radio">
         <span>Температура</span>
         </label>
 
         <label title="AQI - індекс якості повітря, визначається концентрацією дрібнодисперсного пилу у повітрі.">
-            <input value="AirQualityIndex" onclick="getInfo()" name="value-radio" id="AirQualityIndex" type="radio">
+            <input value="AirQualityIndex" onclick="callTwoFunctions()" name="value-radio" id="AirQualityIndex" type="radio">
         <span>Якість повітря</span>
         </label>
 
         <label title="Відображує інформацію про усі показники.">
-            <input value="AllValues" onclick="getInfo()" name="value-radio" id="AllValues" type="radio">
+            <input value="AllValues" onclick="callTwoFunctions()" name="value-radio" id="AllValues" type="radio">
         <span>Усі показники</span>
         </label>
         
@@ -76,7 +76,7 @@
         <button id="custom-alert-button" class="custom-alert-button">OK</button>
     </div>
     
-    <div style="width: 17%; height: 78%; position: absolute; top: 0; background-color: white; top: 139px; left: 1530px; border-radius: 15px; padding-top: 10px">
+    <div id="filterContainer" style="width: 17%; height: 43%; position: absolute; top: 0; background-color: white; top: 139px; left: 1530px; border-radius: 15px; padding-top: 10px">
 <!--         
         <div style="text-align: center; margin: 5px 0px">
             <span>Введіть показник: </span>
@@ -91,7 +91,7 @@
         </div> 
 -->     
         <div style="text-align: center; margin: 5px 0px 20px 0px">
-            <span style="font-size:x-large;">Меню фільтрації</span>
+            <span style="font-size:x-large;">Налаштування фільтру</span>
         </div>
         <div style="text-align: center; margin: 10px 0px">
             <span>Більше за: </span>
@@ -123,10 +123,6 @@
         <div style="text-align: center; margin: 10px 0px">
             <span>Середнє значення: </span>
             <span id="average">_</span>
-        </div>
-        <div style="text-align: center; margin: 10px 0px">
-            <span>Знаходиться на станції: </span>
-            <span id="averageStation">_</span>
         </div>
     </div>
 

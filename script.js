@@ -1,4 +1,6 @@
 const startDate = new Date(2023, 10, 1), currentDate = new Date(), dateSelect = document.getElementById('dateSelect'), fileDates = [], dataArray = [], dateArray = generateDateArray(startDate, currentDate);
+var dim = ["%", " мкг/м3", " мкг/м3", " мм. рт. ст.", " °C", " aqi"], names = ["вологості", "PM10", "PM2.5", "тиску", "температури", "індексу якості повітря"], fullnames = ["Вологість", "PM10", "PM2.5", "Тиск", "Температура", "Індекс якості повітря"];
+
 var doesClick = false;
 function generateDateArray(startDate, endDate) {
     const dateArray = [];
@@ -195,15 +197,15 @@ function getColorHex(value, type, boolean) {
         case "AirQualityIndex": {
             if (value < 54) {
                 image = "0";
-                return boolean ? "#02a302" : "0";
+                return boolean ? "#02a302" : "1";
             }
             else if (value < 154) {
                 image = "1";
-                return boolean ? "#ADFF2F" : "1";
+                return boolean ? "#ADFF2F" : "2";
             }
             else if (value < 254) {
                 image = "2";
-                return boolean ? "#FFFF00" : "2";
+                return boolean ? "#FFFF00" : "3";
             }
             else if (value < 354) {
                 image = "3";
@@ -260,11 +262,17 @@ function getInfo() {
         const maxSpan = document.getElementById('max');
         const maxStationSpan = document.getElementById('maxStation');
         const averageSpan = document.getElementById('average');
-        const averageStationSpan = document.getElementById('averageStation');
-        var min = Infinity, max = 0;
+        var min = Infinity, max = 0, sum = 0, count = 0, number = 0;
         var minStation = 0, maxStation = 0;
 
         data.forEach((point) => {
+            if (selectedRadio.value === "humidity") { sum += point.humidity; count++; number = 0 }
+            if (selectedRadio.value === "PM10") { sum += point.PM10; count++; number = 1 }
+            if (selectedRadio.value === "PM2n5") { sum += point.PM2n5; count++; number = 2 }
+            if (selectedRadio.value === "Pressure") { sum += point.Pressure; count++; number = 3 }
+            if (selectedRadio.value === "Temperature") { sum += point.Temperature; count++; number = 4 }
+            if (selectedRadio.value === "AirQualityIndex") { sum += point.AirQualityIndex; count++; number = 5 }
+            
             if (selectedRadio.value === "humidity" && point.humidity < min) {min = point.humidity; minStation = point.localId}
             if (selectedRadio.value === "humidity" && point.humidity > max) {max = point.humidity; maxStation = point.localId}
             if (selectedRadio.value === "PM10" && point.PM10 < min) {min = point.PM10; minStation = point.localId}
@@ -279,11 +287,11 @@ function getInfo() {
             if (selectedRadio.value === "AirQualityIndex" && point.AirQualityIndex > max) {max = point.AirQualityIndex; maxStation = point.localId}
             
             if ((selectedRadio.value === "humidity" && isNaN(point.humidity)) || (selectedRadio.value === "humidity" && (point.humidity <= 0 || point.humidity >= 100)) || (selectedRadio.value === "humidity" && (point.humidity > lessValueInput.value || point.humidity < moreValueInput.value ))) return;
-            if ((selectedRadio.value === "PM10" && isNaN(point.PM10)) || (selectedRadio.value === "PM10" && point.PM10 >= 424) || (selectedRadio.value === "PM10" && (point.PM10 > lessValueInput.value || point.PM10 < moreValueInput.value ))) return;
-            if ((selectedRadio.value === "PM2n5" && isNaN(point.PM2n5)) || (selectedRadio.value === "PM2n5" && point.PM2n5 >= 250) || (selectedRadio.value === "PM2n5" && (point.PM2n5 > lessValueInput.value || point.PM2n5 < moreValueInput.value ))) return;
-            if ((selectedRadio.value === "Pressure" && isNaN(point.Pressure)) || (selectedRadio.value === "Pressure" && (point.Pressure > lessValueInput.value || point.Pressure < moreValueInput.value ))) return;
-            if ((selectedRadio.value === "Temperature" && isNaN(point.Temperature)) || (selectedRadio.value === "Temperature" && Math.abs(point.Temperature) >= 50) || (selectedRadio.value === "Temperature" && (point.Temperature > lessValueInput.value || point.Temperature < moreValueInput.value ))) return;  
-            if ((selectedRadio.value === "AirQualityIndex" && isNaN(point.AirQualityIndex)) || (selectedRadio.value === "AirQualityIndex" && (point.AirQualityIndex > lessValueInput.value || point.AirQualityIndex < moreValueInput.value ))) return;  
+            else if ((selectedRadio.value === "PM10" && isNaN(point.PM10)) || (selectedRadio.value === "PM10" && point.PM10 >= 424) || (selectedRadio.value === "PM10" && (point.PM10 > lessValueInput.value || point.PM10 < moreValueInput.value ))) return;
+            else if ((selectedRadio.value === "PM2n5" && isNaN(point.PM2n5)) || (selectedRadio.value === "PM2n5" && point.PM2n5 >= 250) || (selectedRadio.value === "PM2n5" && (point.PM2n5 > lessValueInput.value || point.PM2n5 < moreValueInput.value ))) return;
+            else if ((selectedRadio.value === "Pressure" && isNaN(point.Pressure)) || (selectedRadio.value === "Pressure" && (point.Pressure > lessValueInput.value*1.33 || point.Pressure < moreValueInput.value*1.33 ))) return;
+            else if ((selectedRadio.value === "Temperature" && isNaN(point.Temperature)) || (selectedRadio.value === "Temperature" && Math.abs(point.Temperature) >= 50) || (selectedRadio.value === "Temperature" && (point.Temperature > lessValueInput.value || point.Temperature < moreValueInput.value ))) return;  
+            else if ((selectedRadio.value === "AirQualityIndex" && isNaN(point.AirQualityIndex)) || (selectedRadio.value === "AirQualityIndex" && (point.AirQualityIndex > lessValueInput.value || point.AirQualityIndex < moreValueInput.value ))) return;  
 
             function getColor(value) {
                 switch (value) {
@@ -374,7 +382,7 @@ function getInfo() {
                       data: {
                         labels: fileDates,
                         datasets: [{
-                          label: 'Значення',
+                          label: `${fullnames[number]} (у ${dim[number].replace(" ", "")})`,
                           data: message,
                           borderColor: gradient,
                           borderWidth: 3,
@@ -388,13 +396,13 @@ function getInfo() {
                             type: 'category',
                             title: {
                               display: true,
-                              text: 'Дата'
+                              text: `Графік відображення ${names[number]} (вимірюється у ${dim[number].replace(" ", "")})`
                             }
                           },
                           y: {
                             title: {
                               display: true,
-                              text: 'Значення'
+                              text: fullnames[number]
                             }
                           }
                       },
@@ -440,17 +448,37 @@ function getInfo() {
             marker.addTo(map);
 
         });
-        if(selectedRadio.value !== "AllValues"){
-            minSpan.innerHTML = min;
-            maxSpan.innerHTML = max;
+        var filterCont = document.getElementById('filterContainer');
+        var mapCont = document.getElementById('map');
+        if(selectedRadio.value === "Pressure"){
+            min = Math.round(min / 1.33);
+            max = Math.round(max / 1.33);
+            minSpan.innerHTML = `${min}${dim[number]}`;
+            maxSpan.innerHTML = `${max}${dim[number]}`;
             minStationSpan.innerHTML = minStation;
             maxStationSpan.innerHTML = maxStation;
+            averageSpan.innerHTML = Math.round((sum / count)*1000)/1000;
+            filterCont.style.opacity = 1;
+            mapCont.style.margin = "0px 0px 0px 50px";
+        }
+        else if(selectedRadio.value !== "AllValues"){
+            minSpan.innerHTML = `${min}${dim[number]}`;
+            maxSpan.innerHTML = `${max}${dim[number]}`;
+            minStationSpan.innerHTML = minStation;
+            maxStationSpan.innerHTML = maxStation;
+            averageSpan.innerHTML = `${Math.round((sum / count)*1000)/1000}${dim[number]}`;
+            filterCont.style.opacity  = 1;
+            mapCont.style.margin = "0px 0px 0px 50px";
         }
         else{
             minSpan.innerHTML = "Не знайдено";
             maxSpan.innerHTML = "Не знайдено";
+            averageSpan.innerHTML = "Не знайдено";
             minStationSpan.innerHTML = "Не знайдено";
             maxStationSpan.innerHTML = "Не знайдено";
+            filterCont.style.opacity  = 0;
+            mapCont.style.margin = "0 auto";
+            
         }
     }).catch((error) => console.error("Помилка завантаження JSON: ", error));
     
@@ -552,10 +580,10 @@ map.on('click', function(e) {
         var selectedRadio = document.querySelector(".radio-input input:checked");
 
         if (selectedRadio !== null) {    
+            var distance = [Infinity, Infinity, Infinity, Infinity, Infinity, Infinity], index = ["", "", "", "", "", ""], values = [0, 0, 0, 0, 0, 0], com = ["", "", "", "", "", ""], isChecker = [false, false, false, false, false, false];
             fetch("jsonfiles\\" + document.getElementById('dateSelect').value + ".json").then((response) => response.json()).then((datan) => {
                 fetch('reaction.json').then(response => response.json()).then(data => {
-                    var distance = [Infinity, Infinity, Infinity, Infinity, Infinity, Infinity], index = ["", "", "", "", "", ""], values = [0, 0, 0, 0, 0, 0], com = ["", "", "", "", "", ""], isChecker = [false, false, false, false, false, false],  dim = ["%", " мкг/м3", " мкг/м3", " мм. рт. ст.", " °C", " aqi"];
-
+                   
                     datan.forEach((point) => {
                         var tempDistance = Math.sqrt(Math.pow(point.latitude - e.latlng.lat, 2) + Math.pow(point.longitude - e.latlng.lng, 2));
                         if (selectedRadio.value === "humidity" && tempDistance < distance[0] && !isNaN(point.humidity) && point.humidity > 0 && point.humidity < 100){
@@ -662,7 +690,7 @@ map.on('click', function(e) {
                         }
                         else if (selectedRadio.value === "AllValues"){
                             isChecker = [true, true, true, true, true, true]
-                            if (tempDistance < distance[0] && !isNaN(point.humidity) && point.humidity > 0 && point.humidity < 100){
+                            if (tempDistance < distance[0] && !isNaN(point.humidity) && point.humidity > 0 && point.humidity < 100) {
                                 distance[0] = tempDistance;
                                 index[0] = point.id;
                                 values[0] = point.humidity;
@@ -678,7 +706,7 @@ map.on('click', function(e) {
                                 else if (values[0] < 90) com[0] = data.humidity.range9;
                                 else if (values[0] < 100) com[0] = data.humidity.range10;
                             }
-                            if (tempDistance < distance[1] && !isNaN(point.PM10) && point.PM10 > 0 && point.PM10 < 424){
+                            else if (tempDistance < distance[1] && !isNaN(point.PM10) && point.PM10 > 0 && point.PM10 < 424) {
                                 distance[1] = tempDistance;
                                 index[1] = point.id;
                                 values[1] = point.PM10;
@@ -691,7 +719,7 @@ map.on('click', function(e) {
                                 else if (values[1] >= 424) com[1] = data.PM10.range6;
                                 else com[1] = data.PM10.rangex;
                             }
-                            if (tempDistance < distance[2] && !isNaN(point.PM2n5) && point.PM10 > 0 && point.PM10 < 250){
+                            else if (tempDistance < distance[2] && !isNaN(point.PM2n5) && point.PM10 > 0 && point.PM10 < 250) {
                                 distance[2] = tempDistance;
                                 index[2] = point.id;
                                 values[2] = point.PM2n5;
@@ -704,7 +732,7 @@ map.on('click', function(e) {
                                 else if (values[2] >= 250) com[2] = data.PM2n5.range6;
                                 else return com[2] = data.PM2n5.rangex;
                             }
-                            if (tempDistance < distance[3] && !isNaN(point.Pressure)){
+                            else if (tempDistance < distance[3] && !isNaN(point.Pressure)) {
                                 distance[3] = tempDistance;
                                 index[3] = point.id;
                                 values[3] = Math.round(Math.abs(point.Pressure * 0.7518));
@@ -718,7 +746,7 @@ map.on('click', function(e) {
                                     else if (values[3] > 25) com[3] = data.Pressure.range6;
                                 } else com[3] = data.Pressure.rangex;
                             }
-                            if (tempDistance < distance[4] && !isNaN(point.Temperature) && Math.abs(point.Temperature) < 50){
+                            else if (tempDistance < distance[4] && !isNaN(point.Temperature) && Math.abs(point.Temperature) < 50) {
                                 distance[4] = tempDistance;
                                 index[4] = point.id;
                                 values[4] = point.Temperature;
@@ -735,7 +763,7 @@ map.on('click', function(e) {
                                 else if (values[4] < 40) com[4] = data.Temperature.range9;
                                 else if (values[4] < 50) com[4] = data.Temperature.range10;
                             }
-                            if (tempDistance < distance[5] && !isNaN(point.AirQualityIndex) && point.AirQualityIndex > 0 && point.AirQualityIndex < 424){
+                            else if (tempDistance < distance[5] && !isNaN(point.AirQualityIndex) && point.AirQualityIndex > 0 && point.AirQualityIndex < 424) {
                                 distance[5] = tempDistance;
                                 index[5] = point.id;
                                 values[5] = point.AirQualityIndex;
@@ -765,7 +793,7 @@ map.on('click', function(e) {
                     customAlertContainer.style.display = "none";
                     });
                 })
-            }).catch((error) => console.error("Помилка завантаження JSON: ", error));   
+            }).catch((error) => console.error("Помилка завантаження JSON: ", error));
             doesClick = false;
         }    
     }
@@ -786,12 +814,87 @@ function showInfo() {
 });
 }
 
-function help(){
+function help() {
     document.getElementById('myChart').style.display = 'flex';
     document.getElementById('myButton').style.display = 'flex';
 }
 
-function unhelp(){  
+function unhelp() {  
     document.getElementById('myChart').style.display = 'none';
     document.getElementById('myButton').style.display = 'none';
+}
+
+function updateValuesAfterChangingType() {
+    var selectedRadio = document.querySelector(".radio-input input:checked");
+    const moreValueInput = document.getElementById('moreValue');
+    const lessValueInput = document.getElementById('lessValue');
+
+    if (selectedRadio.value === "humidity") {
+        moreValueInput.value = 0;
+        lessValueInput.value = 100;
+        moreValueInput.disabled = false;
+        moreValueInput.title = "Введіть значення фільтру...";
+        lessValueInput.disabled = false;
+        lessValueInput.title = "Введіть значення фільтру...";
+    }
+
+    else if (selectedRadio.value === "PM10") {
+        moreValueInput.value = 0;
+        lessValueInput.value = 500;
+        moreValueInput.disabled = false;
+        moreValueInput.title = "Введіть значення фільтру...";
+        lessValueInput.disabled = false;
+        lessValueInput.title = "Введіть значення фільтру...";
+    }
+
+    else if (selectedRadio.value === "PM2n5") {
+        moreValueInput.value = 0;
+        lessValueInput.value = 250;
+        moreValueInput.disabled = false;
+        moreValueInput.title = "Введіть значення фільтру...";
+        lessValueInput.disabled = false;
+        lessValueInput.title = "Введіть значення фільтру...";
+    }
+
+    else if (selectedRadio.value === "Pressure") {
+        moreValueInput.value = 700;
+        lessValueInput.value = 800;
+        moreValueInput.disabled = false;
+        moreValueInput.title = "Введіть значення фільтру...";
+        lessValueInput.disabled = false;
+        lessValueInput.title = "Введіть значення фільтру...";
+    }
+
+    else if (selectedRadio.value === "Temperature") {
+        moreValueInput.value = -30;
+        lessValueInput.value = 30;
+        moreValueInput.disabled = false;
+        moreValueInput.title = "Введіть значення фільтру...";
+        lessValueInput.disabled = false;
+        lessValueInput.title = "Введіть значення фільтру...";
+    }
+
+    else if (selectedRadio.value === "AirQualityIndex") {
+        moreValueInput.value = 0;
+        lessValueInput.value = 500;
+        moreValueInput.disabled = false;
+        moreValueInput.title = "Введіть значення фільтру...";
+        lessValueInput.disabled = false;
+        lessValueInput.title = "Введіть значення фільтру...";
+    }
+
+    else if (selectedRadio.value === "AllValues") {
+        moreValueInput.value = "Х";
+        lessValueInput.value = "Х";
+        moreValueInput.disabled = true;
+        moreValueInput.title = "Фільтрування для усіх показників неможливе...";
+        lessValueInput.disabled = true;
+        lessValueInput.title = "Фільтрування для усіх показників неможливе...";
+    }
+
+}
+
+function callTwoFunctions() {
+    getInfo();
+    updateValuesAfterChangingType();
 }
