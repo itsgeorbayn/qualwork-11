@@ -76,7 +76,7 @@
         <button id="custom-alert-button" class="custom-alert-button">OK</button>
     </div>
     
-    <div id="filterContainer" style="width: 17%; height: 43%; position: absolute; top: 0; background-color: white; top: 139px; left: 1530px; border-radius: 15px; padding-top: 10px">
+    <div id="filterContainer" style="width: 17%; height: 43%; position: absolute; top: 0; background-color: white; top: 139px; left: 1530px; border-radius: 15px; padding-top: 10px; margin-top: 150px">
 <!--         
         <div style="text-align: center; margin: 5px 0px">
             <span>Введіть показник: </span>
@@ -95,11 +95,11 @@
         </div>
         <div style="text-align: center; margin: 10px 0px">
             <span>Більше за: </span>
-            <input id="moreValue">
+            <input id="moreValue" placeholder="Мінімальне значення">
         </div>
         <div style="text-align: center; margin: 10px 0px">
             <span>Менше за: </span>
-            <input id="lessValue">
+            <input id="lessValue" placeholder="Максимальне значення">
         </div>
         <br>
         <div style="text-align: center; margin: 10px 0px">
@@ -124,6 +124,8 @@
             <span>Середнє значення: </span>
             <span id="average">_</span>
         </div>
+        <br>
+        <input onclick="callTwoFunctions()" type="button" style="width: 325px; height: 40px; border-radius: 15px; border: 1px solid black; font-size: 16px;" value="Оновити значення" class="asffasd"></input>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>

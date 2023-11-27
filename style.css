@@ -456,3 +456,10 @@ a {
     width: 300px
 }
 
+.asffasd:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
+.asffasd {
+    transition: all ease 0.3s;
+}

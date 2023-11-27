@@ -457,7 +457,7 @@ function getInfo() {
             maxSpan.innerHTML = `${max}${dim[number]}`;
             minStationSpan.innerHTML = minStation;
             maxStationSpan.innerHTML = maxStation;
-            averageSpan.innerHTML = Math.round((sum / count)*1000)/1000;
+            averageSpan.innerHTML = `${Math.round((sum / count)*1000)/1000}${dim[number]}`;
             filterCont.style.opacity = 1;
             mapCont.style.margin = "0px 0px 0px 50px";
         }
@@ -824,12 +824,14 @@ function unhelp() {
     document.getElementById('myButton').style.display = 'none';
 }
 
+var previousSelectedValue = null;
 function updateValuesAfterChangingType() {
     var selectedRadio = document.querySelector(".radio-input input:checked");
     const moreValueInput = document.getElementById('moreValue');
     const lessValueInput = document.getElementById('lessValue');
 
-    if (selectedRadio.value === "humidity") {
+    if (selectedRadio.value === "humidity" && previousSelectedValue !== "humidity") {
+        previousSelectedValue = "humidity"
         moreValueInput.value = 0;
         lessValueInput.value = 100;
         moreValueInput.disabled = false;
@@ -838,7 +840,8 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Введіть значення фільтру...";
     }
 
-    else if (selectedRadio.value === "PM10") {
+    else if (selectedRadio.value === "PM10" && previousSelectedValue !== "PM10") {
+        previousSelectedValue = "humidity"
         moreValueInput.value = 0;
         lessValueInput.value = 500;
         moreValueInput.disabled = false;
@@ -847,7 +850,8 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Введіть значення фільтру...";
     }
 
-    else if (selectedRadio.value === "PM2n5") {
+    else if (selectedRadio.value === "PM2n5" && previousSelectedValue !== "PM2n5") {
+        previousSelectedValue = "PM2n5"
         moreValueInput.value = 0;
         lessValueInput.value = 250;
         moreValueInput.disabled = false;
@@ -856,7 +860,8 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Введіть значення фільтру...";
     }
 
-    else if (selectedRadio.value === "Pressure") {
+    else if (selectedRadio.value === "Pressure" && previousSelectedValue !== "Pressure") {
+        previousSelectedValue = "Pressure"
         moreValueInput.value = 700;
         lessValueInput.value = 800;
         moreValueInput.disabled = false;
@@ -865,7 +870,8 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Введіть значення фільтру...";
     }
 
-    else if (selectedRadio.value === "Temperature") {
+    else if (selectedRadio.value === "Temperature" && previousSelectedValue !== "Temperature") {
+        previousSelectedValue = "Temperature"
         moreValueInput.value = -30;
         lessValueInput.value = 30;
         moreValueInput.disabled = false;
@@ -874,7 +880,8 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Введіть значення фільтру...";
     }
 
-    else if (selectedRadio.value === "AirQualityIndex") {
+    else if (selectedRadio.value === "AirQualityIndex" && previousSelectedValue !== "AirQualityIndex") {
+        previousSelectedValue = "AirQualityIndex"
         moreValueInput.value = 0;
         lessValueInput.value = 500;
         moreValueInput.disabled = false;
@@ -883,7 +890,8 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Введіть значення фільтру...";
     }
 
-    else if (selectedRadio.value === "AllValues") {
+    else if (selectedRadio.value === "AllValues" && previousSelectedValue !== "AllValues") {
+        previousSelectedValue = "AllValues"
         moreValueInput.value = "Х";
         lessValueInput.value = "Х";
         moreValueInput.disabled = true;
