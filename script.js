@@ -654,7 +654,6 @@ map.on('click', function(e) {
                                 else if (num < 20) com[3] = data.Pressure.range4;
                                 else if (num < 25) com[3] = data.Pressure.range5;
                                 else if (num > 25) com[3] = data.Pressure.range6;
-                                
                             } else com[3] = data.Pressure.rangex;
                         }
                         else if (selectedRadio.value === "Temperature" && tempDistance < distance[4] && !isNaN(point.Temperature) && Math.abs(point.Temperature) < 50){
@@ -737,14 +736,16 @@ map.on('click', function(e) {
                                 index[3] = point.id;
                                 values[3] = Math.round(Math.abs(point.Pressure * 0.7518));
                             
-                                if (typeof values[3] == "number") {
-                                    if (values[3] < 5) com[3] = data.Pressure.range1;
-                                    else if (values[3] < 10) com[3] = data.Pressure.range2;
-                                    else if (values[3] < 15) com[3] = data.Pressure.range3;
-                                    else if (values[3] < 20) com[3] = data.Pressure.range4;
-                                    else if (values[3] < 25) com[3] = data.Pressure.range5;
-                                    else if (values[3] > 25) com[3] = data.Pressure.range6;
-                                } else com[3] = data.Pressure.rangex;
+                                
+                            if (typeof values[3] == "number") {
+                                var num = Math.abs(values[3] - 760);
+                                if (num < 5) com[3] = data.Pressure.range1;
+                                else if (num < 10) com[3] = data.Pressure.range2;
+                                else if (num < 15) com[3] = data.Pressure.range3;
+                                else if (num < 20) com[3] = data.Pressure.range4;
+                                else if (num < 25) com[3] = data.Pressure.range5;
+                                else if (num > 25) com[3] = data.Pressure.range6;
+                            } else com[3] = data.Pressure.rangex;
                             }
                             else if (tempDistance < distance[4] && !isNaN(point.Temperature) && Math.abs(point.Temperature) < 50) {
                                 distance[4] = tempDistance;
