@@ -37,22 +37,24 @@ async function processFiles() {
 
   return dataArray;
 }
-
+var numerator = 0;
 while (startDate <= currentDate) {
+    numerator++;
     const formattedDate = `${startDate.getFullYear()}-${String(startDate.getMonth() + 1).padStart(2, '0')}-${String(startDate.getDate()).padStart(2, '0')}`;
     
     const option = document.createElement('option');
     option.value = formattedDate;
     option.text = formattedDate;
-  
+
+    option.id = `option${numerator}`;
     dateSelect.add(option);
   
     startDate.setDate(startDate.getDate() + 1);
-  }
+}
 
 var map = L.map("map").setView([49.0, 31.0], 6);
 var tileLayer = L.tileLayer(
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
     {
         maxZoom: 12,
         attribution:'© <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | © <a target="_blank" href="https://www.saveecobot.com/">SaveEcoBot</a> contributors',
@@ -94,7 +96,7 @@ function getColorHex(value, type, boolean) {
                 return boolean ? "#FFA500" : "5";
             } 
             else {
-                return boolean ? "#808080" : "0";
+                return boolean ? "#gray" : "0";
             }
         }
 
@@ -139,10 +141,10 @@ function getColorHex(value, type, boolean) {
                 return boolean ? "#FFA500" : "4";
             }
             else if (value >= 250) {
-                return boolean ? "tomato" : "5";
+                return boolean ? "#f05746" : "5";
             }
             else {
-                return boolean ? "#808080" : "0";
+                return boolean ? "#gray" : "0";
             }
         }
 
@@ -160,7 +162,7 @@ function getColorHex(value, type, boolean) {
                 } else if (num < 25) {
                     return boolean ? "#FFA500" : "4";
                 } else if (num > 25) {
-                    return boolean ? "tomato" : "5";
+                    return boolean ? "f05746" : "5";
                 }
             } 
             else {
@@ -217,7 +219,7 @@ function getColorHex(value, type, boolean) {
             }
             else  {
                 image = "0";
-                return boolean ? "#808080" : "0";
+                return boolean ? "#gray" : "0";
             }
         }
 
@@ -230,12 +232,14 @@ fetch('coords.json').then(response => response.json()).then(data => {
         weight: 2,
         opacity: 0,
         fillOpacity: 0.1,
+        interactive: false,
       }).addTo(map);    
     var polygon2 = L.polygon(data.bounds2, {
         color: '#ff7b00',
         weight: 2,
         opacity: 0,
         fillOpacity: 0.1,
+        interactive: false,
     }).addTo(map);
 }).catch(error => console.error('Помилка завантаження JSON:', error));
  
@@ -308,20 +312,21 @@ function getInfo() {
                     case "AirQualityIndex":
                         return getColorHex(point.AirQualityIndex, "AirQualityIndex", true);
                     default:
-                        return "blue";
+                        return "gray";
                 }
             }
-            var customIcon = L.divIcon({
-                html: '<svg id="circle-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill=' + getColor(selectedRadio.value) + ' viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke="black" stroke-width="1  "/></svg>',
+            var customIcon = L.icon({
+                iconUrl: 'markers/' + getColor(selectedRadio.value).replace("#", "") + '.png',
                 className: "custom-icon",
-                iconSize: [32, 32],
+                iconSize: [30, 45],
+                iconAnchor: [15, 45],
+                popupAnchor: [0, -30]
             });
 
             var marker = L.marker([point.latitude, point.longitude], {
                 title: "Натисни на мене :3",
                 icon: customIcon,
             });
-
             
             marker.on('mousedown', async function() {
                 try {
@@ -418,22 +423,22 @@ function getInfo() {
                     var textTemplate = ``;
                     switch (selectedRadio.value) {
                         case "humidity":
-                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.humidity, "humidity", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>💦 Вологість: ${point.humidity}%<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік вологості' style='margin: 10px 3px 3px 3px; height: 30px; width: 100%' type='button'></input>`;
+                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.humidity, "humidity", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>💦 Вологість: ${point.humidity}%<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік вологості' class='button-graph' type='button'></input>`;
                             break;
                         case "PM10":
-                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.PM10, "PM10", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>PM10: ${point.PM10} мкг/м3<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік PM10' style='margin: 10px 3px 3px 3px; height: 30px; width: 100%' type='button'></input>`;
+                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.PM10, "PM10", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>PM10: ${point.PM10} мкг/м3<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік PM10' class='button-graph' type='button'></input>`;
                             break;
                         case "PM2n5":
-                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.PM2n5, "PM2n5", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>PM2.5: ${point.PM2n5} мкг/м3<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік PM2.5' style='margin: 10px 3px 3px 3px; height: 30px; width: 100%' type='button'></input>`;
+                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.PM2n5, "PM2n5", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>PM2.5: ${point.PM2n5} мкг/м3<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік PM2.5' class='button-graph' type='button'></input>`;
                             break;
                         case "Pressure":
-                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.Pressure, "Pressure", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік тиску' style='margin: 10px 3px 3px 3px; height: 30px; width: 100%' type='button'></input>`;
+                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.Pressure, "Pressure", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік тиску' class='button-graph' type='button'></input>`;
                             break;
                         case "Temperature":
-                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.Temperature, "Temperature", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Температура: ${point.Temperature} °C<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік температури' style='margin: 10px 3px 3px 3px; height: 30px; width: 100%' type='button'></input>`;
+                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.Temperature, "Temperature", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Температура: ${point.Temperature} °C<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік температури' class='button-graph' type='button'></input>`;
                             break;
                         case "AirQualityIndex":
-                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.AirQualityIndex, "AirQualityIndex", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Індекс якості повітря: ${point.AirQualityIndex} aqi<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік якості повітря' style='margin: 10px 3px 3px 3px; height: 30px; width: 100%' type='button'></input>`;
+                            textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/${getColorHex(point.AirQualityIndex, "AirQualityIndex", false)}.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Індекс якості повітря: ${point.AirQualityIndex} aqi<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div><input onclick='help()' value='Графік якості повітря' class='button-graph' type='button'></input>`;
                             break;
                         case "AllValues":
                             textTemplate += `<div style="display: flex; align-items: center;"><div class="image-style" style="flex-shrink: 0; margin-right: 10px;"><img src="svg/0.png" alt="SVG Image" style="height: 114px"></div><div class="text-style" style="">#️⃣ Номер метеостанції: ${point.id.replace("SAVEDNIPRO_","",)}<br>🌇 Місто: ${point.cityName}<br>🏠 Вулиця: ${point.stationName}<hr>Вологість: ${point.humidity}%<br>PM10: ${point.PM10} мкг/м3<br>PM2.5: ${point.PM2n5} мкг/м3<br>Тиск: ${Math.round(Math.abs(point.Pressure / 1.33))} мм. рт. ст.<br>Температура: ${point.Temperature} °C  <br>Індекс якості повітря: ${point.AirQualityIndex} aqi<br>Джерело даних: <a id="colorwhite" target="_blank" href="https://www.saveecobot.com/">клік</a></div></div>`;
@@ -448,37 +453,31 @@ function getInfo() {
             marker.addTo(map);
 
         });
-        var filterCont = document.getElementById('filterContainer');
+        var filterCont = document.getElementById('filter-container');
         var mapCont = document.getElementById('map');
-        if(selectedRadio.value === "Pressure"){
+        if(selectedRadio.value === "Pressure") {
             min = Math.round(min / 1.33);
             max = Math.round(max / 1.33);
             minSpan.innerHTML = `${min}${dim[number]}`;
             maxSpan.innerHTML = `${max}${dim[number]}`;
             minStationSpan.innerHTML = minStation;
             maxStationSpan.innerHTML = maxStation;
-            averageSpan.innerHTML = `${Math.round((sum / count)*1000)/1000}${dim[number]}`;
-            filterCont.style.opacity = 1;
-            mapCont.style.margin = "0px 0px 0px 50px";
+            averageSpan.innerHTML = `${Math.round(((sum / count)*1000/1000)/1.33)}${dim[number]}`;
         }
-        else if(selectedRadio.value !== "AllValues"){
+        else if(selectedRadio.value !== "AllValues") {
             minSpan.innerHTML = `${min}${dim[number]}`;
             maxSpan.innerHTML = `${max}${dim[number]}`;
             minStationSpan.innerHTML = minStation;
             maxStationSpan.innerHTML = maxStation;
             averageSpan.innerHTML = `${Math.round((sum / count)*1000)/1000}${dim[number]}`;
-            filterCont.style.opacity  = 1;
-            mapCont.style.margin = "0px 0px 0px 50px";
         }
-        else{
+        else {
             minSpan.innerHTML = "Не знайдено";
             maxSpan.innerHTML = "Не знайдено";
             averageSpan.innerHTML = "Не знайдено";
             minStationSpan.innerHTML = "Не знайдено";
             maxStationSpan.innerHTML = "Не знайдено";
             filterCont.style.opacity  = 0;
-            mapCont.style.margin = "0 auto";
-            
         }
     }).catch((error) => console.error("Помилка завантаження JSON: ", error));
     
@@ -805,7 +804,7 @@ function showInfo() {
     var customAlertMessage = document.getElementById("custom-alert-message");
     var customAlertButton = document.getElementById("custom-alert-button");
 
-    text = `Для того, щоб користуватися цією мапою, вам потрібно обрати потрібний вам показник повітря (також можна обрати відображення усіх показників), після чого ви побачите на мапі різнокольорові кружечки - натиснувши на них лівою кнопкою миші, ви дізнаєтеся на яку станцію ви натиснули, де вона знаходиться та яку інформацію вона зібрала для вас. Якщо ви хочете змінити режим відображення, достатньо натиснути на інший показник зверху. Справа знизу можна побачити легенду, на якій чітко пояснено, який колір відповідає своєму показнику. Також, ви можете побачити кнопку "Графік" у випливаючих підказках. Натиснувши на них, ви зможете побачити інформацію за минулі дні у форматі зручного графіка. На навігаційній панелі є кнопка "Поради". Натиснувши на неї, в вас з'являється можливість дізнатися поради щодо того чи іншого показника у місці, по якому ви натиснете на мапі. Його можна нажати лише один раз, тож якщо ви захочете знову скористуватися цією функцією, вам потрібно буде натиснути на кнопку "Поради" ще раз. Також, у нижній частині екрану можна змінити дату відображення інформації, за замовчуванням, у вас буде стояти день, який в вас налаштован у комп'ютері.`;
+    text = `Для того, щоб користуватися цією мапою, вам потрібно обрати потрібний вам показник повітря (також можна обрати відображення усіх показників), після чого ви побачите на мапі різнокольорові маркери - натиснувши на них лівою кнопкою миші, ви дізнаєтеся на яку станцію ви натиснули, де вона знаходиться та яку інформацію вона зібрала для вас. Якщо ви хочете змінити режим відображення, достатньо натиснути на інший показник зверху. Справа знизу можна побачити легенду, на якій чітко пояснено, який колір відповідає своєму показнику. Також, ви можете побачити кнопку "Графік" у випливаючих підказках. Натиснувши на них, ви зможете побачити інформацію за минулі дні у форматі зручного графіка. На навігаційній панелі є кнопка "Поради". Натиснувши на неї, в вас з'являється можливість дізнатися поради щодо того чи іншого показника у місці, по якому ви натиснете на мапі. Його можна нажати лише один раз, тож якщо ви захочете знову скористуватися цією функцією, вам потрібно буде натиснути на кнопку "Поради" ще раз. Також, біля вибору режиму відображення можна змінити дату представленої інформації (за замовчуванням у вас буде сьогодення).`;
     
     customAlertMessage.innerHTML = text;
     customAlertContainer.style.display = "block";
@@ -901,9 +900,55 @@ function updateValuesAfterChangingType() {
         lessValueInput.title = "Фільтрування для усіх показників неможливе...";
     }
 
+    
+
+    if (moreValueInput.value == "" || lessValueInput.value == "") {
+        alert("Ви не ввели значення!");
+        return;
+    }
+
 }
 
 function callTwoFunctions() {
     getInfo();
     updateValuesAfterChangingType();
+}
+
+function showFilter() {
+    var div = document.getElementById("filter-container").style;
+    div.zIndex = div.zIndex === "100000" ? "-1" : "100000";
+}
+
+function disable() {
+    var bodyChildren = document.body.children;
+    var div = document.getElementById("filter-container").style;
+
+    if (document.getElementById("filter-container").style.zIndex === "100000") {
+        for (var i = 0; i < bodyChildren.length; i++) {
+            var child = bodyChildren[i];
+
+            if (child.id !== "filter-container") {
+                child.style.pointerEvents = "none"
+            }
+        }
+        div.opacity = "1"
+        div.zIndex = "100000"
+        div.transition = "opacity ease 0.5s"
+    }
+    else {
+        for (var i = 0; i < bodyChildren.length; i++) {
+            var child = bodyChildren[i];
+
+            if (child.id !== "filter-container") {
+                child.style.pointerEvents = "auto"
+            }
+        }
+        div.opacity = "0";
+        div.transition = "all ease 0.5s"
+    }
+}
+
+function callTwoFunctions2() {
+    showFilter();
+    disable();
 }

@@ -1,13 +1,46 @@
+:root {
+    --colorAnimationDefault: var(--colorAnimationLoad);
+    --colorAnimationLoad: linear-gradient(271deg, #ffffff, #ffffff, #ffffff);
+    --colorAnimation1: linear-gradient(271deg, #67e487, #87f5d9, #71ec9a);
+    --colorAnimation2: linear-gradient(271deg, #e46767, #f58787, #ec7171);
+    --colorAnimation3: linear-gradient(271deg, #6769e4, #8789f5, #7183ec);
+    --colorAnimation4: linear-gradient(271deg, #d7e467, #e1f587, #e4ec71);
+    --colorAnimation5: linear-gradient(271deg, #bc67e4, #cd87f5, #b571ec);
+    --colorAnimation6: linear-gradient(271deg, #e467de, #db87f5, #cf71ec);
+    --colorAnimation7: linear-gradient(271deg, #67bce4, #87dbf5, #71cfec);
+    --colorAnimation8: linear-gradient(271deg, #ffb923, #ffb515, #e2a728);
+    --colorAnimation9: linear-gradient(271deg, #acacac, #bbbbbb, #999999);
+    
+    --colorSolidDefault: var(--colorSolidLoad);
+    --colorSolidLoad: #ffffff;
+    --colorSolid1: #4CAD75;
+    --colorSolid2: #e46767;
+    --colorSolid3: #6769e4;
+    --colorSolid4: #d7e467;
+    --colorSolid5: #bc67e4;
+    --colorSolid6: #e467de;
+    --colorSolid7: #67bce4;
+    --colorSolid8: #ffb923;
+    --colorSolid9: #acacac;
+}
+
+hr {
+    border-bottom: 0;
+}
+
 * {
     font-family: 'Nunito', 'sans-serif';
+    font-weight: 600;
 }
 .date-id-container-label{
+    cursor: pointer;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 10px;
+    
 }
-  
 .date-id-container-select{
+    cursor: pointer;
     display: inline-block;
     padding: 8px;
     font-size: 16px;
@@ -15,19 +48,41 @@
     border-radius: 4px;
 }
 
-
-#dateIdContainer {
-    margin: 5px;
+#dateIdContainer, #buttonShowFilter {
+    cursor: pointer;
+    transition: all ease 0.3s;
+    background-color: white; 
+    height: 50px; 
+    width: 280px; 
+    padding-left: 10px; 
+    margin: 15px;     
+    font-weight: 600;
+    border: 3px solid var(--colorSolidDefault);
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+option {
+    font-weight: 600;
+
+}
+
+#buttonShowFilter {
+    width: 260px
+}
+
+#buttonShowFilter:hover, #dateIdContainer:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px 1px var(--colorSolidDefault);
 }
 
 #dateSelect {
     margin-right: 10px;
     border-radius: 5px;
     padding: 5px;
-    border: 2px solid #4c66af;
+    border: 2px solid var(--colorSolidDefault);
 }
 
 .button-output {
@@ -50,14 +105,26 @@
     transform: scale(1.05);
 }
 
-#dateSelect::placeholder {
-    color: #A9A9A9;
-}
-
 #dateSelect:focus {
     outline: none;
 }
 
+#filter-container {
+    z-index: -1;
+    width: 17%; 
+    height: 47%; 
+    top: 0; 
+    border-radius: 15px; 
+    border: 3px solid var(--colorSolidDefault);
+    background-color: white; 
+    padding-top: 10px; 
+    position: fixed; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 5000px 2000px rgba(0, 0, 0, 0.75);
+    opacity: 0;
+}
 
 .custom-alert {
     display: none;
@@ -76,7 +143,7 @@
 }
 
 #colorwhite {
-    color: white;
+    color: black;
 }
 
 @keyframes fadeIn {
@@ -88,38 +155,23 @@
     }
 }
 
-.info-button {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: white;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid rgb(255, 0, 0);
-    color: white;
-    font-size: 16px;
-    z-index: 1000;
-    color: black;
-}
-
 .custom-alert-message {
     margin-bottom: 10px;
 }
 
 .custom-alert-button {
-    border: 2px solid gray;
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--colorSolidDefault);
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 10px;
 }
 
 .custom-alert-button:hover {
-    background-color: #0056b3;
-    border-radius: 5px;
+    transform: scale(1.2);
 }
 
 .map-controls {
@@ -262,32 +314,106 @@
 }
 
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
-    color: white;
-    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
-    animation: gradient 10s infinite linear;
-    background-size: 400%;
+    color: black;
+    background: var(--colorAnimationDefault) !important;
+    background-size: 600% 600% !important;
+    -webkit-animation: AnimationName 3s ease infinite !important;
+    -moz-animation: AnimationName 3s ease infinite !important;
+    -o-animation: AnimationName 3s ease infinite !important;
+    animation: AnimationName 3s ease infinite !important;
 }
 
-.navbar {
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.map .navbar {
     width: 95%;
+}
+.doc .navbar {
+    width: 1306px;
+}
+.index .navbar {
+    width: 1306px;
+}
+.navbar {
     margin: 5px auto;
-    border-radius: 10px;
-    background-color: #555;
+    border-radius: 15px;
+    background-color: white;
     overflow: hidden;
     transition: background-color 0.3s;
+    border: 3px solid var(--colorSolidDefault);
+    transition: all ease 0.3s;
+}
+.navbar:hover{
+    box-shadow: 0 0 50px 1px var(--colorSolidDefault);
+    animation: gradient 3s infinite linear;
+    background-size: 400%;
 }
 .navbar a {
     cursor: pointer;
     float: left;
     font-size: 26px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px 40px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
-.navbar a:hover {
-    background-color: #444;
+
+.navbar select {
+    padding: 14px 20px;
+    text-align-last: center;
+    text-align: center;
+}
+
+.navbar select:focus {
+    border: none;
+}
+
+.navbar select option {
+    padding: 0px;
+    text-align: center;
+}
+
+.select-theme {
+    margin-left: 30px;
+    cursor: pointer;
+    float: left;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.navbar select option {
+    margin: 100px
+}
+
+.navbar a:hover, .navbar select:hover {
+    background: var(--colorAnimationDefault);
+    animation: gradient 3s infinite linear;
+    background-size: 400%;
+    display: inline-block;
     transition: transform 0.3s;
     transform: scale(1.1);
 }
@@ -297,8 +423,15 @@ body, html {
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-image: url('images/bg1.png');
+    background: linear-gradient(271deg, #000000, #ffffff);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+    filter: blur(50);
     padding: 0;
     margin: 0;
 }
@@ -314,21 +447,32 @@ body{
     display: none;
 }
 
+.radio-input label:hover {
+    transform: scale(1.2);
+}
+
+.radio-input:hover {
+    box-shadow: 0 0 50px 1px var(--colorSolidDefault);
+}
+
 .radio-input {
     --container_width: 1200px;
-    margin: 10px auto;
+    margin: 15px;
     position: relative;
     display: flex;
     align-items: center;
-    border-radius: 10px;
     background-color: #fff;
     color: #000000;
     width: var(--container_width);
     overflow: hidden;
-    border: 1px solid rgba(53, 52, 52, 0.226);
+    scroll-behavior: unset;
+    border: 3px solid var(--colorSolidDefault);
+    border-radius: 15px;
+    transition: all ease 0.3s;
 }
 
 .radio-input label {
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) ; 
     width: 100%;
     padding: 10px;
     cursor: pointer;
@@ -351,10 +495,6 @@ body{
     transition: .15s ease;
 }
 
-.radio-input label:has(input:checked) {
-    color: #fff;
-}
-
 @keyframes gradient {
     0% {
         background-position: 80% 0%;
@@ -368,8 +508,8 @@ body{
 }
 
 .radio-input label:has(input:checked) ~ .selection {
-    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
-    animation: gradient 10s infinite linear;
+    background: var(--colorAnimationDefault);
+    animation: gradient 3s infinite linear;
     background-size: 400%;
     display: inline-block;
 }
@@ -403,7 +543,7 @@ body{
 }
 
 #map {
-    width: 76%;
+    width: 1820px;
     height: 78%;
     margin: 0 auto;
     border-radius: 15px;
@@ -423,6 +563,7 @@ a {
     overflow: auto;
     word-wrap: break-word;
     border-radius: 25px;
+    border: 3px solid var(--colorSolidDefault)
 }
 
 .wrapper p {
@@ -452,14 +593,97 @@ a {
 }
 
 .images-index2 {
-    margin-left: 250px;
-    width: 300px
+    margin: 0 auto;
+    display: flex;
+    width: 400px
+}
+.images-index3{
+    margin: 0 auto;
+    display: flex;
+    width: 250px
 }
 
+#moreValue, #lessValue {
+    transition: all ease 0.3s;
+    border: 1px solid var(--colorSolidDefault);
+}
+#moreValue:hover, #lessValue:hover   {
+    box-shadow: 0 0 50px 1px var(--colorSolidDefault);
+    transform: translate(-26%, 0%) scale(1.6);
+    border: 1px solid var(--colorSolidDefault);
+    border-radius: 5px; 
+    padding-left: 4px;
+}
+#moreValue:focus, #lessValue:focus {
+    outline: none
+}
 .asffasd:hover {
-    background-color: gray;
+    background-color: var(--colorSolidDefault);
+    box-shadow: 0 0 40px 1px var(--colorSolidDefault);
     transform: scale(1.1);
 }
 .asffasd {
+    border-radius: 10px; 
+    border: 3px solid var(--colorSolidDefault);
     transition: all ease 0.3s;
+    margin-top: 30px; 
+    width: 330px; 
+    height: 40px; 
+    font-size: 16px;
+    margin-left: -2px;
+}
+
+.button-close:hover {
+    transform: scale(1.5) rotate(180deg) translateY(-3px);
+    
+}
+.button-close {
+    font-size: 24px;
+    cursor: default;
+    transition: all ease 0.5s;
+    position: absolute; 
+    right: 8px; 
+    top: -3px; 
+}
+
+#dateSelect option {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#dateSelect:hover option {
+    opacity: 1;
+}
+  
+.button-graph:hover {
+    box-shadow: 0 0 40px 1px black;
+    transform: scale(1.15);
+    background-color: var(--colorSolidDefault);
+}
+.button-graph {
+    transition: all ease 0.3s;
+    border-radius: 5px; 
+    border: 2px solid var(--colorSolidDefault);
+    margin: 10px 0px 0px 5%;
+    height: 30px; 
+    width: 90%
+}
+
+.leaflet-popup-close-button:hover {
+    transform: scale(1.5) rotate(180deg) translateX(3px) translateY(-5px) ;
+    color: gray !important;
+}
+
+.leaflet-popup-close-button {
+    margin: 2px;
+    transition: all ease 0.3s;
+}
+
+viewer-toolbar {
+    display: none !important;
+}
+
+.unic {
+    font-size: 40px;
+    margin: 0;
 }

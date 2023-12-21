@@ -12,11 +12,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Документаційний лист</title>
 </head>
-<body style="overflow: auto;">
+<body style="overflow: auto;" onload="changeAnim()" class="doc">
     <div class="navbar">
         <a href="map.html" style="float: left" title="Перейти на мапу">Мапа</a>
         <a href="doc.html" style="float: left" title="Перейти до документаційного листу">Документаційний лист</a>
         <a href="index.html" style="float: right" title="Перейти на головну сторінку">Повернутися на головну сторінку</a>
+
+        <select id="select" class="select-theme">
+            <option value="value1">Зелений</option>
+            <option value="value2">Червоний</option>
+            <option value="value3">Синій</option>
+            <option value="value4">Жовтий</option>
+            <option value="value5">Фіолетовий</option>
+            <option value="value6">Розовий</option>
+            <option value="value7">Блакитний</option>
+        </select>
     </div>
 
     <div class="wrapper">
@@ -24,8 +34,9 @@
         <h1 style = "margin-top: -25px; margin-bottom: 0px;">Вплив якості повітря на людину.</h1><h1 style=" margin-top: 0px;">Інформаційна карта України</h1> 
 
         <div class="pdf-container">
-            <embed src="documentation.pdf" type="application/pdf" width="1000" height="1200">
+            <embed src="doc.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="1000" height="1200">
         </div>
     </div>
+    <script src="changeTheme.js"></script>
 </body>
 </html>

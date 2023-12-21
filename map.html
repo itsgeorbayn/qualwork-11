@@ -3,7 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <title>Інформаційна мапа</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Leaflet.markercluster-1.4.1\dist\MarkerCluster.css">
+    <link rel="stylesheet" href="Leaflet.markercluster-1.4.1\dist\MarkerCluster.Default.css "> 
+    <script src="Leaflet.markercluster-1.4.1\dist\leaflet.markercluster-src.js"></script>
+    <script src="Leaflet.markercluster-1.4.1\src\MarkerCluster.js"></script>
     <link rel="shortcut icon" href="images/icon2.png" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -11,90 +15,120 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nunito&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
 </head>
-<body>
-    <div class="navbar" style="margin-bottom: 0;">
+<body id="idBody" style="overflow: hidden;" onload="changeAnim()" class="map">
+    <div class="navbar" style="margin-bottom: 0;" id="navigationbar">
         <a href="map.html" style="float: left" title="Перейти на мапу">Мапа</a>
         <a href="doc.html" style="float: left" title="Перейти до документаційного листу">Документаційний лист</a>
         <a href="index.html" style="float: right" title="Перейти на головну сторінку">Повернутися на головну сторінку</a>
         <a onclick="changeVariable()" style="float: right" title="Поради">Поради</a>
         <a onclick="showInfo()" style="float: right" title="Довідник, як працювати з мапою">Як працювати з мапою</a>
+
+        <select id="select" class="select-theme">
+            <option value="value2">Червоний</option>
+            <option value="value6">Рожевий</option>
+            <option value="value8">Помаранчевий</option>
+            <option value="value4">Жовтий</option>
+            <option value="value1">Зелений</option>
+            <option value="value3">Синій</option>
+            <option value="value7">Блакитний</option>
+            <option value="value5">Фіолетовий</option>
+            <option value="value9">Сірий</option>
+        </select>
     </div>
 
-    <div class="radio-input">
-        <label title="Вологість - визначає, наскільки насиченим водяною парою є повітря в даний момент. ">
-            <input value="humidity" onclick="callTwoFunctions()" name="value-radio" id="humidity" type="radio">
-        <span>Вологість</span>
-        </label>
-
-        <label title="PM10 - вказує на пилові частинки з грубим діаметром менше 10 мікрометрів">
-            <input value="PM10" onclick="callTwoFunctions()" name="value-radio" id="PM10" type="radio">
-        <span>PM10</span>
-        </label>
-
-        <label title="PM2.5 - вказує на пилові частинки з грубим діаметром менше 2.5 мікрометрів">
-            <input value="PM2n5" onclick="callTwoFunctions()" name="value-radio" id="PM2n5" type="radio">
-        <span>PM2.5</span>
-        </label>
-        
-        <label title="Атмосферний тиск - це сила, яку атмосфера, тобто шар повітря, навколо Землі, випрямляє на її поверхню">
-            <input value="Pressure" onclick="callTwoFunctions()" name="value-radio" id="Pressure" type="radio">
-        <span>Тиск</span>
-        </label>
-
-        <label title="Температура - кількість градусів Цельсія у повітрі.">
-            <input value="Temperature" onclick="callTwoFunctions()" name="value-radio" id="Temperature" type="radio">
-        <span>Температура</span>
-        </label>
-
-        <label title="AQI - індекс якості повітря, визначається концентрацією дрібнодисперсного пилу у повітрі.">
-            <input value="AirQualityIndex" onclick="callTwoFunctions()" name="value-radio" id="AirQualityIndex" type="radio">
-        <span>Якість повітря</span>
-        </label>
-
-        <label title="Відображує інформацію про усі показники.">
-            <input value="AllValues" onclick="callTwoFunctions()" name="value-radio" id="AllValues" type="radio">
-        <span>Усі показники</span>
-        </label>
-        
-        <span class="selection"></span>
+    <div style="display: flex; flex: 0.5; justify-content: center;">
+        <div class="radio-input">
+            <label title="Вологість - визначає, наскільки насиченим водяною парою є повітря в даний момент. ">
+                <input value="humidity" onclick="callTwoFunctions()" name="value-radio" id="humidity" type="radio">
+            <span>Вологість</span>
+            </label>
+    
+            <label title="PM10 - вказує на пилові частинки з грубим діаметром менше 10 мікрометрів">
+                <input value="PM10" onclick="callTwoFunctions()" name="value-radio" id="PM10" type="radio">
+            <span>PM10</span>
+            </label>
+    
+            <label title="PM2.5 - вказує на пилові частинки з грубим діаметром менше 2.5 мікрометрів">
+                <input value="PM2n5" onclick="callTwoFunctions()" name="value-radio" id="PM2n5" type="radio">
+            <span>PM2.5</span>
+            </label>
+            
+            <label title="Атмосферний тиск - це сила, яку атмосфера, тобто шар повітря, навколо Землі, випрямляє на її поверхню">
+                <input value="Pressure" onclick="callTwoFunctions()" name="value-radio" id="Pressure" type="radio">
+            <span>Тиск</span>
+            </label>
+    
+            <label title="Температура - кількість градусів Цельсія у повітрі.">
+                <input value="Temperature" onclick="callTwoFunctions()" name="value-radio" id="Temperature" type="radio">
+            <span>Температура</span>
+            </label>
+    
+            <label title="AQI - індекс якості повітря, визначається концентрацією дрібнодисперсного пилу у повітрі.">
+                <input value="AirQualityIndex" onclick="callTwoFunctions()" name="value-radio" id="AirQualityIndex" type="radio">
+            <span>Якість повітря</span>
+            </label>
+    
+            <label title="Відображує інформацію про усі показники.">
+                <input value="AllValues" onclick="callTwoFunctions()" name="value-radio" id="AllValues" type="radio">
+            <span>Усі показники</span>
+            </label>
+            
+            <span class="selection"></span>
+        </div>
+    
+        <div id="dateIdContainer">
+            <label class="date-id-container-label" for="dateSelect">Оберіть дату:</label>
+            <select onchange="getInfo()" class="date-id-container-select" id="dateSelect"></select>
+        </div>
+    
+        <div id="buttonShowFilter" onclick="callTwoFunctions2()">
+            <label class="date-id-container-label">Фільтр та аналітика</label>
+        </div>
     </div>
 
-    <div id="map" style="margin-left: 50px;">
+    <div id="map" style="margin-left: 50px">
         <div id="legend"></div>
-    </div>
-    <div id="dateIdContainer" style="background-color: white; width: 270px; padding-left: 10px; margin: 5px auto; height: 50px; border: 2px solid #253a75; border-radius: 15px;">
-        <label class="date-id-container-label" for="dateSelect">Оберіть дату:</label>
-        <select onchange="getInfo()" class="date-id-container-select" id="dateSelect"></select>
     </div>
     
     <input onclick="unhelp()" type="button" id="myButton" style="border-radius: 5px; border: 2px solid black; position: fixed; top: 78%; left: 50%; z-index: 10001; font-size: 18px; transform: translateX(-50%); display: none;" value="Сховати графік">
     <canvas id="myChart" style="border: 2px solid black; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10000; background-color: white; border-radius: 20px; max-width: 1000px; max-height: 500px; display: none;"></canvas>
     
-    <div id="custom-alert" class="custom-alert">    
+    <div id="custom-alert" class="custom-alert">
         <div id="custom-alert-message" class="custom-alert-message"></div>
         <button id="custom-alert-button" class="custom-alert-button">OK</button>
     </div>
     
-    <div id="filterContainer" style="width: 17%; height: 43%; position: absolute; top: 0; background-color: white; top: 139px; left: 1530px; border-radius: 15px; padding-top: 10px; margin-top: 150px">
-        <div style="text-align: center; margin: 5px 0px 20px 0px">
-            <span style="font-size:x-large;">Налаштування фільтру</span>
+    <div id="filter-container">
+        <span class="button-close" onclick="callTwoFunctions2()">×</span>
+        <div style="text-align: center; margin: 5px 0px 20px 0px" id="aaa">
+            <span style="font-size: 24px;">Налаштування фільтру:</span>
         </div>
         <div style="text-align: center; margin: 10px 0px">
             <span>Більше за: </span>
-            <input id="moreValue" placeholder="Мінімальне значення">
+            <input id="moreValue" placeholder="Мінімальне значення" autocomplete="off">
         </div>
         <div style="text-align: center; margin: 10px 0px">
             <span>Менше за: </span>
-            <input id="lessValue" placeholder="Максимальне значення">
+            <input id="lessValue" placeholder="Максимальне значення" autocomplete="off">
         </div>
         <br>
+        <div style="text-align: center; margin: 5px 0px 20px 0px" id="aaa">
+            <span style="font-size: 24px;">Проаналізовані дані:</span>
+        </div>
         <div style="text-align: center; margin: 10px 0px">
             <span>Мінімальне значення: </span>
             <span id="min">_</span>
         </div>
         <div style="text-align: center; margin: 10px 0px">
-            <span>Знаходиться на станції: </span>
+            <span>Знаходиться на станції: №</span>
             <span id="minStation">_</span>
         </div>
         <br>
@@ -103,7 +137,7 @@
             <span id="max">_</span>
         </div>
         <div style="text-align: center; margin: 10px 0px">
-            <span>Знаходиться на станції: </span>
+            <span>Знаходиться на станції: №</span>
             <span id="maxStation">_</span>
         </div>
         <br>
@@ -111,11 +145,11 @@
             <span>Середнє значення: </span>
             <span id="average">_</span>
         </div>
-        <br>
-        <input onclick="callTwoFunctions()" type="button" style="margin-top: 20px; width: 325px; height: 40px; border-radius: 15px; border: 1px solid black; font-size: 16px;" value="Оновити значення" class="asffasd"></input>
+        <input onclick="callTwoFunctions()" type="button" value="Оновити значення" class="asffasd"></input>
     </div>
-
+    
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="script.js"></script>
+    <script src="changeTheme.js"></script>
 </body>
 </html>
